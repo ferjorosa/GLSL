@@ -1,0 +1,138 @@
+// ./temp\FinalBIModel.bif
+// Produced by org.latlab at Fri Mar 05 18:01:46 CET 2021
+network "HLCM6243" {
+}
+
+variable "variable155" {
+	type discrete[4] { "state0" "state1" "state2" "state3" };
+}
+
+variable "hair" {
+	type discrete[2] { "s0" "s1" };
+}
+
+variable "feathers" {
+	type discrete[2] { "s0" "s1" };
+}
+
+variable "eggs" {
+	type discrete[2] { "s0" "s1" };
+}
+
+variable "milk" {
+	type discrete[2] { "s0" "s1" };
+}
+
+variable "airborne" {
+	type discrete[2] { "s0" "s1" };
+}
+
+variable "toothed" {
+	type discrete[2] { "s0" "s1" };
+}
+
+variable "backbone" {
+	type discrete[2] { "s0" "s1" };
+}
+
+variable "legs" {
+	type discrete[6] { "s0" "s1" "s2" "s3" "s4" "s5" };
+}
+
+variable "tail" {
+	type discrete[2] { "s0" "s1" };
+}
+
+variable "catsize" {
+	type discrete[2] { "s0" "s1" };
+}
+
+variable "type" {
+	type discrete[7] { "s0" "s1" "s2" "s3" "s4" "s5" "s6" };
+}
+
+variable "variable163" {
+	type discrete[2] { "state0" "state1" };
+}
+
+variable "aquatic" {
+	type discrete[2] { "s0" "s1" };
+}
+
+variable "predator" {
+	type discrete[2] { "s0" "s1" };
+}
+
+variable "breathes" {
+	type discrete[2] { "s0" "s1" };
+}
+
+variable "venomous" {
+	type discrete[2] { "s0" "s1" };
+}
+
+variable "fins" {
+	type discrete[2] { "s0" "s1" };
+}
+
+variable "domestic" {
+	type discrete[2] { "s0" "s1" };
+}
+
+probability ( "variable155"  ) {
+	table 0.16483516483516483 0.4065934065934066 0.21978021978021978 0.2087912087912088;
+}
+probability ( "hair" | "variable155" ) {
+	table 0.7333333333333333 0.05405405405405406 1.0 1.0 0.26666666666666666 0.9459459459459459 0.0 0.0;
+}
+probability ( "feathers" | "variable155" ) {
+	table 1.0 1.0 1.0 0.0 0.0 0.0 0.0 1.0;
+}
+probability ( "eggs" | "variable155" ) {
+	table 0.0 1.0 0.0 0.0 1.0 0.0 1.0 1.0;
+}
+probability ( "milk" | "variable155" ) {
+	table 1.0 0.0 1.0 1.0 0.0 1.0 0.0 0.0;
+}
+probability ( "airborne" | "variable155" ) {
+	table 0.6 0.9459459459459459 1.0 0.15789473684210525 0.4 0.05405405405405406 0.0 0.8421052631578947;
+}
+probability ( "toothed" | "variable155" ) {
+	table 1.0 0.0 0.05 1.0 0.0 1.0 0.95 0.0;
+}
+probability ( "backbone" | "variable155" ) {
+	table 1.0 0.0 0.0 0.0 0.0 1.0 1.0 1.0;
+}
+probability ( "legs" | "variable155" ) {
+	table 0.13333333333333333 0.05405405405405406 0.7 0.0 0.0 0.16216216216216217 0.0 1.0 0.06666666666666667 0.7837837837837838 0.3 0.0 0.06666666666666667 0.0 0.0 0.0 0.6666666666666666 0.0 0.0 0.0 0.06666666666666667 0.0 0.0 0.0;
+}
+probability ( "tail" | "variable155" ) {
+	table 1.0 0.13513513513513514 0.15 0.0 0.0 0.8648648648648649 0.85 1.0;
+}
+probability ( "catsize" | "variable155" ) {
+	table 0.9333333333333333 0.24324324324324326 0.75 0.7368421052631579 0.06666666666666667 0.7567567567567568 0.25 0.2631578947368421;
+}
+probability ( "type" | "variable155" ) {
+	table 0.0 1.0 0.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.15 0.0 0.0 0.0 0.65 0.0 0.0 0.0 0.2 0.0 0.5333333333333333 0.0 0.0 0.0 0.4666666666666667 0.0 0.0 0.0;
+}
+probability ( "variable163" | "variable155" ) {
+	table 0.5991751229648449 0.9437865634419148 0.19827742434808937 1.0 0.4008248770351551 0.05621343655808524 0.8017225756519106 4.9627845904404226E-17;
+}
+probability ( "aquatic" | "variable163" ) {
+	table 0.8809087366505468 0.04520900153482767 0.11909126334945315 0.9547909984651723;
+}
+probability ( "predator" | "variable163" ) {
+	table 0.5912278294331424 0.18496739541938137 0.40877217056685755 0.8150326045806187;
+}
+probability ( "breathes" | "variable163" ) {
+	table 7.10433730808238E-11 0.7875085615047105 0.9999999999289566 0.21249143849528948;
+}
+probability ( "venomous" | "variable155" ) {
+	table 0.8666666666666667 1.0 0.85 1.0 0.13333333333333333 0.0 0.15 0.0;
+}
+probability ( "fins" | "variable163" ) {
+	table 1.0 0.37828271444608524 4.2089604882050016E-26 0.6217172855539147;
+}
+probability ( "domestic" | "variable155" ) {
+	table 0.9333333333333333 0.8108108108108109 0.95 0.8421052631578947 0.06666666666666667 0.1891891891891892 0.05 0.15789473684210525;
+}

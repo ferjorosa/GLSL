@@ -1,0 +1,5755 @@
+"C:\Program Files\Java\jdk1.8.0_101\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.2\lib\idea_rt.jar=51764:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.2\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;D:\GLSL\target\scala-2.13\classes;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\colt\colt\1.2.0\colt-1.2.0.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\fommil\netlib\core\1.1.2\core-1.1.2.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\fommil\netlib\native_ref-java\1.1\native_ref-java-1.1.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\fommil\netlib\native_system-java\1.1\native_system-java-1.1.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\fommil\netlib\netlib-native_ref-linux-armhf\1.1\netlib-native_ref-linux-armhf-1.1-natives.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\fommil\netlib\netlib-native_ref-linux-i686\1.1\netlib-native_ref-linux-i686-1.1-natives.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\fommil\netlib\netlib-native_ref-linux-x86_64\1.1\netlib-native_ref-linux-x86_64-1.1-natives.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\fommil\netlib\netlib-native_ref-osx-x86_64\1.1\netlib-native_ref-osx-x86_64-1.1-natives.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\fommil\netlib\netlib-native_ref-win-i686\1.1\netlib-native_ref-win-i686-1.1-natives.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\fommil\netlib\netlib-native_ref-win-x86_64\1.1\netlib-native_ref-win-x86_64-1.1-natives.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\fommil\netlib\netlib-native_system-linux-armhf\1.1\netlib-native_system-linux-armhf-1.1-natives.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\fommil\netlib\netlib-native_system-linux-i686\1.1\netlib-native_system-linux-i686-1.1-natives.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\fommil\netlib\netlib-native_system-linux-x86_64\1.1\netlib-native_system-linux-x86_64-1.1-natives.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\fommil\netlib\netlib-native_system-osx-x86_64\1.1\netlib-native_system-osx-x86_64-1.1-natives.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\fommil\netlib\netlib-native_system-win-i686\1.1\netlib-native_system-win-i686-1.1-natives.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\fommil\netlib\netlib-native_system-win-x86_64\1.1\netlib-native_system-win-x86_64-1.1-natives.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\github\fommil\jniloader\1.1\jniloader-1.1.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\guava\27.1-jre\guava-27.1-jre.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\googlecode\matrix-toolkits-java\mtj\1.0.4\mtj-1.0.4.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\googlecode\netlib-java\netlib-java\1.1\netlib-java-1.1.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\concurrent\concurrent\1.3.4\concurrent-1.3.4.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\net\sourceforge\f2j\arpack_combined_all\0.1\arpack_combined_all-0.1.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\nz\ac\waikato\cms\weka\thirdparty\bounce\0.18\bounce-0.18.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\nz\ac\waikato\cms\weka\thirdparty\java-cup-11b-runtime\2015.03.26\java-cup-11b-runtime-2015.03.26.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\nz\ac\waikato\cms\weka\thirdparty\java-cup-11b\2015.03.26\java-cup-11b-2015.03.26.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\nz\ac\waikato\cms\weka\weka-stable\3.8.1\weka-stable-3.8.1.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-lang3\3.6\commons-lang3-3.6.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.5\scala-library-2.13.5.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\equipo\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-simple\1.7.26\slf4j-simple-1.7.26.jar" experiments.latent.discrete.RunLatentDiscreteExperiments_2
+------------------------------------------------------------------
+------------------------------------------------------------------
+-------------------------- BALANCE_SCALE -------------------------
+------------------------------------------------------------------
+------------------------------------------------------------------
+10 folds have been generated
+
+==========================
+GLSL (EMPTY)
+==========================
+
+Iteration 0: -4163.076558156987
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_0 -> -4041.9884667053507
+AL gLV_1 -> -4045.736970448155
+AL gLV_2 -> -4043.1089315487216
+AL gLV_3 -> -4083.0437453698314
+AL gLV_4 -> -4102.64419122835
+AL gLV_5 -> -4074.6457353633314
+AL gLV_6 -> -4089.227458423008
+AL gLV_7 -> -4095.6737000847525
+AL gLV_8 -> -4095.4146824809877
+AL gLV_9 -> -4127.916683711817
+AddLatent -> -4041.9884667053507
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -4041.9884667053507 > -4163.076558156987 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_10, child of gLV_0 -> -4124.464600716103
+AL gLV_11, child of gLV_0 -> -4050.155285676282
+AL gLV_12, child of gLV_0 -> -4049.351508629876
+AddLatent -> -4049.351508629876
+
+AddLatent -> NONE
+RL gLV_0 -> -4059.186527596824
+RemoveLatent -> -4059.186527596824
+IC of gLV_0 to (3) -> -4051.1017671443065
+IncreaseCard -> -4051.1017671443065
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Doesn't improve the score: -4049.351508629876 <= -4041.9884667053507 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 1
+Test Log-Likelihood: -588.3559789394698
+Train BIC: -4174.987754153028
+Time: 135938 ms
+Iteration 0: -4164.594177399534
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_13 -> -4069.099037745851
+AL gLV_14 -> -4056.6877718365868
+AL gLV_15 -> -4095.4901873596373
+AL gLV_16 -> -4057.2243448232753
+AL gLV_17 -> -4146.429277541509
+AL gLV_18 -> -4058.484013197253
+AL gLV_19 -> -4059.2219452052673
+AL gLV_20 -> -4099.1549812445855
+AL gLV_21 -> -4140.517408982306
+AL gLV_22 -> -4102.871296160079
+AddLatent -> -4056.6877718365868
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -4056.6877718365868 > -4164.594177399534 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_23, child of gLV_14 -> -4099.413697675295
+AL gLV_24, child of gLV_14 -> -4081.611182310576
+AL gLV_25, child of gLV_14 -> -4088.013873825057
+AL gLV_26, child of gLV_14 -> -4079.2146710068696
+AL gLV_27, child of gLV_14 -> -4090.5814455834743
+AL gLV_28, child of gLV_14 -> -4092.004671525592
+AddLatent -> -4079.2146710068696
+
+AddLatent -> NONE
+RL gLV_14 -> -4033.2488578955827
+RemoveLatent -> -4033.2488578955827
+IC of gLV_14 to (3) -> -4072.895639265436
+IncreaseCard -> -4072.895639265436
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Improves the score: -4033.2488578955827 > -4056.6877718365868 (old best)
+--------------------------------------------------
+
+Iteration 3:
+
+AddLatent -> NONE
+
+AddLatent -> NONE
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: no_operator
+Doesn't improve the score: -1.7976931348623157E308 <= -4033.2488578955827 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 2
+Test Log-Likelihood: -500.5851922701269
+Train BIC: -4090.0689544551233
+Time: 174032 ms
+Iteration 0: -4163.6287030881895
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_29 -> -4045.933606255802
+AL gLV_30 -> -4041.445329350653
+AL gLV_31 -> -4041.0358655557975
+AL gLV_32 -> -4079.1418006077283
+AL gLV_33 -> -4170.22701606738
+AL gLV_34 -> -4070.54983484666
+AL gLV_35 -> -4084.967454798001
+AL gLV_36 -> -4148.873086596788
+AL gLV_37 -> -4091.324725287712
+AL gLV_38 -> -4116.491514301355
+AddLatent -> -4041.0358655557975
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -4041.0358655557975 > -4163.6287030881895 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_39, child of gLV_31 -> -4063.711276893144
+AL gLV_40, child of gLV_31 -> -4063.5768202958016
+AL gLV_41, child of gLV_31 -> -4056.0172895127594
+AddLatent -> -4056.0172895127594
+
+AddLatent -> NONE
+RL gLV_31 -> -4055.8455658056237
+RemoveLatent -> -4055.8455658056237
+IC of gLV_31 to (3) -> -4072.8338377740893
+IncreaseCard -> -4072.8338377740893
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Doesn't improve the score: -4055.8455658056237 <= -4041.0358655557975 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 3
+Test Log-Likelihood: -588.3198095021819
+Train BIC: -4187.737259723952
+Time: 139364 ms
+Iteration 0: -4165.611327355507
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_42 -> -4067.6408377043076
+AL gLV_43 -> -4052.681938076697
+AL gLV_44 -> -4048.023924251469
+AL gLV_45 -> -4068.0635535017896
+AL gLV_46 -> -4154.3048888604035
+AL gLV_47 -> -4162.747275060667
+AL gLV_48 -> -4068.331377618218
+AL gLV_49 -> -4101.340104130428
+AL gLV_50 -> -4158.272405077552
+AL gLV_51 -> -4108.485055522384
+AddLatent -> -4048.023924251469
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -4048.023924251469 > -4165.611327355507 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_52, child of gLV_44 -> -4072.9370656282185
+AL gLV_53, child of gLV_44 -> -4067.4732637658344
+AL gLV_54, child of gLV_44 -> -4069.2851270106444
+AddLatent -> -4067.4732637658344
+
+AddLatent -> NONE
+RL gLV_44 -> -4044.5136481410104
+RemoveLatent -> -4044.5136481410104
+IC of gLV_44 to (3) -> -4074.526495491949
+IncreaseCard -> -4074.526495491949
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Improves the score: -4044.5136481410104 > -4048.023924251469 (old best)
+--------------------------------------------------
+
+Iteration 3:
+
+AddLatent -> NONE
+
+AddLatent -> NONE
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: no_operator
+Doesn't improve the score: -1.7976931348623157E308 <= -4044.5136481410104 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 4
+Test Log-Likelihood: -488.17908827897304
+Train BIC: -4106.739096852117
+Time: 145827 ms
+Iteration 0: -4168.4356378599805
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_55 -> -4076.061372063327
+AL gLV_56 -> -4047.3459005539644
+AL gLV_57 -> -4047.2903323219116
+AL gLV_58 -> -4075.4872988757543
+AL gLV_59 -> -4077.148596191441
+AL gLV_60 -> -4077.3603618830816
+AL gLV_61 -> -4081.568471085579
+AL gLV_62 -> -4145.370448187049
+AL gLV_63 -> -4166.804237085227
+AL gLV_64 -> -4116.921618644604
+AddLatent -> -4047.2903323219116
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -4047.2903323219116 > -4168.4356378599805 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_65, child of gLV_57 -> -4090.4004814971204
+AL gLV_66, child of gLV_57 -> -4066.8960040197057
+AL gLV_67, child of gLV_57 -> -4053.9657964561356
+AddLatent -> -4053.9657964561356
+
+AddLatent -> NONE
+RL gLV_57 -> -4051.8571838907114
+RemoveLatent -> -4051.8571838907114
+IC of gLV_57 to (3) -> -4057.249796336593
+IncreaseCard -> -4057.249796336593
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Doesn't improve the score: -4051.8571838907114 <= -4047.2903323219116 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 5
+Test Log-Likelihood: -590.5027795775386
+Train BIC: -4152.41542620472
+Time: 121819 ms
+Iteration 0: -4166.867179545888
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_68 -> -4075.648421537098
+AL gLV_69 -> -4045.9011335508017
+AL gLV_70 -> -4049.635006745806
+AL gLV_71 -> -4075.04567371179
+AL gLV_72 -> -4076.7834103300625
+AL gLV_73 -> -4167.039310503714
+AL gLV_74 -> -4080.779185470169
+AL gLV_75 -> -4115.266274616432
+AL gLV_76 -> -4170.97911380398
+AL gLV_77 -> -4125.467068477758
+AddLatent -> -4045.9011335508017
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -4045.9011335508017 > -4166.867179545888 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_78, child of gLV_69 -> -4113.371041849886
+AL gLV_79, child of gLV_69 -> -4082.91969684791
+AL gLV_80, child of gLV_69 -> -4057.1938553802365
+AddLatent -> -4057.1938553802365
+
+AddLatent -> NONE
+RL gLV_69 -> -4051.1250774501636
+RemoveLatent -> -4051.1250774501636
+IC of gLV_69 to (3) -> -4062.5871184697303
+IncreaseCard -> -4062.5871184697303
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Doesn't improve the score: -4051.1250774501636 <= -4045.9011335508017 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 6
+Test Log-Likelihood: -578.6088860123316
+Train BIC: -4181.185500349774
+Time: 124652 ms
+Iteration 0: -4165.777600233571
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_81 -> -4065.7660496831177
+AL gLV_82 -> -4065.569545675865
+AL gLV_83 -> -4036.391134831683
+AL gLV_84 -> -4065.2688306830746
+AL gLV_85 -> -4088.3657622901196
+AL gLV_86 -> -4066.2532627955075
+AL gLV_87 -> -4065.377743548382
+AL gLV_88 -> -4152.6656451835215
+AL gLV_89 -> -4155.404303758482
+AL gLV_90 -> -4103.680122666431
+AddLatent -> -4036.391134831683
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -4036.391134831683 > -4165.777600233571 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_91, child of gLV_83 -> -4058.9318796088974
+AL gLV_92, child of gLV_83 -> -4036.2615103041676
+AL gLV_93, child of gLV_83 -> -4051.348878827139
+AddLatent -> -4036.2615103041676
+
+AddLatent -> NONE
+RL gLV_83 -> -4041.761922596248
+RemoveLatent -> -4041.761922596248
+IC of gLV_83 to (3) -> -4054.50466317964
+IncreaseCard -> -4054.50466317964
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -4036.2615103041676 > -4036.391134831683 (old best)
+--------------------------------------------------
+
+Iteration 3:
+
+AddLatent -> NONE
+
+AddLatent -> NONE
+RL gLV_83 -> -4054.7724289493117
+RL gLV_92 -> -4056.5394543901443
+RemoveLatent -> -4054.7724289493117
+IC of gLV_83 to (3) -> -4084.9903983193462
+IC of gLV_92 to (3) -> -4088.0349358895987
+IncreaseCard -> -4084.9903983193462
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Doesn't improve the score: -4054.7724289493117 <= -4036.2615103041676 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 7
+Test Log-Likelihood: -560.3263662583164
+Train BIC: -4149.871344103289
+Time: 180288 ms
+Iteration 0: -4165.9441596942825
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_94 -> -4079.9550891883705
+AL gLV_95 -> -4049.3649641665597
+AL gLV_96 -> -4056.193067931395
+AL gLV_97 -> -4078.997037961762
+AL gLV_98 -> -4172.404514140433
+AL gLV_99 -> -4170.920512958737
+AL gLV_100 -> -4079.1516157792676
+AL gLV_101 -> -4168.74836097354
+AL gLV_102 -> -4137.564542989537
+AL gLV_103 -> -4126.445560564879
+AddLatent -> -4049.3649641665597
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -4049.3649641665597 > -4165.9441596942825 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_104, child of gLV_95 -> -4070.8321942400116
+AL gLV_105, child of gLV_95 -> -4105.520855462904
+AL gLV_106, child of gLV_95 -> -4062.246603685176
+AddLatent -> -4062.246603685176
+
+AddLatent -> NONE
+RL gLV_95 -> -4055.1114629092585
+RemoveLatent -> -4055.1114629092585
+IC of gLV_95 to (3) -> -4076.9847965798713
+IncreaseCard -> -4076.9847965798713
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Doesn't improve the score: -4055.1114629092585 <= -4049.3649641665597 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 8
+Test Log-Likelihood: -563.5291340805829
+Train BIC: -4185.013658884498
+Time: 142471 ms
+Iteration 0: -4168.133696113904
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_107 -> -4040.9436046923456
+AL gLV_108 -> -4059.5168253392517
+AL gLV_109 -> -4042.915732286398
+AL gLV_110 -> -4059.555286446245
+AL gLV_111 -> -4085.937718091573
+AL gLV_112 -> -4061.428718189303
+AL gLV_113 -> -4069.783888507886
+AL gLV_114 -> -4130.37404829385
+AL gLV_115 -> -4145.548300145688
+AL gLV_116 -> -4098.227352875824
+AddLatent -> -4040.9436046923456
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -4040.9436046923456 > -4168.133696113904 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_117, child of gLV_107 -> -4097.034280086812
+AL gLV_118, child of gLV_107 -> -4058.786249516151
+AL gLV_119, child of gLV_107 -> -4042.6182572764465
+AddLatent -> -4042.6182572764465
+
+AddLatent -> NONE
+RL gLV_107 -> -4035.413861003236
+RemoveLatent -> -4035.413861003236
+IC of gLV_107 to (3) -> -4055.8932885200306
+IncreaseCard -> -4055.8932885200306
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Improves the score: -4035.413861003236 > -4040.9436046923456 (old best)
+--------------------------------------------------
+
+Iteration 3:
+
+AddLatent -> NONE
+
+AddLatent -> NONE
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: no_operator
+Doesn't improve the score: -1.7976931348623157E308 <= -4035.413861003236 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 9
+Test Log-Likelihood: -499.7524777555944
+Train BIC: -4092.2275717182433
+Time: 119512 ms
+Iteration 0: -4123.491359300707
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_120 -> -4040.746771355203
+AL gLV_121 -> -4040.204415976144
+AL gLV_122 -> -4015.4801081076325
+AL gLV_123 -> -4039.9366999281183
+AL gLV_124 -> -4045.0464263952504
+AL gLV_125 -> -4037.936536450108
+AL gLV_126 -> -4040.477644260261
+AL gLV_127 -> -4039.1243729595617
+AL gLV_128 -> -4044.47795303472
+AL gLV_129 -> -4027.2163651214883
+AddLatent -> -4015.4801081076325
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -4015.4801081076325 > -4123.491359300707 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_130, child of gLV_122 -> -4020.6377283391093
+AL gLV_131, child of gLV_122 -> -4031.108820353942
+AL gLV_132, child of gLV_122 -> -4011.3617360873895
+AddLatent -> -4011.3617360873895
+
+AddLatent -> NONE
+RL gLV_122 -> -4016.5699309060346
+RemoveLatent -> -4016.5699309060346
+IC of gLV_122 to (3) -> -4016.907361409735
+IncreaseCard -> -4016.907361409735
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -4011.3617360873895 > -4015.4801081076325 (old best)
+--------------------------------------------------
+
+Iteration 3:
+
+AddLatent -> NONE
+
+AddLatent -> NONE
+RL gLV_122 -> -3993.6829225909123
+RL gLV_132 -> -4040.5999247718228
+RemoveLatent -> -3993.6829225909123
+IC of gLV_122 to (3) -> -4031.984361741348
+IC of gLV_132 to (3) -> -4029.797524966537
+IncreaseCard -> -4029.797524966537
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Improves the score: -3993.6829225909123 > -4011.3617360873895 (old best)
+--------------------------------------------------
+
+Iteration 4:
+
+AddLatent -> NONE
+
+AddLatent -> NONE
+RL gLV_132 -> -4016.5699309060346
+RemoveLatent -> -4016.5699309060346
+IC of gLV_132 to (3) -> -4016.9716117848975
+IncreaseCard -> -4016.9716117848975
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Doesn't improve the score: -4016.5699309060346 <= -3993.6829225909123 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 10
+Test Log-Likelihood: -642.8638152929167
+Train BIC: -4102.888668918398
+Time: 158240 ms
+----------------------------------------
+----------------------------------------
+Average learning Time: 144.21s
+Average Test Log-likelihood: -560.10
+Average Train BIC: -4142.31
+------------------------------------------------------------------
+------------------------------------------------------------------
+-------------------------- BREAST_CANCER -------------------------
+------------------------------------------------------------------
+------------------------------------------------------------------
+10 folds have been generated
+
+==========================
+GLSL (EMPTY)
+==========================
+
+Iteration 0: -2606.44798071369
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_0 -> -2427.648129648917
+AL gLV_1 -> -2434.455925545013
+AL gLV_2 -> -2437.82407762712
+AL gLV_3 -> -2430.9353899030507
+AL gLV_4 -> -2420.291348999442
+AL gLV_5 -> -2415.528772803091
+AL gLV_6 -> -2437.7836579340556
+AL gLV_7 -> -2433.991570844111
+AL gLV_8 -> -2451.9647858517837
+AL gLV_9 -> -2426.8825409211627
+AL gLV_10 -> -2425.023365352809
+AL gLV_11 -> -2422.085671599236
+AL gLV_12 -> -2422.8963708239557
+AL gLV_13 -> -2417.6347203782607
+AL gLV_14 -> -2429.239845962258
+AL gLV_15 -> -2435.5238218883096
+AL gLV_16 -> -2424.354295961371
+AL gLV_17 -> -2432.6446118799595
+AL gLV_18 -> -2427.671872005358
+AL gLV_19 -> -2436.9759904872976
+AL gLV_20 -> -2439.138515538972
+AL gLV_21 -> -2463.5892299030747
+AL gLV_22 -> -2426.9123777482637
+AL gLV_23 -> -2420.49625847546
+AL gLV_24 -> -2436.580604216985
+AL gLV_25 -> -2428.2896975098965
+AL gLV_26 -> -2421.0184455207223
+AL gLV_27 -> -2439.619204595748
+AL gLV_28 -> -2438.470332792334
+AL gLV_29 -> -2431.9231888350646
+AL gLV_30 -> -2448.4999615479956
+AL gLV_31 -> -2428.4547585607893
+AL gLV_32 -> -2432.1334781787186
+AL gLV_33 -> -2429.2905691271662
+AL gLV_34 -> -2427.428978678553
+AL gLV_35 -> -2430.4835163261596
+AL gLV_36 -> -2427.51352058959
+AL gLV_37 -> -2423.083716513162
+AL gLV_38 -> -2448.3547795251093
+AL gLV_39 -> -2430.203042301169
+AL gLV_40 -> -2427.975462150618
+AL gLV_41 -> -2429.7562572762213
+AL gLV_42 -> -2429.8496503993338
+AL gLV_43 -> -2430.270924005085
+AL gLV_44 -> -2427.88712315645
+AddLatent -> -2415.528772803091
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -2415.528772803091 > -2606.44798071369 (old best)
+--------------------------------------------------
+
+Iteration 2:
+
+AddLatent -> NONE
+AL gLV_45 -> -2436.5073006756993
+AL gLV_46 -> -2421.4517705139783
+AL gLV_47 -> -2436.6633277437836
+AddLatent -> -2421.4517705139783
+RL gLV_5 -> -2419.157925161359
+RemoveLatent -> -2419.157925161359
+IC of gLV_5 to (3) -> -2425.3659442782323
+IncreaseCard -> -2425.3659442782323
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Doesn't improve the score: -2419.157925161359 <= -2415.528772803091 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 1
+Test Log-Likelihood: -254.34982719229714
+Train BIC: -2793.757270910304
+Time: 1372429 ms
+Iteration 0: -2580.6742794730517
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_48 -> -2406.8573078614127
+AL gLV_49 -> -2413.944424943886
+AL gLV_50 -> -2431.8810188647444
+AL gLV_51 -> -2409.189108786888
+AL gLV_52 -> -2410.4140257574822
+AL gLV_53 -> -2405.982449456934
+AL gLV_54 -> -2419.471572086693
+AL gLV_55 -> -2407.6318258663064
+AL gLV_56 -> -2408.1912286990937
+AL gLV_57 -> -2408.4866565518278
+AL gLV_58 -> -2409.9514056316943
+AL gLV_59 -> -2409.89279053122
+AL gLV_60 -> -2416.8195515328594
+AL gLV_61 -> -2407.6642209873103
+AL gLV_62 -> -2405.523919091512
+AL gLV_63 -> -2416.6647901997653
+AL gLV_64 -> -2408.133018316224
+AL gLV_65 -> -2416.4720495686383
+AL gLV_66 -> -2409.0427114638296
+AL gLV_67 -> -2416.08914708402
+AL gLV_68 -> -2421.8719714517865
+AL gLV_69 -> -2443.08150537312
+AL gLV_70 -> -2412.518586148226
+AL gLV_71 -> -2416.1215625476534
+AL gLV_72 -> -2412.989501523454
+AL gLV_73 -> -2412.8493537303834
+AL gLV_74 -> -2426.708669893766
+AL gLV_75 -> -2411.396097188763
+AL gLV_76 -> -2423.756105599507
+AL gLV_77 -> -2407.050488539656
+AL gLV_78 -> -2410.26873064503
+AL gLV_79 -> -2409.6592613819184
+AL gLV_80 -> -2396.14246618209
+AL gLV_81 -> -2409.6444998733527
+AL gLV_82 -> -2405.7338376410935
+AL gLV_83 -> -2411.8768385584244
+AL gLV_84 -> -2419.9612041978676
+AL gLV_85 -> -2405.878210777857
+AL gLV_86 -> -2415.583441701682
+AL gLV_87 -> -2415.860463962034
+AL gLV_88 -> -2406.87443004121
+AL gLV_89 -> -2410.52858211983
+AL gLV_90 -> -2416.781333949608
+AL gLV_91 -> -2412.6987770595742
+AL gLV_92 -> -2415.1328287488077
+AddLatent -> -2396.14246618209
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -2396.14246618209 > -2580.6742794730517 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_93, child of gLV_80 -> -2416.054758550582
+AL gLV_94, child of gLV_80 -> -2424.8651320458466
+AL gLV_95, child of gLV_80 -> -2414.477463843099
+AL gLV_96, child of gLV_80 -> -2412.4285135845034
+AL gLV_97, child of gLV_80 -> -2415.634004887223
+AL gLV_98, child of gLV_80 -> -2416.1885390303073
+AddLatent -> -2412.4285135845034
+AL gLV_99 -> -2409.995080123216
+AL gLV_100 -> -2408.0073628669284
+AL gLV_101 -> -2403.2742158232436
+AL gLV_102 -> -2406.4385234031797
+AL gLV_103 -> -2409.952759944375
+AL gLV_104 -> -2415.035202564049
+AddLatent -> -2403.2742158232436
+RL gLV_80 -> -2399.449230406283
+RemoveLatent -> -2399.449230406283
+IC of gLV_80 to (3) -> -2412.4968991934297
+IncreaseCard -> -2412.4968991934297
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Doesn't improve the score: -2399.449230406283 <= -2396.14246618209 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 2
+Test Log-Likelihood: -273.16701896516884
+Train BIC: -2699.2299810310406
+Time: 1437778 ms
+Iteration 0: -2586.228524468928
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_105 -> -2427.9100804947093
+AL gLV_106 -> -2443.327173503035
+AL gLV_107 -> -2454.039007116708
+AL gLV_108 -> -2424.6059817094238
+AL gLV_109 -> -2419.361357711175
+AL gLV_110 -> -2432.240045445374
+AL gLV_111 -> -2439.150163619397
+AL gLV_112 -> -2435.0376150389257
+AL gLV_113 -> -2438.261662003558
+AL gLV_114 -> -2400.9424406952653
+AL gLV_115 -> -2400.9424406952653
+AL gLV_116 -> -2439.496695247252
+AL gLV_117 -> -2430.05126348143
+AL gLV_118 -> -2426.1359177147215
+AL gLV_119 -> -2400.9424406952653
+AL gLV_120 -> -2439.150163619397
+AL gLV_121 -> -2427.365380855439
+AL gLV_122 -> -2433.4404700930327
+AL gLV_123 -> -2428.3020614468533
+AL gLV_124 -> -2432.744705619739
+AL gLV_125 -> -2444.2084009742935
+AL gLV_126 -> -2442.183283500767
+AL gLV_127 -> -2431.7391619290256
+AL gLV_128 -> -2434.0117409293275
+AL gLV_129 -> -2428.149969530947
+AL gLV_130 -> -2431.481141114885
+AL gLV_131 -> -2451.0131964646425
+AL gLV_132 -> -2429.5012997037834
+AL gLV_133 -> -2449.995488877924
+AL gLV_134 -> -2429.8223432528125
+AL gLV_135 -> -2449.6969158627703
+AL gLV_136 -> -2427.3466149032292
+AL gLV_137 -> -2425.0826460630224
+AL gLV_138 -> -2423.300141339868
+AL gLV_139 -> -2426.9561434892644
+AL gLV_140 -> -2431.940958792573
+AL gLV_141 -> -2445.8070309591403
+AL gLV_142 -> -2427.365380855439
+AL gLV_143 -> -2418.608437129453
+AL gLV_144 -> -2444.5357594680722
+AL gLV_145 -> -2428.7003276996143
+AL gLV_146 -> -2434.8459290084497
+AL gLV_147 -> -2425.3744478050226
+AL gLV_148 -> -2431.481141114885
+AL gLV_149 -> -2431.314781881197
+AddLatent -> -2400.9424406952653
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -2400.9424406952653 > -2586.228524468928 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_150, child of gLV_114 -> -2412.0124865139564
+AL gLV_151, child of gLV_114 -> -2434.9497422319732
+AL gLV_152, child of gLV_114 -> -2440.288767243452
+AL gLV_153, child of gLV_114 -> -2423.1829983146445
+AL gLV_154, child of gLV_114 -> -2430.0021554050663
+AL gLV_155, child of gLV_114 -> -2410.591612929684
+AL gLV_156, child of gLV_114 -> -2412.92952997493
+AL gLV_157, child of gLV_114 -> -2446.8724834125305
+AL gLV_158, child of gLV_114 -> -2423.627094929802
+AL gLV_159, child of gLV_114 -> -2410.938872054017
+AddLatent -> -2410.591612929684
+AL gLV_160 -> -2411.507042730073
+AL gLV_161 -> -2418.9451784547305
+AL gLV_162 -> -2408.6020019961234
+AL gLV_163 -> -2408.11505767066
+AL gLV_164 -> -2414.803773383951
+AL gLV_165 -> -2438.6907126360265
+AddLatent -> -2408.11505767066
+RL gLV_114 -> -2419.203268576226
+RemoveLatent -> -2419.203268576226
+IC of gLV_114 to (3) -> -2414.0620362489776
+IncreaseCard -> -2414.0620362489776
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Doesn't improve the score: -2408.11505767066 <= -2400.9424406952653 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 3
+Test Log-Likelihood: -256.30084860068223
+Train BIC: -2589.5333121268773
+Time: 1241068 ms
+Iteration 0: -2604.5606713257775
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_166 -> -2441.168580719972
+AL gLV_167 -> -2449.5787182874847
+AL gLV_168 -> -2464.246872201025
+AL gLV_169 -> -2426.3202077370565
+AL gLV_170 -> -2436.1367632359734
+AL gLV_171 -> -2428.7966265992413
+AL gLV_172 -> -2440.6907635080015
+AL gLV_173 -> -2435.785822913397
+AL gLV_174 -> -2438.7447515821323
+AL gLV_175 -> -2413.232353831119
+AL gLV_176 -> -2445.6386041091387
+AL gLV_177 -> -2448.621988584933
+AL gLV_178 -> -2437.066131087585
+AL gLV_179 -> -2441.265442210694
+AL gLV_180 -> -2440.2343389185653
+AL gLV_181 -> -2449.0771759046443
+AL gLV_182 -> -2434.432849531069
+AL gLV_183 -> -2440.8517449032247
+AL gLV_184 -> -2432.4020221896294
+AL gLV_185 -> -2443.1864377983748
+AL gLV_186 -> -2445.579873840189
+AL gLV_187 -> -2435.133569771917
+AL gLV_188 -> -2452.3090941550245
+AL gLV_189 -> -2426.9465210283156
+AL gLV_190 -> -2435.383777707428
+AL gLV_191 -> -2438.531576622519
+AL gLV_192 -> -2463.4274921812203
+AL gLV_193 -> -2441.951771831157
+AL gLV_194 -> -2453.4506242987
+AL gLV_195 -> -2447.5916436273337
+AL gLV_196 -> -2430.308577632527
+AL gLV_197 -> -2441.410960021212
+AL gLV_198 -> -2425.451693733702
+AL gLV_199 -> -2440.133457267311
+AL gLV_200 -> -2435.8942595872204
+AL gLV_201 -> -2434.5371321640228
+AL gLV_202 -> -2433.0345798485614
+AL gLV_203 -> -2434.432849531069
+AL gLV_204 -> -2434.095146787027
+AL gLV_205 -> -2430.131875210967
+AL gLV_206 -> -2440.902365867756
+AL gLV_207 -> -2445.985929863833
+AL gLV_208 -> -2446.3261978077358
+AL gLV_209 -> -2435.1922636971744
+AL gLV_210 -> -2436.5651073818703
+AddLatent -> -2413.232353831119
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -2413.232353831119 > -2604.5606713257775 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_211, child of gLV_175 -> -2421.4829525738223
+AL gLV_212, child of gLV_175 -> -2435.5597925481866
+AL gLV_213, child of gLV_175 -> -2422.7767076895657
+AL gLV_214, child of gLV_175 -> -2432.8436857184106
+AL gLV_215, child of gLV_175 -> -2432.914885644157
+AL gLV_216, child of gLV_175 -> -2424.384341573146
+AL gLV_217, child of gLV_175 -> -2434.4345605549324
+AL gLV_218, child of gLV_175 -> -2437.4757817731215
+AL gLV_219, child of gLV_175 -> -2423.8769668067307
+AL gLV_220, child of gLV_175 -> -2420.07450569305
+AddLatent -> -2420.07450569305
+AL gLV_221 -> -2425.408667039238
+AL gLV_222 -> -2425.283865123009
+AL gLV_223 -> -2432.579919793665
+AL gLV_224 -> -2418.848072738683
+AL gLV_225 -> -2436.224488677037
+AL gLV_226 -> -2426.132532624682
+AddLatent -> -2418.848072738683
+RL gLV_175 -> -2425.949322351441
+RemoveLatent -> -2425.949322351441
+IC of gLV_175 to (3) -> -2423.633933489307
+IncreaseCard -> -2423.633933489307
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Doesn't improve the score: -2418.848072738683 <= -2413.232353831119 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 4
+Test Log-Likelihood: -241.65756715130703
+Train BIC: -2624.662638565718
+Time: 1524808 ms
+Iteration 0: -2594.0725878514263
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_227 -> -2428.0827377538744
+AL gLV_228 -> -2417.354236908374
+AL gLV_229 -> -2437.0428601625567
+AL gLV_230 -> -2412.5223356716156
+AL gLV_231 -> -2419.123466115441
+AL gLV_232 -> -2417.1758143285606
+AL gLV_233 -> -2432.444017648071
+AL gLV_234 -> -2429.016762657226
+AL gLV_235 -> -2426.450350026467
+AL gLV_236 -> -2399.5273740082753
+AL gLV_237 -> -2416.4775746239525
+AL gLV_238 -> -2435.5498553038587
+AL gLV_239 -> -2455.1033025018255
+AL gLV_240 -> -2415.975463339101
+AL gLV_241 -> -2416.5766038065635
+AL gLV_242 -> -2432.444017648071
+AL gLV_243 -> -2421.415049727363
+AL gLV_244 -> -2426.0736046621673
+AL gLV_245 -> -2421.3241073882737
+AL gLV_246 -> -2431.144367425611
+AL gLV_247 -> -2422.572316268723
+AL gLV_248 -> -2456.2727571481532
+AL gLV_249 -> -2436.1907415153873
+AL gLV_250 -> -2422.204613281918
+AL gLV_251 -> -2420.582039950739
+AL gLV_252 -> -2426.7675017176116
+AL gLV_253 -> -2442.087637847465
+AL gLV_254 -> -2433.0081474422714
+AL gLV_255 -> -2432.3553574809475
+AL gLV_256 -> -2434.1661587940216
+AL gLV_257 -> -2416.4096110519718
+AL gLV_258 -> -2426.5674612257353
+AL gLV_259 -> -2412.576255971015
+AL gLV_260 -> -2414.1326702860315
+AL gLV_261 -> -2422.031569030401
+AL gLV_262 -> -2436.3363213256707
+AL gLV_263 -> -2419.871969164247
+AL gLV_264 -> -2421.498999264309
+AL gLV_265 -> -2419.192109796332
+AL gLV_266 -> -2425.6830762353266
+AL gLV_267 -> -2423.859867637142
+AL gLV_268 -> -2431.445760739322
+AL gLV_269 -> -2427.1380384222975
+AL gLV_270 -> -2422.705194298744
+AL gLV_271 -> -2418.680215227224
+AddLatent -> -2399.5273740082753
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -2399.5273740082753 > -2594.0725878514263 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_272, child of gLV_236 -> -2403.0948108783537
+AL gLV_273, child of gLV_236 -> -2408.6510869279286
+AL gLV_274, child of gLV_236 -> -2417.620531317699
+AL gLV_275, child of gLV_236 -> -2417.730367255484
+AL gLV_276, child of gLV_236 -> -2417.743971481793
+AL gLV_277, child of gLV_236 -> -2404.894736191752
+AddLatent -> -2403.0948108783537
+AL gLV_278 -> -2409.7200273007184
+AL gLV_279 -> -2422.5685339530764
+AL gLV_280 -> -2412.782043438511
+AddLatent -> -2409.7200273007184
+RL gLV_236 -> -2412.9169697334937
+RemoveLatent -> -2412.9169697334937
+IC of gLV_236 to (3) -> -2409.7685160314795
+IncreaseCard -> -2409.7685160314795
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Doesn't improve the score: -2403.0948108783537 <= -2399.5273740082753 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 5
+Test Log-Likelihood: -247.03620475937774
+Train BIC: -2627.960911119244
+Time: 1338823 ms
+Iteration 0: -2594.112884521996
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_281 -> -2417.563856950443
+AL gLV_282 -> -2426.2203641945202
+AL gLV_283 -> -2438.7994727747
+AL gLV_284 -> -2415.404512705982
+AL gLV_285 -> -2422.495003088775
+AL gLV_286 -> -2412.9502108676347
+AL gLV_287 -> -2426.192269263187
+AL gLV_288 -> -2416.4953515589127
+AL gLV_289 -> -2424.3059602013436
+AL gLV_290 -> -2398.5476361048927
+AL gLV_291 -> -2413.300965271223
+AL gLV_292 -> -2416.990578484206
+AL gLV_293 -> -2424.8515663946782
+AL gLV_294 -> -2420.199788591296
+AL gLV_295 -> -2414.7383177575025
+AL gLV_296 -> -2428.6096660131666
+AL gLV_297 -> -2416.7132361014033
+AL gLV_298 -> -2441.1039908994035
+AL gLV_299 -> -2420.9741505176266
+AL gLV_300 -> -2421.765527626412
+AL gLV_301 -> -2415.322321206252
+AL gLV_302 -> -2433.715096978584
+AL gLV_303 -> -2420.842810050771
+AL gLV_304 -> -2429.9638068879585
+AL gLV_305 -> -2417.6850170201897
+AL gLV_306 -> -2416.840948018864
+AL gLV_307 -> -2419.92738017468
+AL gLV_308 -> -2420.4734248660607
+AL gLV_309 -> -2433.622764068853
+AL gLV_310 -> -2428.7557739763724
+AL gLV_311 -> -2420.8217405854307
+AL gLV_312 -> -2412.2192728370323
+AL gLV_313 -> -2408.5253874802675
+AL gLV_314 -> -2417.6260836308224
+AL gLV_315 -> -2416.476911332096
+AL gLV_316 -> -2407.1921561667123
+AL gLV_317 -> -2414.9541525164705
+AL gLV_318 -> -2417.8217733923148
+AL gLV_319 -> -2412.334925239943
+AL gLV_320 -> -2426.351559466139
+AL gLV_321 -> -2421.854094973012
+AL gLV_322 -> -2421.530034102008
+AL gLV_323 -> -2423.8672431025934
+AL gLV_324 -> -2422.213479542823
+AL gLV_325 -> -2422.788978266346
+AddLatent -> -2398.5476361048927
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -2398.5476361048927 > -2594.112884521996 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_326, child of gLV_290 -> -2407.959733186004
+AL gLV_327, child of gLV_290 -> -2410.910837964521
+AL gLV_328, child of gLV_290 -> -2418.617732435798
+AL gLV_329, child of gLV_290 -> -2418.8568834992107
+AL gLV_330, child of gLV_290 -> -2412.445429408811
+AL gLV_331, child of gLV_290 -> -2407.083664057976
+AddLatent -> -2407.083664057976
+AL gLV_332 -> -2417.6301620965523
+AL gLV_333 -> -2410.7433865589423
+AL gLV_334 -> -2401.3187292528064
+AL gLV_335 -> -2406.351838222597
+AL gLV_336 -> -2401.4389095452625
+AL gLV_337 -> -2411.5857777172428
+AddLatent -> -2401.3187292528064
+RL gLV_290 -> -2408.55112382219
+RemoveLatent -> -2408.55112382219
+IC of gLV_290 to (3) -> -2411.364782741779
+IncreaseCard -> -2411.364782741779
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Doesn't improve the score: -2401.3187292528064 <= -2398.5476361048927 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 6
+Test Log-Likelihood: -259.32638998393367
+Train BIC: -2619.50356773736
+Time: 1031613 ms
+Iteration 0: -2598.832435491316
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_338 -> -2434.821405638076
+AL gLV_339 -> -2438.745898417516
+AL gLV_340 -> -2456.8002286974847
+AL gLV_341 -> -2440.0626915846906
+AL gLV_342 -> -2432.744361023999
+AL gLV_343 -> -2434.146138743157
+AL gLV_344 -> -2445.1405047759035
+AL gLV_345 -> -2430.770668717846
+AL gLV_346 -> -2434.874633677168
+AL gLV_347 -> -2403.571390700639
+AL gLV_348 -> -2423.0384193279374
+AL gLV_349 -> -2449.5677906341325
+AL gLV_350 -> -2431.3987725277343
+AL gLV_351 -> -2403.993654215831
+AL gLV_352 -> -2416.881324792184
+AL gLV_353 -> -2439.716033627628
+AL gLV_354 -> -2428.5604591516153
+AL gLV_355 -> -2453.376559704425
+AL gLV_356 -> -2429.778615406804
+AL gLV_357 -> -2439.8826682599965
+AL gLV_358 -> -2449.2160279935647
+AL gLV_359 -> -2464.8628105065413
+AL gLV_360 -> -2440.5965187161646
+AL gLV_361 -> -2418.3550852808153
+AL gLV_362 -> -2433.6636405233176
+AL gLV_363 -> -2429.497879690118
+AL gLV_364 -> -2438.9816142985997
+AL gLV_365 -> -2436.827937744617
+AL gLV_366 -> -2442.1404173121728
+AL gLV_367 -> -2428.8380406101487
+AL gLV_368 -> -2423.958123399955
+AL gLV_369 -> -2436.008678623008
+AL gLV_370 -> -2436.628227744793
+AL gLV_371 -> -2433.249948771108
+AL gLV_372 -> -2427.603458772391
+AL gLV_373 -> -2434.4745709231115
+AL gLV_374 -> -2443.2111734362306
+AL gLV_375 -> -2429.177497444027
+AL gLV_376 -> -2427.549087475884
+AL gLV_377 -> -2429.1547182761324
+AL gLV_378 -> -2404.7020642397506
+AL gLV_379 -> -2438.863350952732
+AL gLV_380 -> -2427.58298503883
+AL gLV_381 -> -2434.49071037022
+AL gLV_382 -> -2428.5649594938195
+AddLatent -> -2403.571390700639
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -2403.571390700639 > -2598.832435491316 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_383, child of gLV_347 -> -2409.2452938575525
+AL gLV_384, child of gLV_347 -> -2417.8240300905723
+AL gLV_385, child of gLV_347 -> -2416.4167251603676
+AL gLV_386, child of gLV_347 -> -2426.7220310057537
+AL gLV_387, child of gLV_347 -> -2407.5971116389424
+AL gLV_388, child of gLV_347 -> -2410.6934592821776
+AL gLV_389, child of gLV_347 -> -2420.227481467197
+AL gLV_390, child of gLV_347 -> -2420.4595090132652
+AL gLV_391, child of gLV_347 -> -2420.2983595681267
+AL gLV_392, child of gLV_347 -> -2408.485855464587
+AddLatent -> -2407.5971116389424
+AL gLV_393 -> -2400.126458917072
+AL gLV_394 -> -2407.623348038752
+AL gLV_395 -> -2418.331819613817
+AddLatent -> -2400.126458917072
+RL gLV_347 -> -2421.519081740235
+RemoveLatent -> -2421.519081740235
+IC of gLV_347 to (3) -> -2415.428489625087
+IncreaseCard -> -2415.428489625087
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -2400.126458917072 > -2403.571390700639 (old best)
+--------------------------------------------------
+
+Iteration 3:
+AL gLV_396, child of gLV_347 -> -2418.7932640759823
+AL gLV_397, child of gLV_347 -> -2415.4735252314163
+AL gLV_398, child of gLV_347 -> -2435.1928052077437
+AL gLV_399, child of gLV_347 -> -2414.7721910283226
+AL gLV_400, child of gLV_347 -> -2428.6591568143795
+AL gLV_401, child of gLV_347 -> -2420.3305504683935
+AL gLV_402, child of gLV_347 -> -2425.890410495887
+AL gLV_403, child of gLV_347 -> -2423.2582275928303
+AL gLV_404, child of gLV_347 -> -2421.2764461060674
+AL gLV_405, child of gLV_347 -> -2413.644849414085
+AL gLV_406, child of gLV_393 -> -2428.2480703618317
+AL gLV_407, child of gLV_393 -> -2422.3556066267797
+AL gLV_408, child of gLV_393 -> -2409.147807793215
+AddLatent -> -2409.147807793215
+AL gLV_409 -> -2416.5075355489876
+AddLatent -> -2416.5075355489876
+RL gLV_347 -> -2418.7065716604384
+RL gLV_393 -> -2403.571390700639
+RemoveLatent -> -2403.571390700639
+IC of gLV_347 to (3) -> -2421.9734517592765
+IC of gLV_393 to (3) -> -2424.744163365644
+IncreaseCard -> -2421.9734517592765
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Doesn't improve the score: -2403.571390700639 <= -2400.126458917072 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 7
+Test Log-Likelihood: -250.37129166450472
+Train BIC: -2672.7509401277184
+Time: 2016877 ms
+Iteration 0: -2600.087938982568
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_410 -> -2421.9107788039128
+AL gLV_411 -> -2428.5118132736566
+AL gLV_412 -> -2427.004138860965
+AL gLV_413 -> -2413.082846484949
+AL gLV_414 -> -2421.6254872258714
+AL gLV_415 -> -2414.650417897214
+AL gLV_416 -> -2430.7459587257144
+AL gLV_417 -> -2422.951457002685
+AL gLV_418 -> -2431.2667424601373
+AL gLV_419 -> -2400.3082199985583
+AL gLV_420 -> -2425.190539057916
+AL gLV_421 -> -2423.2061421827007
+AL gLV_422 -> -2419.2331278693227
+AL gLV_423 -> -2403.52925194844
+AL gLV_424 -> -2424.064876774761
+AL gLV_425 -> -2430.7459587257144
+AL gLV_426 -> -2421.1566353303733
+AL gLV_427 -> -2444.163873027866
+AL gLV_428 -> -2425.2651828162866
+AL gLV_429 -> -2432.572304150931
+AL gLV_430 -> -2430.163344485471
+AL gLV_431 -> -2427.037322743845
+AL gLV_432 -> -2429.4052827157275
+AL gLV_433 -> -2411.7508471377964
+AL gLV_434 -> -2430.5013459885304
+AL gLV_435 -> -2422.4278967706473
+AL gLV_436 -> -2446.7127766049553
+AL gLV_437 -> -2431.9531439213597
+AL gLV_438 -> -2437.0017113235617
+AL gLV_439 -> -2421.4522291410094
+AL gLV_440 -> -2412.98380520441
+AL gLV_441 -> -2414.6913034331724
+AL gLV_442 -> -2406.3014870199145
+AL gLV_443 -> -2419.119481171753
+AL gLV_444 -> -2418.342143274831
+AL gLV_445 -> -2440.633241588282
+AL gLV_446 -> -2444.3027680907385
+AL gLV_447 -> -2421.1566353303733
+AL gLV_448 -> -2437.856243200045
+AL gLV_449 -> -2420.5295861678487
+AL gLV_450 -> -2417.4154912932772
+AL gLV_451 -> -2422.39336314879
+AL gLV_452 -> -2424.3354471913913
+AL gLV_453 -> -2425.8082739475285
+AL gLV_454 -> -2428.6776336851512
+AddLatent -> -2400.3082199985583
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -2400.3082199985583 > -2600.087938982568 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_455, child of gLV_419 -> -2408.9600528747565
+AL gLV_456, child of gLV_419 -> -2419.0437279993616
+AL gLV_457, child of gLV_419 -> -2418.262240659603
+AL gLV_458, child of gLV_419 -> -2423.011388211483
+AL gLV_459, child of gLV_419 -> -2404.6869870009036
+AL gLV_460, child of gLV_419 -> -2407.0557349620353
+AddLatent -> -2404.6869870009036
+AL gLV_461 -> -2398.3501320749706
+AL gLV_462 -> -2404.540257710494
+AL gLV_463 -> -2415.0134680446376
+AddLatent -> -2398.3501320749706
+RL gLV_419 -> -2412.4892459956263
+RemoveLatent -> -2412.4892459956263
+IC of gLV_419 to (3) -> -2409.1391848645717
+IncreaseCard -> -2409.1391848645717
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -2398.3501320749706 > -2400.3082199985583 (old best)
+--------------------------------------------------
+
+Iteration 3:
+AL gLV_464, child of gLV_419 -> -2412.891880018258
+AL gLV_465, child of gLV_419 -> -2409.1339360348084
+AL gLV_466, child of gLV_419 -> -2428.640121749131
+AL gLV_467, child of gLV_419 -> -2423.8372736953024
+AL gLV_468, child of gLV_419 -> -2418.647685325191
+AL gLV_469, child of gLV_419 -> -2413.9838362302303
+AL gLV_470, child of gLV_461 -> -2417.343702533145
+AL gLV_471, child of gLV_461 -> -2420.857062788689
+AL gLV_472, child of gLV_461 -> -2406.3140009030712
+AddLatent -> -2406.3140009030712
+AL gLV_473 -> -2428.5732049263584
+AddLatent -> -2428.5732049263584
+RL gLV_419 -> -2411.7508471377964
+RL gLV_461 -> -2400.3082199985583
+RemoveLatent -> -2400.3082199985583
+IC of gLV_419 to (3) -> -2419.882874099614
+IC of gLV_461 to (3) -> -2431.740664499592
+IncreaseCard -> -2419.882874099614
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Doesn't improve the score: -2400.3082199985583 <= -2398.3501320749706 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 8
+Test Log-Likelihood: -254.60525850889053
+Train BIC: -3067.037194913347
+Time: 1564620 ms
+Iteration 0: -2606.7465782847858
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_474 -> -2444.904651234681
+AL gLV_475 -> -2452.396992441967
+AL gLV_476 -> -2448.2607370943506
+AL gLV_477 -> -2450.3051747597597
+AL gLV_478 -> -2446.017142259831
+AL gLV_479 -> -2432.522269437118
+AL gLV_480 -> -2454.124367007421
+AL gLV_481 -> -2442.730627846395
+AL gLV_482 -> -2433.3985453749133
+AL gLV_483 -> -2425.762075653799
+AL gLV_484 -> -2440.0570927930266
+AL gLV_485 -> -2441.8494554397694
+AL gLV_486 -> -2440.901779863949
+AL gLV_487 -> -2436.8213848920723
+AL gLV_488 -> -2438.0215054220607
+AL gLV_489 -> -2451.2360856987984
+AL gLV_490 -> -2444.904651234681
+AL gLV_491 -> -2467.747876664935
+AL gLV_492 -> -2445.4674554767994
+AL gLV_493 -> -2448.113547005756
+AL gLV_494 -> -2448.6498811951324
+AL gLV_495 -> -2451.2601313820587
+AL gLV_496 -> -2458.3485013434965
+AL gLV_497 -> -2433.7237845335662
+AL gLV_498 -> -2461.5623938466515
+AL gLV_499 -> -2441.4063999937275
+AL gLV_500 -> -2466.9575398883258
+AL gLV_501 -> -2448.110478987612
+AL gLV_502 -> -2445.694802596902
+AL gLV_503 -> -2441.6584919080187
+AL gLV_504 -> -2433.647849326619
+AL gLV_505 -> -2442.9098756261897
+AL gLV_506 -> -2414.5311707743754
+AL gLV_507 -> -2427.871881694642
+AL gLV_508 -> -2437.5360049100786
+AL gLV_509 -> -2458.1811302221836
+AL gLV_510 -> -2459.7349472476344
+AL gLV_511 -> -2444.904651234681
+AL gLV_512 -> -2451.148903810422
+AL gLV_513 -> -2437.3063683666533
+AL gLV_514 -> -2444.5492273637333
+AL gLV_515 -> -2449.625435437075
+AL gLV_516 -> -2443.953943629583
+AL gLV_517 -> -2444.921018981166
+AL gLV_518 -> -2433.5362273961005
+AddLatent -> -2414.5311707743754
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -2414.5311707743754 > -2606.7465782847858 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_519, child of gLV_506 -> -2424.0110603817147
+AL gLV_520, child of gLV_506 -> -2424.5402058241834
+AL gLV_521, child of gLV_506 -> -2429.979132653993
+AL gLV_522, child of gLV_506 -> -2433.717047445889
+AL gLV_523, child of gLV_506 -> -2448.8800680709332
+AL gLV_524, child of gLV_506 -> -2438.0770788046593
+AL gLV_525, child of gLV_506 -> -2424.6739693526615
+AL gLV_526, child of gLV_506 -> -2428.3353465178097
+AL gLV_527, child of gLV_506 -> -2432.6548220973445
+AL gLV_528, child of gLV_506 -> -2431.174657764292
+AddLatent -> -2424.0110603817147
+AL gLV_529 -> -2463.1961023302097
+AL gLV_530 -> -2440.586852348795
+AL gLV_531 -> -2412.399623602713
+AL gLV_532 -> -2421.178242679382
+AL gLV_533 -> -2434.669052847068
+AL gLV_534 -> -2437.8181593486415
+AddLatent -> -2412.399623602713
+RL gLV_506 -> -2432.219742724003
+RemoveLatent -> -2432.219742724003
+IC of gLV_506 to (3) -> -2424.3555110926573
+IncreaseCard -> -2424.3555110926573
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -2412.399623602713 > -2414.5311707743754 (old best)
+--------------------------------------------------
+
+Iteration 3:
+AL gLV_535, child of gLV_506 -> -2435.9210847019567
+AL gLV_536, child of gLV_506 -> -2424.6702309071675
+AL gLV_537, child of gLV_506 -> -2428.683757036949
+AL gLV_538, child of gLV_506 -> -2433.946631887824
+AL gLV_539, child of gLV_506 -> -2435.108623860081
+AL gLV_540, child of gLV_506 -> -2423.743322807207
+AL gLV_541, child of gLV_506 -> -2420.308750073677
+AL gLV_542, child of gLV_506 -> -2449.591383899445
+AL gLV_543, child of gLV_506 -> -2421.3595713654054
+AL gLV_544, child of gLV_506 -> -2426.7361803268473
+AddLatent -> -2420.308750073677
+AL gLV_545 -> -2420.9620847697292
+AL gLV_546 -> -2424.8088015195453
+AL gLV_547 -> -2426.3421013718234
+AddLatent -> -2420.9620847697292
+RL gLV_506 -> -2438.074953826884
+RL gLV_531 -> -2414.5311707743754
+RemoveLatent -> -2414.5311707743754
+IC of gLV_506 to (3) -> -2432.834313710143
+IC of gLV_531 to (3) -> -2418.250714301051
+IncreaseCard -> -2418.250714301051
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Doesn't improve the score: -2414.5311707743754 <= -2412.399623602713 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 9
+Test Log-Likelihood: -238.14120245307382
+Train BIC: -2745.263226609151
+Time: 2369079 ms
+Iteration 0: -2522.4543639592753
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_548 -> -2355.1492815801357
+AL gLV_549 -> -2369.8403440487486
+AL gLV_550 -> -2390.1199910794226
+AL gLV_551 -> -2362.1117411572823
+AL gLV_552 -> -2359.0413989668477
+AL gLV_553 -> -2357.221924215089
+AL gLV_554 -> -2375.418084740798
+AL gLV_555 -> -2359.300852761036
+AL gLV_556 -> -2365.4810375585876
+AL gLV_557 -> -2334.83824756843
+AL gLV_558 -> -2368.3280009587697
+AL gLV_559 -> -2375.138521953341
+AL gLV_560 -> -2396.278958497857
+AL gLV_561 -> -2360.3420501997502
+AL gLV_562 -> -2353.9253754183687
+AL gLV_563 -> -2355.201595186465
+AL gLV_564 -> -2363.8375858440495
+AL gLV_565 -> -2387.1075140380126
+AL gLV_566 -> -2358.8249901854965
+AL gLV_567 -> -2356.2713087881757
+AL gLV_568 -> -2364.7004135723546
+AL gLV_569 -> -2387.5694700780327
+AL gLV_570 -> -2359.271285059033
+AL gLV_571 -> -2370.7712155421523
+AL gLV_572 -> -2350.3699700032316
+AL gLV_573 -> -2360.7857233166687
+AL gLV_574 -> -2360.771346370065
+AL gLV_575 -> -2367.9100582789893
+AL gLV_576 -> -2357.5759195150904
+AL gLV_577 -> -2349.3153084836263
+AL gLV_578 -> -2373.7122544408517
+AL gLV_579 -> -2367.9593915093446
+AL gLV_580 -> -2352.491763257736
+AL gLV_581 -> -2362.156858204361
+AL gLV_582 -> -2358.071529693224
+AL gLV_583 -> -2353.691869782275
+AL gLV_584 -> -2379.3933165230505
+AL gLV_585 -> -2358.822368750522
+AL gLV_586 -> -2374.4518481168197
+AL gLV_587 -> -2354.420860651247
+AL gLV_588 -> -2364.5874279791014
+AL gLV_589 -> -2359.3362016841434
+AL gLV_590 -> -2358.5472927567703
+AL gLV_591 -> -2362.182221825453
+AL gLV_592 -> -2356.689735793823
+AddLatent -> -2334.83824756843
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -2334.83824756843 > -2522.4543639592753 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_593, child of gLV_557 -> -2346.737433715216
+AL gLV_594, child of gLV_557 -> -2349.4147320722686
+AL gLV_595, child of gLV_557 -> -2348.393686330112
+AL gLV_596, child of gLV_557 -> -2350.3584947655863
+AL gLV_597, child of gLV_557 -> -2348.0614786304113
+AL gLV_598, child of gLV_557 -> -2340.073662047922
+AL gLV_599, child of gLV_557 -> -2343.112031716185
+AL gLV_600, child of gLV_557 -> -2348.9198258751785
+AL gLV_601, child of gLV_557 -> -2345.6754581589066
+AL gLV_602, child of gLV_557 -> -2342.4882776281734
+AddLatent -> -2340.073662047922
+AL gLV_603 -> -2337.0327816469717
+AL gLV_604 -> -2344.5317029765856
+AL gLV_605 -> -2345.4304382730743
+AddLatent -> -2337.0327816469717
+RL gLV_557 -> -2348.068145968868
+RemoveLatent -> -2348.068145968868
+IC of gLV_557 to (3) -> -2343.965487192271
+IncreaseCard -> -2343.965487192271
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Doesn't improve the score: -2337.0327816469717 <= -2334.83824756843 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 10
+Test Log-Likelihood: -321.639831295465
+Train BIC: -2552.3274220951585
+Time: 1289836 ms
+----------------------------------------
+----------------------------------------
+Average learning Time: 1518.69s
+Average Test Log-likelihood: -259.66
+Average Train BIC: -2699.20
+------------------------------------------------------------------
+------------------------------------------------------------------
+------------------------- CAR_EVALUATION -------------------------
+------------------------------------------------------------------
+------------------------------------------------------------------
+10 folds have been generated
+
+==========================
+GLSL (EMPTY)
+==========================
+
+Iteration 0: -12993.408285056816
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_0 -> -12163.779679133615
+AL gLV_1 -> -12153.36192953819
+AL gLV_2 -> -12193.436500379048
+AL gLV_3 -> -12140.998897507383
+AL gLV_4 -> -12112.385673815024
+AL gLV_5 -> -12126.680626576848
+AL gLV_6 -> -12078.727984279685
+AL gLV_7 -> -12113.465829637966
+AL gLV_8 -> -12096.593668377589
+AL gLV_9 -> -12093.099423607753
+AL gLV_10 -> -12116.484006381546
+AL gLV_11 -> -12108.152642742529
+AL gLV_12 -> -12096.09265373325
+AL gLV_13 -> -12062.52486753469
+AL gLV_14 -> -12144.184366229296
+AL gLV_15 -> -12167.37934837968
+AL gLV_16 -> -12029.909256190982
+AL gLV_17 -> -12152.946564120926
+AL gLV_18 -> -12092.546035846595
+AL gLV_19 -> -12137.61249427752
+AL gLV_20 -> -12114.892326362053
+AddLatent -> -12029.909256190982
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -12029.909256190982 > -12993.408285056816 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_21, child of gLV_16 -> -12194.491780326274
+AL gLV_22, child of gLV_16 -> -12083.695055908913
+AL gLV_23, child of gLV_16 -> -12110.805088779294
+AL gLV_24, child of gLV_16 -> -12078.7197554862
+AL gLV_25, child of gLV_16 -> -12137.121715440822
+AL gLV_26, child of gLV_16 -> -12080.686902402373
+AL gLV_27, child of gLV_16 -> -12132.47171099739
+AL gLV_28, child of gLV_16 -> -12121.931387829629
+AL gLV_29, child of gLV_16 -> -12123.857124596163
+AL gLV_30, child of gLV_16 -> -12108.76134281057
+AL gLV_31, child of gLV_16 -> -12067.899356807118
+AL gLV_32, child of gLV_16 -> -12121.997455691588
+AL gLV_33, child of gLV_16 -> -12220.576604583246
+AL gLV_34, child of gLV_16 -> -12133.662503943488
+AL gLV_35, child of gLV_16 -> -12162.188707654035
+AddLatent -> -12067.899356807118
+AL gLV_36 -> -12049.309528777663
+AddLatent -> -12049.309528777663
+RL gLV_16 -> -12089.656108884335
+RemoveLatent -> -12089.656108884335
+IC of gLV_16 to (3) -> -12081.289553881548
+IncreaseCard -> -12081.289553881548
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Doesn't improve the score: -12049.309528777663 <= -12029.909256190982 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 1
+Test Log-Likelihood: -1769.2504625618142
+Train BIC: -12992.358083036044
+Time: 4836391 ms
+Iteration 0: -12953.14167164278
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_37 -> -12142.472692847059
+AL gLV_38 -> -12140.909032312298
+AL gLV_39 -> -12131.303856554949
+AL gLV_40 -> -12092.508762937763
+AL gLV_41 -> -12136.940521393844
+AL gLV_42 -> -12086.168830912073
+AL gLV_43 -> -12112.131522877988
+AL gLV_44 -> -12128.331031774576
+AL gLV_45 -> -12118.607344192984
+AL gLV_46 -> -12151.570055951528
+AL gLV_47 -> -12094.897286891652
+AL gLV_48 -> -12133.273661663414
+AL gLV_49 -> -12096.837830933828
+AL gLV_50 -> -12041.176706479195
+AL gLV_51 -> -12159.025530954905
+AL gLV_52 -> -12131.67050424597
+AL gLV_53 -> -12194.433502924418
+AL gLV_54 -> -12156.96438216526
+AL gLV_55 -> -12076.58779586185
+AL gLV_56 -> -12124.374109099914
+AL gLV_57 -> -12106.099103086075
+AddLatent -> -12041.176706479195
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -12041.176706479195 > -12953.14167164278 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_58, child of gLV_50 -> -12161.27621515344
+AL gLV_59, child of gLV_50 -> -12106.130006069348
+AL gLV_60, child of gLV_50 -> -12164.233887786111
+AL gLV_61, child of gLV_50 -> -12121.7553857294
+AL gLV_62, child of gLV_50 -> -12094.328972814203
+AL gLV_63, child of gLV_50 -> -12130.545023574927
+AL gLV_64, child of gLV_50 -> -12112.374525315623
+AL gLV_65, child of gLV_50 -> -12053.485941469207
+AL gLV_66, child of gLV_50 -> -12129.801062843311
+AL gLV_67, child of gLV_50 -> -12114.178525814272
+AddLatent -> -12053.485941469207
+AL gLV_68 -> -12092.64665884365
+AL gLV_69 -> -12101.252740856675
+AL gLV_70 -> -12075.514534591164
+AddLatent -> -12075.514534591164
+RL gLV_50 -> -12088.461296308986
+RemoveLatent -> -12088.461296308986
+IC of gLV_50 to (3) -> -12073.027899134911
+IncreaseCard -> -12073.027899134911
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Doesn't improve the score: -12053.485941469207 <= -12041.176706479195 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 2
+Test Log-Likelihood: -1716.6736484122614
+Train BIC: -13193.112552362545
+Time: 5008357 ms
+Iteration 0: -12982.77515352909
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_71 -> -12263.402380431262
+AL gLV_72 -> -12159.267280032449
+AL gLV_73 -> -12135.497659853867
+AL gLV_74 -> -12112.308738891266
+AL gLV_75 -> -12154.946585682534
+AL gLV_76 -> -12105.391827974987
+AL gLV_77 -> -12128.79492782761
+AL gLV_78 -> -12116.04346090989
+AL gLV_79 -> -12137.487280589185
+AL gLV_80 -> -12172.643915857008
+AL gLV_81 -> -12113.906435758898
+AL gLV_82 -> -12161.05477617176
+AL gLV_83 -> -12115.970273486668
+AL gLV_84 -> -12118.956899674242
+AL gLV_85 -> -12186.929932195779
+AL gLV_86 -> -12188.477184078845
+AL gLV_87 -> -12163.815769363564
+AL gLV_88 -> -12184.819657696342
+AL gLV_89 -> -12104.526879233093
+AL gLV_90 -> -12150.864748928732
+AL gLV_91 -> -12126.405613022096
+AddLatent -> -12104.526879233093
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -12104.526879233093 > -12982.77515352909 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_92, child of gLV_89 -> -12168.50765163871
+AL gLV_93, child of gLV_89 -> -12162.909278871148
+AL gLV_94, child of gLV_89 -> -12170.119240347554
+AL gLV_95, child of gLV_89 -> -12177.61537423265
+AL gLV_96, child of gLV_89 -> -12206.5443281916
+AL gLV_97, child of gLV_89 -> -12264.264459416956
+AL gLV_98, child of gLV_89 -> -12146.67607463719
+AL gLV_99, child of gLV_89 -> -12148.568932974807
+AL gLV_100, child of gLV_89 -> -12167.322886784053
+AL gLV_101, child of gLV_89 -> -12112.21736716225
+AddLatent -> -12112.21736716225
+AL gLV_102 -> -12107.03684316116
+AddLatent -> -12107.03684316116
+RL gLV_89 -> -12124.866271385697
+RemoveLatent -> -12124.866271385697
+IC of gLV_89 to (3) -> -12149.210825663891
+IncreaseCard -> -12149.210825663891
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Doesn't improve the score: -12107.03684316116 <= -12104.526879233093 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 3
+Test Log-Likelihood: -1546.2245569626484
+Train BIC: -12940.218944409962
+Time: 4059865 ms
+Iteration 0: -12948.688920827051
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_103 -> -12278.387119398885
+AL gLV_104 -> -12141.042867608565
+AL gLV_105 -> -12281.17958079393
+AL gLV_106 -> -12093.553611789228
+AL gLV_107 -> -12135.596730227597
+AL gLV_108 -> -12086.782999429028
+AL gLV_109 -> -12110.417708880657
+AL gLV_110 -> -12096.093583148466
+AL gLV_111 -> -12119.419386284615
+AL gLV_112 -> -12151.901380635998
+AL gLV_113 -> -12095.586220505165
+AL gLV_114 -> -12140.975550795963
+AL gLV_115 -> -12097.41860299325
+AL gLV_116 -> -12068.643197785326
+AL gLV_117 -> -12164.32362698821
+AL gLV_118 -> -12090.693687142153
+AL gLV_119 -> -12194.49076634334
+AL gLV_120 -> -12160.394282460391
+AL gLV_121 -> -12044.214576996465
+AL gLV_122 -> -12127.465269610166
+AL gLV_123 -> -12107.604049269494
+AddLatent -> -12044.214576996465
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -12044.214576996465 > -12948.688920827051 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_124, child of gLV_121 -> -12184.879925910818
+AL gLV_125, child of gLV_121 -> -12064.87449854526
+AL gLV_126, child of gLV_121 -> -12110.625743751623
+AL gLV_127, child of gLV_121 -> -12089.483273099815
+AL gLV_128, child of gLV_121 -> -12075.750606398415
+AL gLV_129, child of gLV_121 -> -12054.56674524638
+AL gLV_130, child of gLV_121 -> -12040.666533645932
+AL gLV_131, child of gLV_121 -> -12093.309690098022
+AL gLV_132, child of gLV_121 -> -12108.93843334845
+AL gLV_133, child of gLV_121 -> -12062.062275768458
+AL gLV_134, child of gLV_121 -> -12122.395444101025
+AL gLV_135, child of gLV_121 -> -12107.126692202031
+AL gLV_136, child of gLV_121 -> -12113.71414889644
+AL gLV_137, child of gLV_121 -> -12098.497626955987
+AL gLV_138, child of gLV_121 -> -12021.585437066764
+AddLatent -> -12021.585437066764
+AL gLV_139 -> -12115.769413281678
+AddLatent -> -12115.769413281678
+RL gLV_121 -> -12101.319478539048
+RemoveLatent -> -12101.319478539048
+IC of gLV_121 to (3) -> -12104.936615977938
+IncreaseCard -> -12104.936615977938
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -12021.585437066764 > -12044.214576996465 (old best)
+--------------------------------------------------
+
+Iteration 3:
+AL gLV_140, child of gLV_121 -> -12229.948743194484
+AL gLV_141, child of gLV_121 -> -12092.956070340375
+AL gLV_142, child of gLV_121 -> -12154.170308702958
+AL gLV_143, child of gLV_121 -> -12166.75156457382
+AL gLV_144, child of gLV_121 -> -12119.789555793213
+AL gLV_145, child of gLV_121 -> -12244.51909410182
+AL gLV_146, child of gLV_121 -> -12238.195339269609
+AL gLV_147, child of gLV_121 -> -12100.815017149262
+AL gLV_148, child of gLV_121 -> -12126.82465629953
+AL gLV_149, child of gLV_121 -> -12216.92709188604
+AddLatent -> -12092.956070340375
+AL gLV_150 -> -12070.889502459597
+AddLatent -> -12070.889502459597
+RL gLV_121 -> -12132.107754132861
+RL gLV_138 -> -12044.214576996465
+RemoveLatent -> -12044.214576996465
+IC of gLV_121 to (3) -> -12066.449200561874
+IC of gLV_138 to (3) -> -12103.69112791296
+IncreaseCard -> -12066.449200561874
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Doesn't improve the score: -12044.214576996465 <= -12021.585437066764 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 4
+Test Log-Likelihood: -1712.2656245052085
+Train BIC: -13016.079467067319
+Time: 8625328 ms
+Iteration 0: -12926.552419236035
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_151 -> -12168.031251136652
+AL gLV_152 -> -12140.339060412065
+AL gLV_153 -> -12130.73183912929
+AL gLV_154 -> -12092.335657906277
+AL gLV_155 -> -12130.59133418036
+AL gLV_156 -> -12085.931496904486
+AL gLV_157 -> -12109.86695015998
+AL gLV_158 -> -12134.54497426422
+AL gLV_159 -> -12117.997906430046
+AL gLV_160 -> -12149.49823209417
+AL gLV_161 -> -12094.807040469752
+AL gLV_162 -> -12141.644628498034
+AL gLV_163 -> -12096.614478292226
+AL gLV_164 -> -12042.038738450887
+AL gLV_165 -> -12167.533956851914
+AL gLV_166 -> -12045.769554475875
+AL gLV_167 -> -12114.758207143605
+AL gLV_168 -> -12164.209511786088
+AL gLV_169 -> -12073.132755421908
+AL gLV_170 -> -12130.470517760608
+AL gLV_171 -> -12106.502126146228
+AddLatent -> -12042.038738450887
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -12042.038738450887 > -12926.552419236035 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_172, child of gLV_164 -> -12122.141579579307
+AL gLV_173, child of gLV_164 -> -12106.999274754162
+AL gLV_174, child of gLV_164 -> -12145.695029420893
+AL gLV_175, child of gLV_164 -> -12060.809121340855
+AL gLV_176, child of gLV_164 -> -12112.089925809987
+AL gLV_177, child of gLV_164 -> -12140.064327786482
+AL gLV_178, child of gLV_164 -> -12169.727470237256
+AL gLV_179, child of gLV_164 -> -12058.493454356332
+AL gLV_180, child of gLV_164 -> -12159.560218020248
+AL gLV_181, child of gLV_164 -> -12120.528920259278
+AddLatent -> -12058.493454356332
+AL gLV_182 -> -12101.153575357
+AL gLV_183 -> -12107.814807790417
+AL gLV_184 -> -12085.880950245359
+AddLatent -> -12085.880950245359
+RL gLV_164 -> -12093.138449337457
+RemoveLatent -> -12093.138449337457
+IC of gLV_164 to (3) -> -12052.134934272526
+IncreaseCard -> -12052.134934272526
+
+DecreaseCard -> NONE
+
+Best operator: IncreaseCard
+Doesn't improve the score: -12052.134934272526 <= -12042.038738450887 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 5
+Test Log-Likelihood: -1679.8245130224864
+Train BIC: -13195.785453384986
+Time: 4535277 ms
+Iteration 0: -12935.861708254159
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_185 -> -12046.604099229013
+AL gLV_186 -> -12124.396317782037
+AL gLV_187 -> -12272.414018188818
+AL gLV_188 -> -12077.725679434006
+AL gLV_189 -> -12115.146193239469
+AL gLV_190 -> -12071.208337225684
+AL gLV_191 -> -12090.045592344628
+AL gLV_192 -> -12125.776249737291
+AL gLV_193 -> -12103.599005493763
+AL gLV_194 -> -12135.235029277785
+AL gLV_195 -> -12080.161927922705
+AL gLV_196 -> -12123.005892713792
+AL gLV_197 -> -12081.831355357808
+AL gLV_198 -> -12053.285185226801
+AL gLV_199 -> -12158.443913040737
+AL gLV_200 -> -12025.110774977013
+AL gLV_201 -> -12164.514957365614
+AL gLV_202 -> -12155.429340648665
+AL gLV_203 -> -12067.044803776196
+AL gLV_204 -> -12121.545442924034
+AL gLV_205 -> -12099.146359547092
+AddLatent -> -12025.110774977013
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -12025.110774977013 > -12935.861708254159 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_206, child of gLV_200 -> -12086.99257976219
+AL gLV_207, child of gLV_200 -> -12066.261254882167
+AL gLV_208, child of gLV_200 -> -12188.572559727218
+AddLatent -> -12066.261254882167
+AL gLV_209 -> -12047.973078229197
+AL gLV_210 -> -12038.794244026354
+AL gLV_211 -> -12042.43069140589
+AL gLV_212 -> -12038.794244026354
+AL gLV_213 -> -12023.336331384213
+AL gLV_214 -> -12022.93723406466
+AddLatent -> -12022.93723406466
+RL gLV_200 -> -12057.316482367232
+RemoveLatent -> -12057.316482367232
+IC of gLV_200 to (3) -> -12063.436206886083
+IncreaseCard -> -12063.436206886083
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -12022.93723406466 > -12025.110774977013 (old best)
+--------------------------------------------------
+
+Iteration 3:
+AL gLV_215, child of gLV_200 -> -12158.779950573513
+AL gLV_216, child of gLV_200 -> -12127.701104281368
+AL gLV_217, child of gLV_200 -> -12101.588071651715
+AL gLV_218, child of gLV_200 -> -12106.053005394913
+AL gLV_219, child of gLV_200 -> -12157.376806156955
+AL gLV_220, child of gLV_200 -> -12208.027431970448
+AddLatent -> -12101.588071651715
+AL gLV_221 -> -12043.446367461926
+AL gLV_222 -> -12038.006418195817
+AL gLV_223 -> -12042.96839039915
+AddLatent -> -12038.006418195817
+RL gLV_200 -> -12067.80173788206
+RL gLV_214 -> -12017.595167087466
+RemoveLatent -> -12017.595167087466
+IC of gLV_200 to (3) -> -12034.273373064056
+IC of gLV_214 to (3) -> -12035.844730566621
+IncreaseCard -> -12034.273373064056
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Improves the score: -12017.595167087466 > -12022.93723406466 (old best)
+--------------------------------------------------
+
+Iteration 4:
+AL gLV_224, child of gLV_200 -> -12202.78443845913
+AL gLV_225, child of gLV_200 -> -12093.528699520311
+AL gLV_226, child of gLV_200 -> -12086.638748842444
+AL gLV_227, child of gLV_200 -> -12046.026236326532
+AL gLV_228, child of gLV_200 -> -12127.7860347988
+AL gLV_229, child of gLV_200 -> -12025.815615396312
+AL gLV_230, child of gLV_200 -> -12128.165186851307
+AL gLV_231, child of gLV_200 -> -12095.064547987882
+AL gLV_232, child of gLV_200 -> -12017.319328683992
+AL gLV_233, child of gLV_200 -> -12055.799495183466
+AL gLV_234, child of gLV_200 -> -12037.104695887061
+AL gLV_235, child of gLV_200 -> -12079.865778349935
+AL gLV_236, child of gLV_200 -> -12080.082878754305
+AL gLV_237, child of gLV_200 -> -12119.26092175027
+AL gLV_238, child of gLV_200 -> -12038.981578936256
+AddLatent -> -12017.319328683992
+AL gLV_239 -> -12020.867929886157
+AddLatent -> -12020.867929886157
+RL gLV_200 -> -12077.505731504829
+RemoveLatent -> -12077.505731504829
+IC of gLV_200 to (3) -> -11995.334195581843
+IncreaseCard -> -11995.334195581843
+
+DecreaseCard -> NONE
+
+Best operator: IncreaseCard
+Improves the score: -11995.334195581843 > -12017.595167087466 (old best)
+--------------------------------------------------
+
+Iteration 5:
+AL gLV_240, child of gLV_200 -> -12196.549284000695
+AL gLV_241, child of gLV_200 -> -12111.528303888726
+AL gLV_242, child of gLV_200 -> -12083.729491627819
+AL gLV_243, child of gLV_200 -> -12138.895482395885
+AL gLV_244, child of gLV_200 -> -12132.701825226399
+AL gLV_245, child of gLV_200 -> -12093.836827181573
+AL gLV_246, child of gLV_200 -> -12121.023456519397
+AL gLV_247, child of gLV_200 -> -12108.148718617656
+AL gLV_248, child of gLV_200 -> -12087.626054502387
+AL gLV_249, child of gLV_200 -> -12071.241265263248
+AL gLV_250, child of gLV_200 -> -12157.635177558463
+AL gLV_251, child of gLV_200 -> -12114.617496539568
+AL gLV_252, child of gLV_200 -> -12094.812254033668
+AL gLV_253, child of gLV_200 -> -12070.203073660423
+AL gLV_254, child of gLV_200 -> -12109.865817127078
+AddLatent -> -12070.203073660423
+AL gLV_255 -> -12077.641811352061
+AddLatent -> -12077.641811352061
+RL gLV_200 -> -12077.505731504829
+RemoveLatent -> -12077.505731504829
+IC of gLV_200 to (4) -> -12059.81409091316
+IncreaseCard -> -12059.81409091316
+DC of gLV_200 to (2) -> -12030.35694580112
+DecreaseCard -> -12030.35694580112
+
+Best operator: DecreaseCard
+Doesn't improve the score: -12030.35694580112 <= -11995.334195581843 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 6
+Test Log-Likelihood: -1723.2521617961781
+Train BIC: -13531.499269126683
+Time: 13127432 ms
+Iteration 0: -12891.683381278179
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_256 -> -12258.195809787983
+AL gLV_257 -> -12131.066796657462
+AL gLV_258 -> -12119.69157324301
+AL gLV_259 -> -12083.044701546765
+AL gLV_260 -> -12123.430352960064
+AL gLV_261 -> -12076.401789721102
+AL gLV_262 -> -12098.895703968896
+AL gLV_263 -> -12077.58618715377
+AL gLV_264 -> -12108.023289601268
+AL gLV_265 -> -12139.519656250372
+AL gLV_266 -> -12085.384864994487
+AL gLV_267 -> -12129.597850830976
+AL gLV_268 -> -12087.142914277565
+AL gLV_269 -> -12061.292615693543
+AL gLV_270 -> -12156.922958365001
+AL gLV_271 -> -12021.582522680952
+AL gLV_272 -> -12180.224257752185
+AL gLV_273 -> -12146.321581501665
+AL gLV_274 -> -12080.467155610839
+AL gLV_275 -> -12132.232438643132
+AL gLV_276 -> -12101.05803377577
+AddLatent -> -12021.582522680952
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -12021.582522680952 > -12891.683381278179 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_277, child of gLV_271 -> -12180.322408600226
+AL gLV_278, child of gLV_271 -> -12070.08590847529
+AL gLV_279, child of gLV_271 -> -12096.746889620363
+AL gLV_280, child of gLV_271 -> -12047.205354383303
+AL gLV_281, child of gLV_271 -> -12160.24375983949
+AL gLV_282, child of gLV_271 -> -12032.608103911367
+AL gLV_283, child of gLV_271 -> -12127.673530248288
+AL gLV_284, child of gLV_271 -> -12113.11899284613
+AL gLV_285, child of gLV_271 -> -12080.571405381743
+AL gLV_286, child of gLV_271 -> -12154.040559896279
+AL gLV_287, child of gLV_271 -> -12148.270794394834
+AL gLV_288, child of gLV_271 -> -12091.195629192085
+AL gLV_289, child of gLV_271 -> -12084.713182955376
+AL gLV_290, child of gLV_271 -> -12046.44613217415
+AL gLV_291, child of gLV_271 -> -12050.264213066142
+AddLatent -> -12032.608103911367
+AL gLV_292 -> -12089.909001970214
+AddLatent -> -12089.909001970214
+RL gLV_271 -> -12086.780457639165
+RemoveLatent -> -12086.780457639165
+IC of gLV_271 to (3) -> -12080.561403494305
+IncreaseCard -> -12080.561403494305
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Doesn't improve the score: -12032.608103911367 <= -12021.582522680952 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 7
+Test Log-Likelihood: -1676.2757813972041
+Train BIC: -12993.844194368508
+Time: 5215600 ms
+Iteration 0: -12882.209830239693
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_293 -> -12166.861263076546
+AL gLV_294 -> -12116.981942014745
+AL gLV_295 -> -12101.35333076959
+AL gLV_296 -> -12069.559972415349
+AL gLV_297 -> -12108.432146121622
+AL gLV_298 -> -12063.022601879187
+AL gLV_299 -> -12080.947556299294
+AL gLV_300 -> -12122.786000731296
+AL gLV_301 -> -12094.803973312884
+AL gLV_302 -> -12118.493498962362
+AL gLV_303 -> -12071.961633188952
+AL gLV_304 -> -12117.01547264062
+AL gLV_305 -> -12073.51996031965
+AL gLV_306 -> -12038.53817405355
+AL gLV_307 -> -12182.560986556768
+AL gLV_308 -> -12063.343548358504
+AL gLV_309 -> -12137.962111751383
+AL gLV_310 -> -12157.840999665003
+AL gLV_311 -> -12093.146443969245
+AL gLV_312 -> -12144.547688904742
+AL gLV_313 -> -12097.40610315763
+AddLatent -> -12038.53817405355
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -12038.53817405355 > -12882.209830239693 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_314, child of gLV_306 -> -12182.238028778114
+AL gLV_315, child of gLV_306 -> -12072.892074696552
+AL gLV_316, child of gLV_306 -> -12118.754950655626
+AddLatent -> -12072.892074696552
+AL gLV_317 -> -12047.629533141551
+AL gLV_318 -> -12061.14420581164
+AL gLV_319 -> -12062.825700311796
+AddLatent -> -12047.629533141551
+RL gLV_306 -> -12088.635524211953
+RemoveLatent -> -12088.635524211953
+IC of gLV_306 to (3) -> -12014.231942754212
+IncreaseCard -> -12014.231942754212
+
+DecreaseCard -> NONE
+
+Best operator: IncreaseCard
+Improves the score: -12014.231942754212 > -12038.53817405355 (old best)
+--------------------------------------------------
+
+Iteration 3:
+AL gLV_320, child of gLV_306 -> -12109.351871250554
+AL gLV_321, child of gLV_306 -> -12163.146213011407
+AL gLV_322, child of gLV_306 -> -12084.68248288292
+AL gLV_323, child of gLV_306 -> -12107.56343484365
+AL gLV_324, child of gLV_306 -> -12195.7304153162
+AL gLV_325, child of gLV_306 -> -12112.341944107975
+AL gLV_326, child of gLV_306 -> -12120.941824239351
+AL gLV_327, child of gLV_306 -> -12170.00895929668
+AL gLV_328, child of gLV_306 -> -12106.310976850385
+AL gLV_329, child of gLV_306 -> -12110.274515696983
+AL gLV_330, child of gLV_306 -> -12140.464739933852
+AL gLV_331, child of gLV_306 -> -12130.210996013457
+AL gLV_332, child of gLV_306 -> -12151.965029133913
+AL gLV_333, child of gLV_306 -> -12095.31969920424
+AL gLV_334, child of gLV_306 -> -12125.032893223586
+AddLatent -> -12084.68248288292
+AL gLV_335 -> -12081.131094421828
+AddLatent -> -12081.131094421828
+RL gLV_306 -> -12088.635524211953
+RemoveLatent -> -12088.635524211953
+IC of gLV_306 to (4) -> -12122.64434922852
+IncreaseCard -> -12122.64434922852
+DC of gLV_306 to (2) -> -12043.560134439313
+DecreaseCard -> -12043.560134439313
+
+Best operator: DecreaseCard
+Doesn't improve the score: -12043.560134439313 <= -12014.231942754212 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 8
+Test Log-Likelihood: -1599.6548690545696
+Train BIC: -13608.144132908217
+Time: 9868744 ms
+Iteration 0: -12887.114603963197
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_336 -> -12254.030389450381
+AL gLV_337 -> -12194.750402917207
+AL gLV_338 -> -12142.27380250021
+AL gLV_339 -> -12086.157774510044
+AL gLV_340 -> -12124.43233028576
+AL gLV_341 -> -12079.372158322672
+AL gLV_342 -> -12103.879486681884
+AL gLV_343 -> -12103.058910929076
+AL gLV_344 -> -12110.852576591227
+AL gLV_345 -> -12141.054176009293
+AL gLV_346 -> -12088.236919096013
+AL gLV_347 -> -12129.431111177635
+AL gLV_348 -> -12090.135636365136
+AL gLV_349 -> -12041.21936341116
+AL gLV_350 -> -12153.391650914717
+AL gLV_351 -> -12054.449720582781
+AL gLV_352 -> -12139.923603501598
+AL gLV_353 -> -12140.26556884756
+AL gLV_354 -> -12043.991437115825
+AL gLV_355 -> -12128.604034802205
+AL gLV_356 -> -12093.876403800416
+AddLatent -> -12041.21936341116
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -12041.21936341116 > -12887.114603963197 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_357, child of gLV_349 -> -12068.400001332146
+AL gLV_358, child of gLV_349 -> -12022.03465728118
+AL gLV_359, child of gLV_349 -> -12069.424408012175
+AL gLV_360, child of gLV_349 -> -12380.428448179944
+AL gLV_361, child of gLV_349 -> -12048.09425070119
+AL gLV_362, child of gLV_349 -> -12116.83620934237
+AddLatent -> -12022.03465728118
+AL gLV_363 -> -12079.70718816128
+AL gLV_364 -> -12058.673222816326
+AL gLV_365 -> -12056.673850692807
+AddLatent -> -12056.673850692807
+RL gLV_349 -> -12065.479951148425
+RemoveLatent -> -12065.479951148425
+IC of gLV_349 to (3) -> -12062.331286261813
+IncreaseCard -> -12062.331286261813
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -12022.03465728118 > -12041.21936341116 (old best)
+--------------------------------------------------
+
+Iteration 3:
+AL gLV_366, child of gLV_349 -> -12212.652495984043
+AL gLV_367, child of gLV_349 -> -12110.41212494796
+AL gLV_368, child of gLV_349 -> -12213.533473684483
+AL gLV_369, child of gLV_349 -> -12150.465281941522
+AL gLV_370, child of gLV_349 -> -12113.613753319114
+AL gLV_371, child of gLV_349 -> -12195.49653438032
+AddLatent -> -12110.41212494796
+AL gLV_372 -> -12059.367297118146
+AL gLV_373 -> -12053.403142116205
+AL gLV_374 -> -12055.955834319704
+AddLatent -> -12053.403142116205
+RL gLV_349 -> -12132.085012478638
+RL gLV_358 -> -12038.280336548856
+RemoveLatent -> -12038.280336548856
+IC of gLV_349 to (3) -> -12050.78303617498
+IC of gLV_358 to (3) -> -12074.66297494262
+IncreaseCard -> -12050.78303617498
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Doesn't improve the score: -12038.280336548856 <= -12022.03465728118 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 9
+Test Log-Likelihood: -1671.9148809904698
+Train BIC: -12878.399564390456
+Time: 5900198 ms
+Iteration 0: -12709.026405503788
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_375 -> -12049.578788848381
+AL gLV_376 -> -12040.27899843334
+AL gLV_377 -> -12052.160320857323
+AL gLV_378 -> -12036.454494202579
+AL gLV_379 -> -12000.18440033777
+AL gLV_380 -> -11982.177319655124
+AL gLV_381 -> -11994.119130138955
+AL gLV_382 -> -12001.374760950772
+AL gLV_383 -> -11982.177319655124
+AL gLV_384 -> -11978.783820198403
+AL gLV_385 -> -12005.460229076873
+AL gLV_386 -> -12000.975877286694
+AL gLV_387 -> -11982.177319655124
+AL gLV_388 -> -11987.99422777912
+AL gLV_389 -> -12003.495270690188
+AL gLV_390 -> -11948.750108380807
+AL gLV_391 -> -12062.286684507562
+AL gLV_392 -> -11988.163603038078
+AL gLV_393 -> -12069.303050631035
+AL gLV_394 -> -12014.277855658876
+AL gLV_395 -> -12012.03022643964
+AddLatent -> -11948.750108380807
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -11948.750108380807 > -12709.026405503788 (old best)
+--------------------------------------------------
+
+Iteration 2:
+
+AddLatent -> NONE
+AL gLV_396 -> -11955.330827991404
+AL gLV_397 -> -11955.258383055734
+AL gLV_398 -> -11928.648909954829
+AL gLV_399 -> -11983.525068352343
+AL gLV_400 -> -11918.649616162173
+AL gLV_401 -> -11918.68414811712
+AddLatent -> -11918.649616162173
+RL gLV_390 -> -11963.650410913975
+RemoveLatent -> -11963.650410913975
+IC of gLV_390 to (3) -> -11979.016957752045
+IncreaseCard -> -11979.016957752045
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -11918.649616162173 > -11948.750108380807 (old best)
+--------------------------------------------------
+
+Iteration 3:
+AL gLV_402, child of gLV_390 -> -12091.754669101962
+AL gLV_403, child of gLV_390 -> -11955.06781409217
+AL gLV_404, child of gLV_390 -> -12027.337133099269
+AddLatent -> -11955.06781409217
+AL gLV_405 -> -11934.767095525278
+AL gLV_406 -> -11929.063505733682
+AL gLV_407 -> -12024.451677641851
+AL gLV_408 -> -11934.767095525278
+AL gLV_409 -> -12013.678526949234
+AL gLV_410 -> -11928.809177710462
+AddLatent -> -11928.809177710462
+RL gLV_390 -> -11974.24263238348
+RL gLV_400 -> -11941.996370510285
+RemoveLatent -> -11941.996370510285
+IC of gLV_390 to (3) -> -11957.290057318003
+IC of gLV_400 to (3) -> -11926.533134372705
+IncreaseCard -> -11926.533134372705
+
+DecreaseCard -> NONE
+
+Best operator: IncreaseCard
+Doesn't improve the score: -11926.533134372705 <= -11918.649616162173 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 10
+Test Log-Likelihood: -1841.6588755262694
+Train BIC: -12760.389530042885
+Time: 4365375 ms
+----------------------------------------
+----------------------------------------
+Average learning Time: 6554.26s
+Average Test Log-likelihood: -1693.70
+Average Train BIC: -13110.98
+------------------------------------------------------------------
+------------------------------------------------------------------
+--------------------------- SPECT_HEART --------------------------
+------------------------------------------------------------------
+------------------------------------------------------------------
+10 folds have been generated
+
+==========================
+GLSL (EMPTY)
+==========================
+
+Iteration 0: -3360.6165324994868
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_0 -> -2560.5967217720195
+AL gLV_1 -> -2560.346969164839
+AL gLV_2 -> -2559.032009185421
+AL gLV_3 -> -2553.280106492699
+AL gLV_4 -> -2555.9988569102916
+AL gLV_5 -> -2553.484710455377
+AL gLV_6 -> -2547.844644201061
+AL gLV_7 -> -2549.2892268246906
+AL gLV_8 -> -2554.2199135411756
+AL gLV_9 -> -2545.6744736951823
+AL gLV_10 -> -2559.721353451146
+AL gLV_11 -> -2550.6456092603194
+AL gLV_12 -> -2563.8455995069685
+AL gLV_13 -> -2549.479399698287
+AL gLV_14 -> -2557.1408770885446
+AL gLV_15 -> -2556.716503140673
+AL gLV_16 -> -2561.2964239096764
+AL gLV_17 -> -2558.593397609529
+AL gLV_18 -> -2570.6415724807025
+AL gLV_19 -> -2556.484328265431
+AL gLV_20 -> -2570.4643200433934
+AL gLV_21 -> -2566.0562052817677
+AL gLV_22 -> -2561.1833460107923
+AL gLV_23 -> -2558.3001873047147
+AL gLV_24 -> -2569.3014795789563
+AL gLV_25 -> -2554.502123339173
+AL gLV_26 -> -2571.2661910571437
+AL gLV_27 -> -2567.4701619186476
+AL gLV_28 -> -2552.7723513479323
+AL gLV_29 -> -2546.7667468883033
+AL gLV_30 -> -2554.359425288711
+AL gLV_31 -> -2551.519993402068
+AL gLV_32 -> -2552.770649389765
+AL gLV_33 -> -2551.7347708952793
+AL gLV_34 -> -2554.632403729682
+AL gLV_35 -> -2567.1421913589747
+AL gLV_36 -> -2550.4198656300614
+AL gLV_37 -> -2556.1898338612573
+AL gLV_38 -> -2561.159831248965
+AL gLV_39 -> -2552.6977071203005
+AL gLV_40 -> -2559.9810982647864
+AL gLV_41 -> -2553.628708590473
+AL gLV_42 -> -2569.0436011279007
+AL gLV_43 -> -2561.462195779256
+AL gLV_44 -> -2551.931282870297
+AL gLV_45 -> -2548.564587851111
+AL gLV_46 -> -2553.9448196492
+AL gLV_47 -> -2555.624828959386
+AL gLV_48 -> -2548.285295008407
+AL gLV_49 -> -2544.6248673932155
+AL gLV_50 -> -2549.1878402485645
+AL gLV_51 -> -2556.4233145673456
+AL gLV_52 -> -2550.9416280201535
+AL gLV_53 -> -2550.5526846599223
+AL gLV_54 -> -2547.3809617542543
+AL gLV_55 -> -2563.273696012157
+AL gLV_56 -> -2567.257295208084
+AL gLV_57 -> -2554.17096954077
+AL gLV_58 -> -2558.8952676852077
+AL gLV_59 -> -2566.402416086756
+AL gLV_60 -> -2567.8932607273405
+AL gLV_61 -> -2556.131778710012
+AL gLV_62 -> -2567.8196914476152
+AL gLV_63 -> -2561.1732715073795
+AL gLV_64 -> -2561.217738372663
+AL gLV_65 -> -2555.186265275301
+AL gLV_66 -> -2559.8495430619478
+AL gLV_67 -> -2556.653464915197
+AL gLV_68 -> -2558.226996671175
+AL gLV_69 -> -2565.453992636328
+AL gLV_70 -> -2554.2582194276933
+AL gLV_71 -> -2562.2298563877266
+AL gLV_72 -> -2557.802628845376
+AL gLV_73 -> -2556.258924875428
+AL gLV_74 -> -2553.6480656038616
+AL gLV_75 -> -2551.928133606205
+AL gLV_76 -> -2552.814304438801
+AL gLV_77 -> -2567.1057488465735
+AL gLV_78 -> -2558.987750146351
+AL gLV_79 -> -2565.84468968685
+AL gLV_80 -> -2564.4342943039214
+AL gLV_81 -> -2555.8159416697904
+AL gLV_82 -> -2549.407009733324
+AL gLV_83 -> -2554.066446386443
+AL gLV_84 -> -2562.013451908181
+AL gLV_85 -> -2557.6007600234198
+AL gLV_86 -> -2548.5572518657054
+AL gLV_87 -> -2554.364403521989
+AL gLV_88 -> -2550.5215477151883
+AL gLV_89 -> -2572.332686496909
+AL gLV_90 -> -2562.6885886208825
+AL gLV_91 -> -2548.2107010504888
+AL gLV_92 -> -2557.5083354306444
+AL gLV_93 -> -2560.1076852044253
+AL gLV_94 -> -2547.1026246838937
+AL gLV_95 -> -2553.5823882414315
+AL gLV_96 -> -2550.7196539013808
+AL gLV_97 -> -2553.779110343908
+AL gLV_98 -> -2554.5485253896486
+AL gLV_99 -> -2556.0558108744494
+AL gLV_100 -> -2554.6809938312567
+AL gLV_101 -> -2550.2633035783706
+AL gLV_102 -> -2561.2675047058196
+AL gLV_103 -> -2552.137047797578
+AL gLV_104 -> -2549.9411837026937
+AL gLV_105 -> -2554.0912626586705
+AL gLV_106 -> -2565.9374086736148
+AL gLV_107 -> -2560.3528274011583
+AL gLV_108 -> -2559.9227862237476
+AL gLV_109 -> -2553.068009343188
+AL gLV_110 -> -2554.6943797786007
+AL gLV_111 -> -2562.840444562727
+AL gLV_112 -> -2560.719828006992
+AL gLV_113 -> -2554.4119956302807
+AL gLV_114 -> -2552.0551272238104
+AL gLV_115 -> -2575.987390962032
+AL gLV_116 -> -2562.832308204523
+AL gLV_117 -> -2561.414368303433
+AL gLV_118 -> -2549.2492269390095
+AL gLV_119 -> -2555.1801922380305
+AL gLV_120 -> -2558.0721507082653
+AL gLV_121 -> -2559.6039965917553
+AL gLV_122 -> -2560.3812732822093
+AL gLV_123 -> -2552.9519416071694
+AL gLV_124 -> -2555.7105510078923
+AL gLV_125 -> -2564.2626464976074
+AL gLV_126 -> -2557.651179431559
+AL gLV_127 -> -2555.668974505301
+AL gLV_128 -> -2557.998138471597
+AL gLV_129 -> -2562.5564602121867
+AL gLV_130 -> -2553.274612637212
+AL gLV_131 -> -2557.165833186682
+AL gLV_132 -> -2565.164410453667
+AL gLV_133 -> -2551.9890855541644
+AL gLV_134 -> -2558.8520716083463
+AL gLV_135 -> -2556.7135855494826
+AL gLV_136 -> -2553.8134442818478
+AL gLV_137 -> -2557.7987526123593
+AL gLV_138 -> -2555.293361849022
+AL gLV_139 -> -2551.6731046329414
+AL gLV_140 -> -2553.1120917334015
+AL gLV_141 -> -2556.862469723483
+AL gLV_142 -> -2559.9155450109565
+AL gLV_143 -> -2560.0833847636304
+AL gLV_144 -> -2557.232831203385
+AL gLV_145 -> -2556.2755783782673
+AL gLV_146 -> -2550.3960106415307
+AL gLV_147 -> -2563.7430022253698
+AL gLV_148 -> -2557.6707556542833
+AL gLV_149 -> -2549.136715889606
+AL gLV_150 -> -2555.689209672238
+AL gLV_151 -> -2558.4742814541437
+AL gLV_152 -> -2565.7226092256847
+AL gLV_153 -> -2561.2625618257507
+AL gLV_154 -> -2556.653464915197
+AL gLV_155 -> -2559.14411794775
+AL gLV_156 -> -2554.368206684877
+AL gLV_157 -> -2553.230240764999
+AL gLV_158 -> -2559.060950837999
+AL gLV_159 -> -2562.7461801946392
+AL gLV_160 -> -2565.9503989528357
+AL gLV_161 -> -2552.8597928862755
+AL gLV_162 -> -2551.928133606205
+AL gLV_163 -> -2556.734836797632
+AL gLV_164 -> -2559.063092471694
+AL gLV_165 -> -2567.351213381557
+AL gLV_166 -> -2555.611908771952
+AL gLV_167 -> -2562.0834925534955
+AL gLV_168 -> -2557.252211066599
+AL gLV_169 -> -2565.2933376229576
+AL gLV_170 -> -2563.9233000783165
+AL gLV_171 -> -2562.085131347707
+AL gLV_172 -> -2562.465445150666
+AL gLV_173 -> -2565.017807003199
+AL gLV_174 -> -2550.59240323476
+AL gLV_175 -> -2554.9431278307093
+AL gLV_176 -> -2565.601638134144
+AL gLV_177 -> -2566.944427436202
+AL gLV_178 -> -2566.745130177927
+AL gLV_179 -> -2551.96094352645
+AL gLV_180 -> -2558.657812815516
+AL gLV_181 -> -2549.6269098039106
+AL gLV_182 -> -2566.481479922801
+AL gLV_183 -> -2571.88979532679
+AL gLV_184 -> -2551.929806581716
+AL gLV_185 -> -2566.427132638108
+AL gLV_186 -> -2560.8606617361256
+AL gLV_187 -> -2562.3407979268477
+AL gLV_188 -> -2567.4434773320245
+AL gLV_189 -> -2569.9206696955616
+AL gLV_190 -> -2553.78758227685
+AL gLV_191 -> -2558.470207184443
+AL gLV_192 -> -2564.304047928785
+AL gLV_193 -> -2555.034463960745
+AL gLV_194 -> -2559.6047460229433
+AL gLV_195 -> -2565.8904282237895
+AL gLV_196 -> -2561.2964239096764
+AL gLV_197 -> -2559.3142189834184
+AL gLV_198 -> -2552.8597928862755
+AL gLV_199 -> -2551.928133606205
+AL gLV_200 -> -2554.6233000165057
+AL gLV_201 -> -2561.442275908439
+AL gLV_202 -> -2577.4531223318418
+AL gLV_203 -> -2553.949371566402
+AL gLV_204 -> -2552.0064995005014
+AL gLV_205 -> -2549.6453759294695
+AL gLV_206 -> -2559.4116104024342
+AL gLV_207 -> -2564.381029300083
+AL gLV_208 -> -2563.0894453815094
+AL gLV_209 -> -2565.925764080861
+AL gLV_210 -> -2561.313150577749
+AL gLV_211 -> -2567.935035323738
+AL gLV_212 -> -2560.95756983382
+AL gLV_213 -> -2547.0377221272515
+AL gLV_214 -> -2556.8949760130977
+AL gLV_215 -> -2551.4670667065425
+AL gLV_216 -> -2565.058485634077
+AL gLV_217 -> -2560.6608812978625
+AL gLV_218 -> -2560.3242928929826
+AL gLV_219 -> -2552.617607837607
+AL gLV_220 -> -2555.486882033546
+AL gLV_221 -> -2573.5161864830975
+AL gLV_222 -> -2564.7265564922645
+AL gLV_223 -> -2551.299366720706
+AL gLV_224 -> -2558.61529152041
+AL gLV_225 -> -2553.708476687196
+AL gLV_226 -> -2554.64788495918
+AL gLV_227 -> -2553.8851615990943
+AL gLV_228 -> -2560.361909252595
+AL gLV_229 -> -2565.351718444761
+AL gLV_230 -> -2562.1652589435066
+AL gLV_231 -> -2553.658301720986
+AL gLV_232 -> -2556.653464915197
+AL gLV_233 -> -2563.733016223595
+AL gLV_234 -> -2560.130907782417
+AL gLV_235 -> -2552.0179078849983
+AL gLV_236 -> -2561.5450526649433
+AL gLV_237 -> -2561.2964239096764
+AL gLV_238 -> -2559.3142189834184
+AL gLV_239 -> -2553.30297921406
+AL gLV_240 -> -2551.928133606205
+AL gLV_241 -> -2551.437707622495
+AL gLV_242 -> -2561.442275908439
+AL gLV_243 -> -2574.7051715652283
+AL gLV_244 -> -2559.7320815189655
+AL gLV_245 -> -2552.0064995005014
+AL gLV_246 -> -2560.8867640027115
+AL gLV_247 -> -2553.118713100835
+AL gLV_248 -> -2554.1187008021475
+AL gLV_249 -> -2552.958987893372
+AL gLV_250 -> -2560.7646843227562
+AL gLV_251 -> -2563.0894453815094
+AL gLV_252 -> -2557.8869550117647
+AddLatent -> -2544.6248673932155
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -2544.6248673932155 > -3360.6165324994868 (old best)
+--------------------------------------------------
+
+Iteration 2:
+
+AddLatent -> NONE
+AL gLV_253 -> -2551.876104350354
+AddLatent -> -2551.876104350354
+RL gLV_49 -> -2539.1224115613004
+RemoveLatent -> -2539.1224115613004
+IC of gLV_49 to (3) -> -2549.822422845772
+IncreaseCard -> -2549.822422845772
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Improves the score: -2539.1224115613004 > -2544.6248673932155 (old best)
+--------------------------------------------------
+
+Iteration 3:
+
+AddLatent -> NONE
+AL gLV_254 -> -2545.8436340004864
+AddLatent -> -2545.8436340004864
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Doesn't improve the score: -2545.8436340004864 <= -2539.1224115613004 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 1
+Test Log-Likelihood: -296.31057097214176
+Train BIC: -2946.5111878943017
+Time: 4064540 ms
+Iteration 0: -3377.47709557338
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_255 -> -2621.0113046416113
+AL gLV_256 -> -2625.654894953863
+AL gLV_257 -> -2614.859203070237
+AL gLV_258 -> -2616.0083864347766
+AL gLV_259 -> -2616.1015781704414
+AL gLV_260 -> -2608.9355020436974
+AL gLV_261 -> -2604.8172855491516
+AL gLV_262 -> -2615.50494112409
+AL gLV_263 -> -2617.4570527351366
+AL gLV_264 -> -2610.474536389303
+AL gLV_265 -> -2616.0090983661057
+AL gLV_266 -> -2607.1847128018967
+AL gLV_267 -> -2619.5091645891803
+AL gLV_268 -> -2610.8651847375477
+AL gLV_269 -> -2611.305341528723
+AL gLV_270 -> -2623.7010460251386
+AL gLV_271 -> -2620.2768740523748
+AL gLV_272 -> -2616.6300733486123
+AL gLV_273 -> -2612.4556037244556
+AL gLV_274 -> -2621.280528277049
+AL gLV_275 -> -2620.107214172991
+AL gLV_276 -> -2623.62050708774
+AL gLV_277 -> -2622.3061040455677
+AL gLV_278 -> -2624.3208866266987
+AL gLV_279 -> -2626.9416073619873
+AL gLV_280 -> -2622.508756809073
+AL gLV_281 -> -2619.905749800967
+AL gLV_282 -> -2627.0284346620047
+AL gLV_283 -> -2617.191514386061
+AL gLV_284 -> -2611.601039329008
+AL gLV_285 -> -2607.8253104069713
+AL gLV_286 -> -2613.929040349097
+AL gLV_287 -> -2607.956476735938
+AL gLV_288 -> -2612.4785830881247
+AL gLV_289 -> -2611.6505769821533
+AL gLV_290 -> -2625.2672367657615
+AL gLV_291 -> -2608.242684255892
+AL gLV_292 -> -2616.173777578416
+AL gLV_293 -> -2618.003448954268
+AL gLV_294 -> -2614.3363586878395
+AL gLV_295 -> -2617.218628584434
+AL gLV_296 -> -2621.8138894412273
+AL gLV_297 -> -2623.625474289852
+AL gLV_298 -> -2622.3061040455677
+AL gLV_299 -> -2613.101434266851
+AL gLV_300 -> -2612.814672264849
+AL gLV_301 -> -2609.8642780676014
+AL gLV_302 -> -2614.4719886571283
+AL gLV_303 -> -2607.7829099098217
+AL gLV_304 -> -2612.4813681111978
+AL gLV_305 -> -2605.439128113843
+AL gLV_306 -> -2618.244457393666
+AL gLV_307 -> -2620.199061113863
+AL gLV_308 -> -2611.601039329008
+AL gLV_309 -> -2614.1594236878977
+AL gLV_310 -> -2617.870031814899
+AL gLV_311 -> -2614.828292567439
+AL gLV_312 -> -2623.868189617889
+AL gLV_313 -> -2627.1894747856527
+AL gLV_314 -> -2618.7512304059646
+AL gLV_315 -> -2623.5488139181593
+AL gLV_316 -> -2615.9291306433815
+AL gLV_317 -> -2632.0650514337062
+AL gLV_318 -> -2611.027469694016
+AL gLV_319 -> -2612.6739434947935
+AL gLV_320 -> -2614.085891991733
+AL gLV_321 -> -2623.33724973957
+AL gLV_322 -> -2618.5272813521974
+AL gLV_323 -> -2627.1385861429444
+AL gLV_324 -> -2622.2614437459115
+AL gLV_325 -> -2622.327861987408
+AL gLV_326 -> -2619.885263033224
+AL gLV_327 -> -2621.517371385387
+AL gLV_328 -> -2620.795658355115
+AL gLV_329 -> -2611.6505769821533
+AL gLV_330 -> -2613.2970507829305
+AL gLV_331 -> -2622.2511509184023
+AL gLV_332 -> -2630.84352282679
+AL gLV_333 -> -2614.829141908565
+AL gLV_334 -> -2620.549708081454
+AL gLV_335 -> -2621.3986751183284
+AL gLV_336 -> -2625.514318551137
+AL gLV_337 -> -2614.7844231090144
+AL gLV_338 -> -2611.590294497413
+AL gLV_339 -> -2617.8103949481406
+AL gLV_340 -> -2624.1332176660385
+AL gLV_341 -> -2617.355155352016
+AL gLV_342 -> -2615.639853333573
+AL gLV_343 -> -2609.3890230223606
+AL gLV_344 -> -2618.6679202360515
+AL gLV_345 -> -2631.4420376862463
+AL gLV_346 -> -2613.850049463132
+AL gLV_347 -> -2616.2698064469378
+AL gLV_348 -> -2609.4917940295563
+AL gLV_349 -> -2612.1273422983045
+AL gLV_350 -> -2609.700398122378
+AL gLV_351 -> -2613.802322180259
+AL gLV_352 -> -2613.3469816035763
+AL gLV_353 -> -2616.573057720506
+AL gLV_354 -> -2615.1101226682845
+AL gLV_355 -> -2617.0101801775186
+AL gLV_356 -> -2611.2478897658348
+AL gLV_357 -> -2612.723874315439
+AL gLV_358 -> -2613.3469816035763
+AL gLV_359 -> -2613.2133458136377
+AL gLV_360 -> -2612.4824481540036
+AL gLV_361 -> -2616.13532764266
+AL gLV_362 -> -2615.4400116734005
+AL gLV_363 -> -2615.670487958296
+AL gLV_364 -> -2623.003848903091
+AL gLV_365 -> -2617.313584409099
+AL gLV_366 -> -2615.7092278052573
+AL gLV_367 -> -2616.953304990078
+AL gLV_368 -> -2614.8234445255157
+AL gLV_369 -> -2620.641398120604
+AL gLV_370 -> -2621.007184700704
+AL gLV_371 -> -2615.348476595397
+AL gLV_372 -> -2619.739133585899
+AL gLV_373 -> -2612.452517765505
+AL gLV_374 -> -2621.2645755429876
+AL gLV_375 -> -2617.036624484607
+AL gLV_376 -> -2619.916034545755
+AL gLV_377 -> -2610.629757314626
+AL gLV_378 -> -2615.2531385988777
+AL gLV_379 -> -2609.9236492961863
+AL gLV_380 -> -2619.495821774658
+AL gLV_381 -> -2622.117572383996
+AL gLV_382 -> -2622.97874898685
+AL gLV_383 -> -2611.6505769821533
+AL gLV_384 -> -2613.783938635531
+AL gLV_385 -> -2618.000294455727
+AL gLV_386 -> -2619.238118258565
+AL gLV_387 -> -2625.6102731919923
+AL gLV_388 -> -2611.6398321505585
+AL gLV_389 -> -2616.1871186798317
+AL gLV_390 -> -2612.875338319466
+AL gLV_391 -> -2610.94471912274
+AL gLV_392 -> -2617.019905223991
+AL gLV_393 -> -2620.2567280609214
+AL gLV_394 -> -2609.989847795895
+AL gLV_395 -> -2613.939232353439
+AL gLV_396 -> -2620.6552005690855
+AL gLV_397 -> -2627.399837981808
+AL gLV_398 -> -2630.554393864249
+AL gLV_399 -> -2611.6505769821533
+AL gLV_400 -> -2613.2970507829305
+AL gLV_401 -> -2608.1588925950755
+AL gLV_402 -> -2628.8066316746813
+AL gLV_403 -> -2626.450381003637
+AL gLV_404 -> -2616.480488379667
+AL gLV_405 -> -2613.8338694561767
+AL gLV_406 -> -2613.9290316888932
+AL gLV_407 -> -2616.152405786619
+AL gLV_408 -> -2614.7109760149856
+AL gLV_409 -> -2615.479170854776
+AL gLV_410 -> -2620.0373651713007
+AL gLV_411 -> -2623.695276620859
+AL gLV_412 -> -2624.9076718784368
+AL gLV_413 -> -2619.976592750843
+AL gLV_414 -> -2621.6306845313957
+AL gLV_415 -> -2630.8427203390947
+AL gLV_416 -> -2611.6505769821533
+AL gLV_417 -> -2613.783938635531
+AL gLV_418 -> -2611.3810930038508
+AL gLV_419 -> -2623.4193408295605
+AL gLV_420 -> -2627.6370297976628
+AL gLV_421 -> -2612.6244996215673
+AL gLV_422 -> -2626.4644728072126
+AL gLV_423 -> -2613.9290316888932
+AL gLV_424 -> -2621.447969167905
+AL gLV_425 -> -2621.7041824746984
+AL gLV_426 -> -2624.1336833770274
+AL gLV_427 -> -2611.594093842086
+AL gLV_428 -> -2610.072189477254
+AL gLV_429 -> -2614.53854431376
+AL gLV_430 -> -2619.0182754485863
+AL gLV_431 -> -2612.4135513362735
+AL gLV_432 -> -2619.4203865904683
+AL gLV_433 -> -2622.6089156919215
+AL gLV_434 -> -2612.571153807427
+AL gLV_435 -> -2616.604864596293
+AL gLV_436 -> -2609.1854019016646
+AL gLV_437 -> -2614.177988222639
+AL gLV_438 -> -2624.8239699986757
+AL gLV_439 -> -2612.8816296897753
+AL gLV_440 -> -2617.7077371864875
+AL gLV_441 -> -2613.977561539115
+AL gLV_442 -> -2616.835310779913
+AL gLV_443 -> -2615.7351846246283
+AL gLV_444 -> -2616.241582542568
+AL gLV_445 -> -2613.8201964404884
+AL gLV_446 -> -2620.3833493500365
+AL gLV_447 -> -2618.763842561012
+AL gLV_448 -> -2624.8822401153884
+AL gLV_449 -> -2620.9763783124804
+AL gLV_450 -> -2621.6173590647254
+AL gLV_451 -> -2614.6447535969205
+AL gLV_452 -> -2620.853768599528
+AL gLV_453 -> -2611.601039329008
+AL gLV_454 -> -2612.5908130763537
+AL gLV_455 -> -2611.858383941127
+AL gLV_456 -> -2619.8035867340827
+AL gLV_457 -> -2618.3244575052827
+AL gLV_458 -> -2621.930038430286
+AL gLV_459 -> -2612.618331451294
+AL gLV_460 -> -2614.0232734842366
+AL gLV_461 -> -2613.2677464337976
+AL gLV_462 -> -2616.703314598581
+AL gLV_463 -> -2615.336375103893
+AL gLV_464 -> -2621.6334469963144
+AL gLV_465 -> -2618.4279124571112
+AL gLV_466 -> -2616.461263134507
+AL gLV_467 -> -2621.0590117165975
+AL gLV_468 -> -2621.465016774281
+AL gLV_469 -> -2615.000677381014
+AL gLV_470 -> -2615.149730459989
+AL gLV_471 -> -2626.8406431457574
+AL gLV_472 -> -2613.2702678453484
+AL gLV_473 -> -2621.1318106017443
+AL gLV_474 -> -2611.3491035151815
+AL gLV_475 -> -2621.5033773571467
+AL gLV_476 -> -2635.5204442103245
+AL gLV_477 -> -2613.4801621893416
+AL gLV_478 -> -2610.3319156855364
+AL gLV_479 -> -2621.6494333697947
+AL gLV_480 -> -2614.163150728197
+AL gLV_481 -> -2630.5259854206115
+AL gLV_482 -> -2619.1703052640437
+AL gLV_483 -> -2621.5824340075173
+AL gLV_484 -> -2624.363471575473
+AL gLV_485 -> -2620.524460459935
+AL gLV_486 -> -2613.2793651245534
+AL gLV_487 -> -2614.9881059571912
+AL gLV_488 -> -2618.003448954268
+AL gLV_489 -> -2614.0376879261094
+AL gLV_490 -> -2611.684432927847
+AL gLV_491 -> -2622.309840370587
+AL gLV_492 -> -2621.6306845313957
+AL gLV_493 -> -2621.6270479478694
+AL gLV_494 -> -2611.601039329008
+AL gLV_495 -> -2613.2970507829305
+AL gLV_496 -> -2608.772871117513
+AL gLV_497 -> -2618.7512304059646
+AL gLV_498 -> -2623.897531312247
+AL gLV_499 -> -2615.209996313436
+AL gLV_500 -> -2613.3469816035763
+AL gLV_501 -> -2616.2834048158065
+AL gLV_502 -> -2623.381563765408
+AL gLV_503 -> -2617.5482090754963
+AL gLV_504 -> -2613.509027516197
+AL gLV_505 -> -2615.7351846246283
+AL gLV_506 -> -2615.336375103893
+AL gLV_507 -> -2622.3724672751587
+AddLatent -> -2604.8172855491516
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -2604.8172855491516 > -3377.47709557338 (old best)
+--------------------------------------------------
+
+Iteration 2:
+
+AddLatent -> NONE
+
+AddLatent -> NONE
+RL gLV_261 -> -2599.447844798514
+RemoveLatent -> -2599.447844798514
+IC of gLV_261 to (3) -> -2610.4812122181233
+IncreaseCard -> -2610.4812122181233
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Improves the score: -2599.447844798514 > -2604.8172855491516 (old best)
+--------------------------------------------------
+
+Iteration 3:
+
+AddLatent -> NONE
+
+AddLatent -> NONE
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: no_operator
+Doesn't improve the score: -1.7976931348623157E308 <= -2599.447844798514 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 2
+Test Log-Likelihood: -239.59871002543625
+Train BIC: -3068.8974292123626
+Time: 4158248 ms
+Iteration 0: -3401.3766126672376
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_508 -> -2668.144350553653
+AL gLV_509 -> -2648.007136217329
+AL gLV_510 -> -2656.887254038069
+AL gLV_511 -> -2644.4477281323934
+AL gLV_512 -> -2656.6469368294597
+AL gLV_513 -> -2649.44157045288
+AL gLV_514 -> -2639.2777209295646
+AL gLV_515 -> -2656.8039212577023
+AL gLV_516 -> -2642.215259931068
+AL gLV_517 -> -2647.856366328982
+AL gLV_518 -> -2661.8753259771993
+AL gLV_519 -> -2649.799652716917
+AL gLV_520 -> -2658.638754268932
+AL gLV_521 -> -2655.910447473971
+AL gLV_522 -> -2657.6189240918493
+AL gLV_523 -> -2653.2105174334442
+AL gLV_524 -> -2664.2764028238644
+AL gLV_525 -> -2647.919857616743
+AL gLV_526 -> -2659.232161463941
+AL gLV_527 -> -2647.709694794942
+AL gLV_528 -> -2648.0085003453423
+AL gLV_529 -> -2654.0042173944726
+AL gLV_530 -> -2670.8592827902135
+AL gLV_531 -> -2655.3646104573822
+AL gLV_532 -> -2659.1536805358573
+AL gLV_533 -> -2653.844682761654
+AL gLV_534 -> -2667.5010708042387
+AL gLV_535 -> -2658.5233723419647
+AL gLV_536 -> -2643.6807842135236
+AL gLV_537 -> -2646.730287047294
+AL gLV_538 -> -2646.8680175788904
+AL gLV_539 -> -2653.007968839549
+AL gLV_540 -> -2644.0080311861097
+AL gLV_541 -> -2655.814468650686
+AL gLV_542 -> -2645.44927681594
+AL gLV_543 -> -2663.7693539055267
+AL gLV_544 -> -2647.1081381940858
+AL gLV_545 -> -2659.905120607295
+AL gLV_546 -> -2647.5862236678067
+AL gLV_547 -> -2654.138131987223
+AL gLV_548 -> -2655.9044061007476
+AL gLV_549 -> -2657.909728510851
+AL gLV_550 -> -2663.417217886895
+AL gLV_551 -> -2659.1536805358573
+AL gLV_552 -> -2650.6957891146562
+AL gLV_553 -> -2654.4294242195433
+AL gLV_554 -> -2647.5480971063394
+AL gLV_555 -> -2660.2759217540192
+AL gLV_556 -> -2647.485103816873
+AL gLV_557 -> -2649.604085842969
+AL gLV_558 -> -2643.568939335953
+AL gLV_559 -> -2655.576011994816
+AL gLV_560 -> -2678.084343535411
+AL gLV_561 -> -2647.427554952313
+AL gLV_562 -> -2647.8977079645438
+AL gLV_563 -> -2655.1478714915647
+AL gLV_564 -> -2659.352139356129
+AL gLV_565 -> -2659.7348504360316
+AL gLV_566 -> -2660.130649806689
+AL gLV_567 -> -2652.938773380485
+AL gLV_568 -> -2655.2720719787403
+AL gLV_569 -> -2655.4886214613193
+AL gLV_570 -> -2657.1425923118204
+AL gLV_571 -> -2649.0933713105737
+AL gLV_572 -> -2650.2155884947415
+AL gLV_573 -> -2650.3039163949943
+AL gLV_574 -> -2650.133460191191
+AL gLV_575 -> -2656.6469368294597
+AL gLV_576 -> -2648.2731592789396
+AL gLV_577 -> -2649.746874615263
+AL gLV_578 -> -2653.5979266850873
+AL gLV_579 -> -2665.78890070105
+AL gLV_580 -> -2650.053391876391
+AL gLV_581 -> -2660.2270810071345
+AL gLV_582 -> -2656.130155160242
+AL gLV_583 -> -2650.2155884947415
+AL gLV_584 -> -2656.097931793899
+AL gLV_585 -> -2655.456583310053
+AL gLV_586 -> -2640.4286880548334
+AL gLV_587 -> -2660.4322382206874
+AL gLV_588 -> -2657.9981181133976
+AL gLV_589 -> -2656.393483510259
+AL gLV_590 -> -2643.948493147419
+AL gLV_591 -> -2649.0906247381063
+AL gLV_592 -> -2658.838930123755
+AL gLV_593 -> -2657.1861228189955
+AL gLV_594 -> -2653.4781166278153
+AL gLV_595 -> -2648.701821621208
+AL gLV_596 -> -2647.453633999205
+AL gLV_597 -> -2655.334143161016
+AL gLV_598 -> -2649.0906247381063
+AL gLV_599 -> -2647.140845271168
+AL gLV_600 -> -2647.9031023378216
+AL gLV_601 -> -2647.248473205199
+AL gLV_602 -> -2644.1082664429578
+AL gLV_603 -> -2646.378433447769
+AL gLV_604 -> -2657.0570873287675
+AL gLV_605 -> -2646.6597575037576
+AL gLV_606 -> -2655.47927510792
+AL gLV_607 -> -2652.302446576629
+AL gLV_608 -> -2650.9489233016284
+AL gLV_609 -> -2648.6478147671487
+AL gLV_610 -> -2650.487189836209
+AL gLV_611 -> -2650.487189836209
+AL gLV_612 -> -2652.524074454406
+AL gLV_613 -> -2664.5387952332153
+AL gLV_614 -> -2663.757011330111
+AL gLV_615 -> -2648.7441091174674
+AL gLV_616 -> -2654.0379502916103
+AL gLV_617 -> -2651.1625381364775
+AL gLV_618 -> -2659.3910628488293
+AL gLV_619 -> -2654.3507057813144
+AL gLV_620 -> -2660.4476656703196
+AL gLV_621 -> -2657.8024914552625
+AL gLV_622 -> -2653.3662313203386
+AL gLV_623 -> -2654.0995373071005
+AL gLV_624 -> -2659.534759055602
+AL gLV_625 -> -2655.446576786456
+AL gLV_626 -> -2648.9419034190405
+AL gLV_627 -> -2651.2115797752726
+AL gLV_628 -> -2649.683555186089
+AL gLV_629 -> -2659.248076387022
+AL gLV_630 -> -2650.349705212178
+AL gLV_631 -> -2653.9409395424495
+AL gLV_632 -> -2652.319001273755
+AL gLV_633 -> -2658.1185545009325
+AL gLV_634 -> -2653.969908046925
+AL gLV_635 -> -2658.3898252063555
+AL gLV_636 -> -2649.4813768105914
+AL gLV_637 -> -2650.2155884947415
+AL gLV_638 -> -2664.6714860256684
+AL gLV_639 -> -2648.9191582547915
+AL gLV_640 -> -2663.101182577078
+AL gLV_641 -> -2656.305205985571
+AL gLV_642 -> -2650.27007743362
+AL gLV_643 -> -2651.5268371458596
+AL gLV_644 -> -2651.4873145110655
+AL gLV_645 -> -2656.271677433188
+AL gLV_646 -> -2651.0381481850204
+AL gLV_647 -> -2649.6934930867706
+AL gLV_648 -> -2650.383966991102
+AL gLV_649 -> -2655.760042805787
+AL gLV_650 -> -2649.9733226876524
+AL gLV_651 -> -2660.737151385431
+AL gLV_652 -> -2649.1247182004577
+AL gLV_653 -> -2650.347144008748
+AL gLV_654 -> -2650.2070775532734
+AL gLV_655 -> -2652.9611837849475
+AL gLV_656 -> -2653.8378153828007
+AL gLV_657 -> -2649.610948020275
+AL gLV_658 -> -2645.6135975346497
+AL gLV_659 -> -2650.828978393904
+AL gLV_660 -> -2657.292567960829
+AL gLV_661 -> -2651.130075864956
+AL gLV_662 -> -2654.9581011746495
+AL gLV_663 -> -2656.393997531257
+AL gLV_664 -> -2649.0413755099335
+AL gLV_665 -> -2646.4684557168293
+AL gLV_666 -> -2659.9045818064005
+AL gLV_667 -> -2652.661290697965
+AL gLV_668 -> -2663.4406623382865
+AL gLV_669 -> -2649.0933713105737
+AL gLV_670 -> -2650.2155884947415
+AL gLV_671 -> -2658.471744779447
+AL gLV_672 -> -2658.2328306072027
+AL gLV_673 -> -2658.0857115084564
+AL gLV_674 -> -2646.2955209785173
+AL gLV_675 -> -2660.8137157742567
+AL gLV_676 -> -2651.1318567775375
+AL gLV_677 -> -2655.1551617601963
+AL gLV_678 -> -2647.691292357691
+AL gLV_679 -> -2649.6495618685335
+AL gLV_680 -> -2660.1186486334777
+AL gLV_681 -> -2652.8433568188357
+AL gLV_682 -> -2649.182299950108
+AL gLV_683 -> -2652.7342196606096
+AL gLV_684 -> -2647.6480877875692
+AL gLV_685 -> -2648.8035160536283
+AL gLV_686 -> -2659.1536805358573
+AL gLV_687 -> -2649.0933713105737
+AL gLV_688 -> -2649.0044140269674
+AL gLV_689 -> -2643.1895267254204
+AL gLV_690 -> -2651.2289440606805
+AL gLV_691 -> -2663.7886201692654
+AL gLV_692 -> -2649.0906247381063
+AL gLV_693 -> -2658.7476757937616
+AL gLV_694 -> -2660.418760192574
+AL gLV_695 -> -2658.634454631596
+AL gLV_696 -> -2656.4441771234633
+AL gLV_697 -> -2655.486457348234
+AL gLV_698 -> -2658.535413270629
+AL gLV_699 -> -2664.9903047472085
+AL gLV_700 -> -2660.014599161347
+AL gLV_701 -> -2657.6713585423763
+AL gLV_702 -> -2661.1019294248617
+AL gLV_703 -> -2664.9695085075205
+AL gLV_704 -> -2655.8775311097393
+AL gLV_705 -> -2666.534133002975
+AL gLV_706 -> -2661.514972421756
+AL gLV_707 -> -2653.163735547816
+AL gLV_708 -> -2653.3434968894944
+AL gLV_709 -> -2655.4872029650255
+AL gLV_710 -> -2669.2913110142213
+AL gLV_711 -> -2661.5426747296583
+AL gLV_712 -> -2658.055363637373
+AL gLV_713 -> -2655.4237155784417
+AL gLV_714 -> -2651.681254055079
+AL gLV_715 -> -2659.8829823773017
+AL gLV_716 -> -2659.881976182247
+AL gLV_717 -> -2664.0204085136656
+AL gLV_718 -> -2646.0823803939293
+AL gLV_719 -> -2656.6469368294597
+AL gLV_720 -> -2653.69412493482
+AL gLV_721 -> -2657.7102470086033
+AL gLV_722 -> -2656.0866224827364
+AL gLV_723 -> -2650.929950013288
+AL gLV_724 -> -2668.2475450207053
+AL gLV_725 -> -2668.5618906877517
+AL gLV_726 -> -2659.3909071373346
+AL gLV_727 -> -2650.2155884947415
+AL gLV_728 -> -2660.6948570509976
+AL gLV_729 -> -2660.5084433349643
+AL gLV_730 -> -2658.535860181513
+AL gLV_731 -> -2648.339644313106
+AL gLV_732 -> -2654.1221750265872
+AL gLV_733 -> -2657.9807563603154
+AL gLV_734 -> -2653.955426356205
+AL gLV_735 -> -2653.50087324074
+AL gLV_736 -> -2663.557086433356
+AL gLV_737 -> -2655.8949333463875
+AL gLV_738 -> -2667.554866065084
+AL gLV_739 -> -2647.1081381940858
+AL gLV_740 -> -2656.6469368294597
+AL gLV_741 -> -2647.5862236678067
+AL gLV_742 -> -2649.182299950108
+AL gLV_743 -> -2650.136205804803
+AL gLV_744 -> -2666.00377304136
+AL gLV_745 -> -2653.969908046925
+AL gLV_746 -> -2659.1536805358573
+AL gLV_747 -> -2649.0933713105737
+AL gLV_748 -> -2650.2155884947415
+AL gLV_749 -> -2652.536066011884
+AL gLV_750 -> -2653.957205042295
+AL gLV_751 -> -2664.158608380306
+AL gLV_752 -> -2659.2404268783775
+AL gLV_753 -> -2650.487189836209
+AL gLV_754 -> -2652.4429777817563
+AL gLV_755 -> -2657.099544836146
+AL gLV_756 -> -2655.753760257092
+AL gLV_757 -> -2655.415684239618
+AL gLV_758 -> -2657.592707843582
+AL gLV_759 -> -2659.6934130299037
+AL gLV_760 -> -2663.9726176050226
+AddLatent -> -2639.2777209295646
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -2639.2777209295646 > -3401.3766126672376 (old best)
+--------------------------------------------------
+
+Iteration 2:
+
+AddLatent -> NONE
+
+AddLatent -> NONE
+RL gLV_514 -> -2633.552754647376
+RemoveLatent -> -2633.552754647376
+IC of gLV_514 to (3) -> -2644.6681719515054
+IncreaseCard -> -2644.6681719515054
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Improves the score: -2633.552754647376 > -2639.2777209295646 (old best)
+--------------------------------------------------
+
+Iteration 3:
+
+AddLatent -> NONE
+
+AddLatent -> NONE
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: no_operator
+Doesn't improve the score: -1.7976931348623157E308 <= -2633.552754647376 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 3
+Test Log-Likelihood: -211.20540535672544
+Train BIC: -3036.6029258551675
+Time: 3730022 ms
+Iteration 0: -3329.6829786416874
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_761 -> -2548.4703912909454
+AL gLV_762 -> -2537.718028827321
+AL gLV_763 -> -2540.2050756953913
+AL gLV_764 -> -2540.8902319121266
+AL gLV_765 -> -2541.536580474883
+AL gLV_766 -> -2543.7916067278043
+AL gLV_767 -> -2535.9640809596212
+AL gLV_768 -> -2547.534194244002
+AL gLV_769 -> -2532.2510583075405
+AL gLV_770 -> -2538.053266598146
+AL gLV_771 -> -2544.6794313932282
+AL gLV_772 -> -2538.071820559245
+AL gLV_773 -> -2542.2923165699945
+AL gLV_774 -> -2544.99411963695
+AL gLV_775 -> -2547.7939018084057
+AL gLV_776 -> -2541.5037145361166
+AL gLV_777 -> -2546.389648943312
+AL gLV_778 -> -2537.5670196979872
+AL gLV_779 -> -2547.360687845251
+AL gLV_780 -> -2550.7429575492615
+AL gLV_781 -> -2539.057980745187
+AL gLV_782 -> -2543.6511858513554
+AL gLV_783 -> -2551.015276065881
+AL gLV_784 -> -2544.3621054933838
+AL gLV_785 -> -2548.044002802013
+AL gLV_786 -> -2540.904441834157
+AL gLV_787 -> -2552.5796378566256
+AL gLV_788 -> -2547.0597700006692
+AL gLV_789 -> -2547.8432629721424
+AL gLV_790 -> -2536.0463279444457
+AL gLV_791 -> -2540.6885757744944
+AL gLV_792 -> -2541.202762640365
+AL gLV_793 -> -2535.9060294293586
+AL gLV_794 -> -2547.3538390492754
+AL gLV_795 -> -2535.8496941755343
+AL gLV_796 -> -2555.520051423389
+AL gLV_797 -> -2543.5078576433507
+AL gLV_798 -> -2545.999043712168
+AL gLV_799 -> -2540.2901160740494
+AL gLV_800 -> -2538.1953359324602
+AL gLV_801 -> -2549.440788837396
+AL gLV_802 -> -2549.2224408525653
+AL gLV_803 -> -2550.5600936433675
+AL gLV_804 -> -2548.8563201761576
+AL gLV_805 -> -2537.737381230697
+AL gLV_806 -> -2543.1279214872015
+AL gLV_807 -> -2536.7936739222996
+AL gLV_808 -> -2537.310123775274
+AL gLV_809 -> -2539.4005459372693
+AL gLV_810 -> -2544.279623978323
+AL gLV_811 -> -2534.65136377213
+AL gLV_812 -> -2552.0262078049204
+AL gLV_813 -> -2542.853325871058
+AL gLV_814 -> -2537.682512362351
+AL gLV_815 -> -2536.950433650237
+AL gLV_816 -> -2548.133670912364
+AL gLV_817 -> -2550.5991005497635
+AL gLV_818 -> -2533.099439601074
+AL gLV_819 -> -2536.283606018981
+AL gLV_820 -> -2549.7906648212165
+AL gLV_821 -> -2552.861743247304
+AL gLV_822 -> -2534.9315714046065
+AL gLV_823 -> -2530.7580177164846
+AL gLV_824 -> -2537.682512362351
+AL gLV_825 -> -2543.7148835571757
+AL gLV_826 -> -2537.9118147350077
+AL gLV_827 -> -2535.5731094536586
+AL gLV_828 -> -2535.5478867310458
+AL gLV_829 -> -2535.411092988339
+AL gLV_830 -> -2544.425890168188
+AL gLV_831 -> -2535.3868075971723
+AL gLV_832 -> -2544.9629967478254
+AL gLV_833 -> -2541.655482771466
+AL gLV_834 -> -2536.3985413938385
+AL gLV_835 -> -2545.89277927981
+AL gLV_836 -> -2532.5751143398984
+AL gLV_837 -> -2540.0265398618385
+AL gLV_838 -> -2542.6108406723206
+AL gLV_839 -> -2532.430266234186
+AL gLV_840 -> -2544.519346102338
+AL gLV_841 -> -2543.7491975030753
+AL gLV_842 -> -2556.4695501081687
+AL gLV_843 -> -2535.9143245470805
+AL gLV_844 -> -2537.6214461360596
+AL gLV_845 -> -2542.3477170229203
+AL gLV_846 -> -2546.499048634693
+AL gLV_847 -> -2537.6688233992963
+AL gLV_848 -> -2540.9381334406016
+AL gLV_849 -> -2535.9131985668537
+AL gLV_850 -> -2546.069589181714
+AL gLV_851 -> -2536.3692626371367
+AL gLV_852 -> -2543.992744562072
+AL gLV_853 -> -2544.150821078538
+AL gLV_854 -> -2541.7527931036184
+AL gLV_855 -> -2534.6291751283834
+AL gLV_856 -> -2542.269475285643
+AL gLV_857 -> -2546.308195483964
+AL gLV_858 -> -2543.255548619542
+AL gLV_859 -> -2545.2807361099244
+AL gLV_860 -> -2542.1001289933847
+AL gLV_861 -> -2549.2648675349155
+AL gLV_862 -> -2551.0831661194175
+AL gLV_863 -> -2545.2807361099244
+AL gLV_864 -> -2545.2807361099244
+AL gLV_865 -> -2547.2413165228772
+AL gLV_866 -> -2540.6752055454035
+AL gLV_867 -> -2546.7461644805358
+AL gLV_868 -> -2530.0700927220687
+AL gLV_869 -> -2539.757549393753
+AL gLV_870 -> -2538.6087125031445
+AL gLV_871 -> -2543.8780944308496
+AL gLV_872 -> -2540.435268283372
+AL gLV_873 -> -2545.5065951383494
+AL gLV_874 -> -2548.380344200615
+AL gLV_875 -> -2542.692863045233
+AL gLV_876 -> -2540.5464921729626
+AL gLV_877 -> -2552.1267522236976
+AL gLV_878 -> -2541.0549610654757
+AL gLV_879 -> -2535.4718876000684
+AL gLV_880 -> -2543.8430984422735
+AL gLV_881 -> -2552.0827550963695
+AL gLV_882 -> -2541.0085092988506
+AL gLV_883 -> -2537.1907701259274
+AL gLV_884 -> -2543.638491842278
+AL gLV_885 -> -2543.626301035629
+AL gLV_886 -> -2544.481421109974
+AL gLV_887 -> -2544.3928283711116
+AL gLV_888 -> -2545.3973335355404
+AL gLV_889 -> -2534.6370398486224
+AL gLV_890 -> -2546.9471081391594
+AL gLV_891 -> -2542.989491192764
+AL gLV_892 -> -2545.5239576106187
+AL gLV_893 -> -2543.4360228303476
+AL gLV_894 -> -2533.6377735977935
+AL gLV_895 -> -2543.2120151391273
+AL gLV_896 -> -2541.098942835597
+AL gLV_897 -> -2536.9313577321486
+AL gLV_898 -> -2546.3464972444053
+AL gLV_899 -> -2535.9971182726836
+AL gLV_900 -> -2536.499818482672
+AL gLV_901 -> -2545.5449072534743
+AL gLV_902 -> -2544.3622184039077
+AL gLV_903 -> -2540.413423716436
+AL gLV_904 -> -2546.1135640631915
+AL gLV_905 -> -2537.8916634550724
+AL gLV_906 -> -2537.115065610063
+AL gLV_907 -> -2532.39211599988
+AL gLV_908 -> -2539.3433460620704
+AL gLV_909 -> -2539.2927587868576
+AL gLV_910 -> -2539.1135271472485
+AL gLV_911 -> -2545.292515319932
+AL gLV_912 -> -2537.739089314432
+AL gLV_913 -> -2548.3808483172083
+AL gLV_914 -> -2535.4087738993094
+AL gLV_915 -> -2545.999043712168
+AL gLV_916 -> -2534.138449061431
+AL gLV_917 -> -2539.9268915179855
+AL gLV_918 -> -2535.952332585985
+AL gLV_919 -> -2545.3404113989054
+AL gLV_920 -> -2540.6468918812907
+AL gLV_921 -> -2533.5618766037464
+AL gLV_922 -> -2537.682512362351
+AL gLV_923 -> -2543.7148835571757
+AL gLV_924 -> -2547.5388856067516
+AL gLV_925 -> -2546.122631523183
+AL gLV_926 -> -2543.638115365657
+AL gLV_927 -> -2529.5022522454083
+AL gLV_928 -> -2547.7036258998037
+AL gLV_929 -> -2544.1561749412062
+AL gLV_930 -> -2540.8289885483555
+AL gLV_931 -> -2533.3575412223677
+AL gLV_932 -> -2545.9623930678786
+AL gLV_933 -> -2550.2215800287577
+AL gLV_934 -> -2545.6532247818373
+AL gLV_935 -> -2536.283606018981
+AL gLV_936 -> -2539.3356887775626
+AL gLV_937 -> -2543.6075907452077
+AL gLV_938 -> -2547.2900258711993
+AL gLV_939 -> -2548.8563201761576
+AL gLV_940 -> -2537.682512362351
+AL gLV_941 -> -2543.6903530213153
+AL gLV_942 -> -2540.5442808286625
+AL gLV_943 -> -2540.2570097727357
+AL gLV_944 -> -2542.8258738281306
+AL gLV_945 -> -2534.0683243691287
+AL gLV_946 -> -2549.914330528723
+AL gLV_947 -> -2538.2942909444077
+AL gLV_948 -> -2545.772470013593
+AL gLV_949 -> -2542.493450198119
+AL gLV_950 -> -2557.3205990855286
+AL gLV_951 -> -2549.479392090874
+AL gLV_952 -> -2550.8793909811743
+AL gLV_953 -> -2546.699878100344
+AL gLV_954 -> -2544.4320262200195
+AL gLV_955 -> -2545.417078526216
+AL gLV_956 -> -2553.1493290447756
+AL gLV_957 -> -2559.024062218014
+AL gLV_958 -> -2549.671421665398
+AL gLV_959 -> -2545.7478869523306
+AL gLV_960 -> -2551.36236017853
+AL gLV_961 -> -2546.8694778015424
+AL gLV_962 -> -2551.135809521751
+AL gLV_963 -> -2547.382002462611
+AL gLV_964 -> -2521.4847835798323
+AL gLV_965 -> -2550.324471000287
+AL gLV_966 -> -2550.7192794563675
+AL gLV_967 -> -2552.682951086971
+AL gLV_968 -> -2549.826007361905
+AL gLV_969 -> -2549.4115723991767
+AL gLV_970 -> -2552.381749432883
+AL gLV_971 -> -2552.3962304563574
+AL gLV_972 -> -2547.0644519285324
+AL gLV_973 -> -2543.6124749633896
+AL gLV_974 -> -2539.1577987500737
+AL gLV_975 -> -2541.8881933861812
+AL gLV_976 -> -2541.52030364722
+AL gLV_977 -> -2554.4009726618388
+AL gLV_978 -> -2549.2958576973206
+AL gLV_979 -> -2538.4422572651656
+AL gLV_980 -> -2551.1472631879305
+AL gLV_981 -> -2540.4509148126563
+AL gLV_982 -> -2544.0188904989577
+AL gLV_983 -> -2548.722257563858
+AL gLV_984 -> -2536.2316470828837
+AL gLV_985 -> -2550.9692299135395
+AL gLV_986 -> -2539.7801751293664
+AL gLV_987 -> -2542.5421200458727
+AL gLV_988 -> -2537.891169761264
+AL gLV_989 -> -2540.830084865594
+AL gLV_990 -> -2550.0082513407465
+AL gLV_991 -> -2545.5187067475313
+AL gLV_992 -> -2537.0847125699715
+AL gLV_993 -> -2545.999043712168
+AL gLV_994 -> -2540.2901160740494
+AL gLV_995 -> -2541.3057023144165
+AL gLV_996 -> -2545.533128043467
+AL gLV_997 -> -2549.3621811561266
+AL gLV_998 -> -2544.3928283711116
+AL gLV_999 -> -2548.8563201761576
+AL gLV_1000 -> -2537.682512362351
+AL gLV_1001 -> -2543.7148835571757
+AL gLV_1002 -> -2541.8152674003563
+AL gLV_1003 -> -2544.6632441162483
+AL gLV_1004 -> -2543.145380647344
+AL gLV_1005 -> -2546.137414398231
+AL gLV_1006 -> -2545.2807361099244
+AL gLV_1007 -> -2546.2592792683317
+AL gLV_1008 -> -2540.009765572268
+AL gLV_1009 -> -2539.8729035804963
+AL gLV_1010 -> -2541.041570779711
+AL gLV_1011 -> -2545.772470013593
+AL gLV_1012 -> -2549.4115723991767
+AL gLV_1013 -> -2541.6218302418333
+AddLatent -> -2521.4847835798323
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -2521.4847835798323 > -3329.6829786416874 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_1014, child of gLV_964 -> -2532.8274029763365
+AL gLV_1015, child of gLV_964 -> -2530.6340779731454
+AL gLV_1016, child of gLV_964 -> -2534.176328014574
+AL gLV_1017, child of gLV_964 -> -2535.955366600428
+AL gLV_1018, child of gLV_964 -> -2531.117483143274
+AL gLV_1019, child of gLV_964 -> -2535.622120045579
+AL gLV_1020, child of gLV_964 -> -2528.4374859166023
+AL gLV_1021, child of gLV_964 -> -2534.7694364508247
+AL gLV_1022, child of gLV_964 -> -2537.9471335634125
+AL gLV_1023, child of gLV_964 -> -2538.674779974503
+AL gLV_1024, child of gLV_964 -> -2532.604193860508
+AL gLV_1025, child of gLV_964 -> -2535.4219658628526
+AL gLV_1026, child of gLV_964 -> -2532.166013838125
+AL gLV_1027, child of gLV_964 -> -2532.4328006154874
+AL gLV_1028, child of gLV_964 -> -2534.430802722788
+AL gLV_1029, child of gLV_964 -> -2527.1886487016723
+AL gLV_1030, child of gLV_964 -> -2532.9869973335462
+AL gLV_1031, child of gLV_964 -> -2527.7845573204418
+AL gLV_1032, child of gLV_964 -> -2532.076020638254
+AL gLV_1033, child of gLV_964 -> -2534.378270690242
+AL gLV_1034, child of gLV_964 -> -2538.145625242305
+AL gLV_1035, child of gLV_964 -> -2526.57715978552
+AL gLV_1036, child of gLV_964 -> -2535.025234361938
+AL gLV_1037, child of gLV_964 -> -2534.887721816957
+AL gLV_1038, child of gLV_964 -> -2532.3334980461177
+AL gLV_1039, child of gLV_964 -> -2531.0375038933894
+AL gLV_1040, child of gLV_964 -> -2535.9744174130506
+AL gLV_1041, child of gLV_964 -> -2531.1584681453
+AL gLV_1042, child of gLV_964 -> -2530.2399657797378
+AL gLV_1043, child of gLV_964 -> -2531.871679739008
+AL gLV_1044, child of gLV_964 -> -2537.0012733930625
+AL gLV_1045, child of gLV_964 -> -2536.4362158770464
+AL gLV_1046, child of gLV_964 -> -2534.0562311142085
+AL gLV_1047, child of gLV_964 -> -2535.0585857218643
+AL gLV_1048, child of gLV_964 -> -2531.5477840823687
+AL gLV_1049, child of gLV_964 -> -2530.4984164933812
+AddLatent -> -2526.57715978552
+
+AddLatent -> NONE
+RL gLV_964 -> -2540.34980831945
+RemoveLatent -> -2540.34980831945
+IC of gLV_964 to (3) -> -2539.5932254823074
+IncreaseCard -> -2539.5932254823074
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Doesn't improve the score: -2526.57715978552 <= -2521.4847835798323 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 4
+Test Log-Likelihood: -326.841360012515
+Train BIC: -3011.269547488683
+Time: 4308525 ms
+Iteration 0: -3361.6033599265893
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_1050 -> -2565.6858114004654
+AL gLV_1051 -> -2554.385938264177
+AL gLV_1052 -> -2560.361794263594
+AL gLV_1053 -> -2551.2733276748113
+AL gLV_1054 -> -2554.1461698053195
+AL gLV_1055 -> -2548.248649641705
+AL gLV_1056 -> -2552.931255229854
+AL gLV_1057 -> -2554.6188260780777
+AL gLV_1058 -> -2548.466973389605
+AL gLV_1059 -> -2542.8150604345315
+AL gLV_1060 -> -2554.151909885192
+AL gLV_1061 -> -2549.6547057452344
+AL gLV_1062 -> -2559.078762976655
+AL gLV_1063 -> -2548.7327182500526
+AL gLV_1064 -> -2556.0095192160916
+AL gLV_1065 -> -2559.579607537192
+AL gLV_1066 -> -2557.8750075357934
+AL gLV_1067 -> -2550.588168466205
+AL gLV_1068 -> -2560.7835875874266
+AL gLV_1069 -> -2550.4310865605767
+AL gLV_1070 -> -2554.083528241448
+AL gLV_1071 -> -2554.5882481848507
+AL gLV_1072 -> -2552.106668072335
+AL gLV_1073 -> -2552.242080856446
+AL gLV_1074 -> -2549.7335409788684
+AL gLV_1075 -> -2548.4890930239167
+AL gLV_1076 -> -2556.6817106421454
+AL gLV_1077 -> -2549.501553595834
+AL gLV_1078 -> -2549.4646163032253
+AL gLV_1079 -> -2549.540695119801
+AL gLV_1080 -> -2559.0964332488056
+AL gLV_1081 -> -2553.951564213253
+AL gLV_1082 -> -2548.369340943313
+AL gLV_1083 -> -2550.730137273534
+AL gLV_1084 -> -2547.036854085309
+AL gLV_1085 -> -2559.195512917973
+AL gLV_1086 -> -2557.630459153927
+AL gLV_1087 -> -2552.472889940357
+AL gLV_1088 -> -2552.0845484380234
+AL gLV_1089 -> -2551.8827757466483
+AL gLV_1090 -> -2553.301465202391
+AL gLV_1091 -> -2562.916953140752
+AL gLV_1092 -> -2554.0486616089947
+AL gLV_1093 -> -2552.106668072335
+AL gLV_1094 -> -2556.449267194786
+AL gLV_1095 -> -2552.8791590243327
+AL gLV_1096 -> -2549.07815019567
+AL gLV_1097 -> -2552.7863837649934
+AL gLV_1098 -> -2551.337912772074
+AL gLV_1099 -> -2543.017847060639
+AL gLV_1100 -> -2549.7324338706853
+AL gLV_1101 -> -2555.5785569292134
+AL gLV_1102 -> -2549.1489751368244
+AL gLV_1103 -> -2546.494479705104
+AL gLV_1104 -> -2548.024928824831
+AL gLV_1105 -> -2554.042583240176
+AL gLV_1106 -> -2557.224486953154
+AL gLV_1107 -> -2542.9082846184056
+AL gLV_1108 -> -2551.4507626217214
+AL gLV_1109 -> -2557.3848414465965
+AL gLV_1110 -> -2556.695136542447
+AL gLV_1111 -> -2545.9103333699964
+AL gLV_1112 -> -2559.1753569157686
+AL gLV_1113 -> -2551.735046376072
+AL gLV_1114 -> -2558.0892864055204
+AL gLV_1115 -> -2550.919927117071
+AL gLV_1116 -> -2555.1007768709997
+AL gLV_1117 -> -2557.0636378072095
+AL gLV_1118 -> -2548.900823270212
+AL gLV_1119 -> -2557.3850636789134
+AL gLV_1120 -> -2548.414301317755
+AL gLV_1121 -> -2556.5778809022368
+AL gLV_1122 -> -2545.1730136212514
+AL gLV_1123 -> -2547.471985658953
+AL gLV_1124 -> -2551.3340139166107
+AL gLV_1125 -> -2554.3695503561
+AL gLV_1126 -> -2549.253096110111
+AL gLV_1127 -> -2553.742452686247
+AL gLV_1128 -> -2553.8039986167787
+AL gLV_1129 -> -2563.6997651333636
+AL gLV_1130 -> -2562.2920454650944
+AL gLV_1131 -> -2549.9741014675574
+AL gLV_1132 -> -2551.535711978412
+AL gLV_1133 -> -2549.5092948792476
+AL gLV_1134 -> -2560.4091546632103
+AL gLV_1135 -> -2558.814878769795
+AL gLV_1136 -> -2544.3994161841347
+AL gLV_1137 -> -2551.7875647939327
+AL gLV_1138 -> -2549.8097772209076
+AL gLV_1139 -> -2563.8476854254313
+AL gLV_1140 -> -2552.1511776495527
+AL gLV_1141 -> -2544.6903284718933
+AL gLV_1142 -> -2557.9488075049385
+AL gLV_1143 -> -2556.0558273874003
+AL gLV_1144 -> -2546.875432626571
+AL gLV_1145 -> -2548.671447170321
+AL gLV_1146 -> -2553.64877890346
+AL gLV_1147 -> -2549.797924970841
+AL gLV_1148 -> -2552.7265110517747
+AL gLV_1149 -> -2551.2706183003056
+AL gLV_1150 -> -2551.851192351199
+AL gLV_1151 -> -2547.9801293419964
+AL gLV_1152 -> -2551.811836269924
+AL gLV_1153 -> -2554.838990962177
+AL gLV_1154 -> -2555.3482101644754
+AL gLV_1155 -> -2555.8629872042493
+AL gLV_1156 -> -2557.4597843755055
+AL gLV_1157 -> -2554.0073524377494
+AL gLV_1158 -> -2557.835397254068
+AL gLV_1159 -> -2552.6775509970785
+AL gLV_1160 -> -2559.304485650875
+AL gLV_1161 -> -2558.8340317198154
+AL gLV_1162 -> -2556.8053335724926
+AL gLV_1163 -> -2552.291067771806
+AL gLV_1164 -> -2559.472601806672
+AL gLV_1165 -> -2559.241620510392
+AL gLV_1166 -> -2562.5684354350988
+AL gLV_1167 -> -2559.1608691360752
+AL gLV_1168 -> -2549.9870536878775
+AL gLV_1169 -> -2555.764121888728
+AL gLV_1170 -> -2553.7042146512363
+AL gLV_1171 -> -2550.4889824187976
+AL gLV_1172 -> -2553.50424760033
+AL gLV_1173 -> -2551.7799740966957
+AL gLV_1174 -> -2557.209333328961
+AL gLV_1175 -> -2557.8818034808683
+AL gLV_1176 -> -2560.2832949488243
+AL gLV_1177 -> -2554.616899739011
+AL gLV_1178 -> -2555.6526832115933
+AL gLV_1179 -> -2559.6914319972793
+AL gLV_1180 -> -2556.7885185121854
+AL gLV_1181 -> -2558.1845941071215
+AL gLV_1182 -> -2560.32205941848
+AL gLV_1183 -> -2554.0766183353926
+AL gLV_1184 -> -2558.272023065128
+AL gLV_1185 -> -2557.366332681795
+AL gLV_1186 -> -2549.7594574957398
+AL gLV_1187 -> -2556.681675331363
+AL gLV_1188 -> -2546.4000070609495
+AL gLV_1189 -> -2548.8391384252222
+AL gLV_1190 -> -2554.5598319430624
+AL gLV_1191 -> -2556.0172559056155
+AL gLV_1192 -> -2549.007773244025
+AL gLV_1193 -> -2553.658792187592
+AL gLV_1194 -> -2550.800898380237
+AL gLV_1195 -> -2553.243352863
+AL gLV_1196 -> -2548.7664912154505
+AL gLV_1197 -> -2551.7394250832185
+AL gLV_1198 -> -2552.6769754765323
+AL gLV_1199 -> -2550.7673333261796
+AL gLV_1200 -> -2554.830522403217
+AL gLV_1201 -> -2556.8644945276596
+AL gLV_1202 -> -2563.9572532798884
+AL gLV_1203 -> -2559.202001342654
+AL gLV_1204 -> -2559.8092285243233
+AL gLV_1205 -> -2554.4618989857204
+AL gLV_1206 -> -2553.3693708320784
+AL gLV_1207 -> -2549.5387273567612
+AL gLV_1208 -> -2561.4356582189803
+AL gLV_1209 -> -2546.9017646381853
+AL gLV_1210 -> -2562.7668051894857
+AL gLV_1211 -> -2549.540695119801
+AL gLV_1212 -> -2558.0445246550576
+AL gLV_1213 -> -2556.5095264306838
+AL gLV_1214 -> -2549.58262526324
+AL gLV_1215 -> -2565.4189654450847
+AL gLV_1216 -> -2550.1946715304157
+AL gLV_1217 -> -2561.2517076880436
+AL gLV_1218 -> -2561.7174303840216
+AL gLV_1219 -> -2557.1759775123173
+AL gLV_1220 -> -2547.653420309086
+AL gLV_1221 -> -2559.121350220947
+AL gLV_1222 -> -2558.1323277367956
+AL gLV_1223 -> -2551.3205198056307
+AL gLV_1224 -> -2549.5165361599193
+AL gLV_1225 -> -2553.36410651821
+AL gLV_1226 -> -2554.320659703712
+AL gLV_1227 -> -2553.276790335316
+AL gLV_1228 -> -2552.8044635306783
+AL gLV_1229 -> -2549.540695119801
+AL gLV_1230 -> -2555.7194923467487
+AL gLV_1231 -> -2554.149686251008
+AL gLV_1232 -> -2558.1596032865136
+AL gLV_1233 -> -2562.594293057657
+AL gLV_1234 -> -2549.5092948792476
+AL gLV_1235 -> -2559.7186589736657
+AL gLV_1236 -> -2552.0589163687127
+AL gLV_1237 -> -2557.9002975307303
+AL gLV_1238 -> -2559.2468718677073
+AL gLV_1239 -> -2557.9483419461662
+AL gLV_1240 -> -2559.923209806938
+AL gLV_1241 -> -2563.4463471530353
+AL gLV_1242 -> -2561.0506579188946
+AL gLV_1243 -> -2563.3113754055285
+AL gLV_1244 -> -2561.356451569552
+AL gLV_1245 -> -2570.0091710534657
+AL gLV_1246 -> -2563.7223956960593
+AL gLV_1247 -> -2562.3038874126996
+AL gLV_1248 -> -2556.7062843382896
+AL gLV_1249 -> -2564.832671577622
+AL gLV_1250 -> -2549.8777165994347
+AL gLV_1251 -> -2564.0282222854057
+AL gLV_1252 -> -2563.643070297567
+AL gLV_1253 -> -2556.676903390005
+AL gLV_1254 -> -2568.21562894308
+AL gLV_1255 -> -2569.1447317589646
+AL gLV_1256 -> -2561.7800395325226
+AL gLV_1257 -> -2565.598360337494
+AL gLV_1258 -> -2573.7387319239874
+AL gLV_1259 -> -2560.895370147645
+AL gLV_1260 -> -2552.721291735178
+AL gLV_1261 -> -2566.3013671015146
+AL gLV_1262 -> -2555.326016384312
+AL gLV_1263 -> -2546.2730028057713
+AL gLV_1264 -> -2550.580313869209
+AL gLV_1265 -> -2555.1489449992605
+AL gLV_1266 -> -2565.2565053648823
+AL gLV_1267 -> -2559.3980148054316
+AL gLV_1268 -> -2556.7309596129207
+AL gLV_1269 -> -2565.275828722775
+AL gLV_1270 -> -2553.559697590125
+AL gLV_1271 -> -2563.4986338620447
+AL gLV_1272 -> -2562.2622273523766
+AL gLV_1273 -> -2554.3398697853017
+AL gLV_1274 -> -2563.4449137101515
+AL gLV_1275 -> -2576.6193247181927
+AL gLV_1276 -> -2559.018408830471
+AL gLV_1277 -> -2555.1820502015294
+AL gLV_1278 -> -2560.295415965909
+AL gLV_1279 -> -2559.6717241774095
+AL gLV_1280 -> -2573.541711882921
+AL gLV_1281 -> -2562.15769635894
+AL gLV_1282 -> -2554.4639042982976
+AL gLV_1283 -> -2552.0845484380234
+AL gLV_1284 -> -2550.392889100698
+AL gLV_1285 -> -2552.944649740036
+AL gLV_1286 -> -2563.6375656158357
+AL gLV_1287 -> -2554.0486616089947
+AL gLV_1288 -> -2552.106668072335
+AL gLV_1289 -> -2550.588149515677
+AL gLV_1290 -> -2551.861133172768
+AL gLV_1291 -> -2553.381011793296
+AL gLV_1292 -> -2554.0410070579437
+AL gLV_1293 -> -2557.3761654706714
+AL gLV_1294 -> -2556.235184173973
+AL gLV_1295 -> -2552.177553905468
+AL gLV_1296 -> -2562.488369114413
+AL gLV_1297 -> -2554.041504142434
+AL gLV_1298 -> -2553.4924350979113
+AL gLV_1299 -> -2556.981622756708
+AL gLV_1300 -> -2556.9816815666286
+AL gLV_1301 -> -2559.3186655859477
+AL gLV_1302 -> -2558.164454046386
+AddLatent -> -2542.8150604345315
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -2542.8150604345315 > -3361.6033599265893 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_1303, child of gLV_1059 -> -2561.2575883675413
+AL gLV_1304, child of gLV_1059 -> -2557.5677009877663
+AL gLV_1305, child of gLV_1059 -> -2574.075083567275
+AL gLV_1306, child of gLV_1059 -> -2551.4892325239625
+AL gLV_1307, child of gLV_1059 -> -2562.631330952624
+AL gLV_1308, child of gLV_1059 -> -2563.5566689368998
+AddLatent -> -2551.4892325239625
+
+AddLatent -> NONE
+RL gLV_1059 -> -2540.9884359708108
+RemoveLatent -> -2540.9884359708108
+IC of gLV_1059 to (3) -> -2554.4181589863815
+IncreaseCard -> -2554.4181589863815
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Improves the score: -2540.9884359708108 > -2542.8150604345315 (old best)
+--------------------------------------------------
+
+Iteration 3:
+
+AddLatent -> NONE
+
+AddLatent -> NONE
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: no_operator
+Doesn't improve the score: -1.7976931348623157E308 <= -2540.9884359708108 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 5
+Test Log-Likelihood: -288.75046561326553
+Train BIC: -3009.7396323869343
+Time: 3626211 ms
+Iteration 0: -3336.856363071565
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_1309 -> -2563.38114261814
+AL gLV_1310 -> -2566.301727503226
+AL gLV_1311 -> -2560.5640052753834
+AL gLV_1312 -> -2562.6388345340292
+AL gLV_1313 -> -2565.676354244497
+AL gLV_1314 -> -2570.763709272606
+AL gLV_1315 -> -2556.4222717698826
+AL gLV_1316 -> -2569.261572209184
+AL gLV_1317 -> -2556.6525465874993
+AL gLV_1318 -> -2546.1036752455525
+AL gLV_1319 -> -2563.0240431133216
+AL gLV_1320 -> -2567.0150455003823
+AL gLV_1321 -> -2565.1002240462713
+AL gLV_1322 -> -2559.5561692531196
+AL gLV_1323 -> -2566.3669336968387
+AL gLV_1324 -> -2568.463756303695
+AL gLV_1325 -> -2567.421614727074
+AL gLV_1326 -> -2557.5638943324725
+AL gLV_1327 -> -2568.0986179638708
+AL gLV_1328 -> -2563.8805879861197
+AL gLV_1329 -> -2574.183742059358
+AL gLV_1330 -> -2565.29694555351
+AL gLV_1331 -> -2561.396665420959
+AL gLV_1332 -> -2564.9273782159644
+AL gLV_1333 -> -2566.5580341183463
+AL gLV_1334 -> -2556.6830955168975
+AL gLV_1335 -> -2558.733248873658
+AL gLV_1336 -> -2559.8274335968104
+AL gLV_1337 -> -2570.992370838047
+AL gLV_1338 -> -2560.6653057776175
+AL gLV_1339 -> -2564.4934698932425
+AL gLV_1340 -> -2564.3629843221415
+AL gLV_1341 -> -2554.7594728759377
+AL gLV_1342 -> -2560.6502999021786
+AL gLV_1343 -> -2561.1853296189734
+AL gLV_1344 -> -2575.617594849114
+AL gLV_1345 -> -2569.4601857597813
+AL gLV_1346 -> -2563.966365157849
+AL gLV_1347 -> -2566.2488584351954
+AL gLV_1348 -> -2562.892754863735
+AL gLV_1349 -> -2570.1216744671924
+AL gLV_1350 -> -2584.176253613931
+AL gLV_1351 -> -2569.1951229016267
+AL gLV_1352 -> -2567.510747941792
+AL gLV_1353 -> -2562.0031109292754
+AL gLV_1354 -> -2557.769625184341
+AL gLV_1355 -> -2566.12658474464
+AL gLV_1356 -> -2572.733524702789
+AL gLV_1357 -> -2557.560244569092
+AL gLV_1358 -> -2555.411250897271
+AL gLV_1359 -> -2561.2383071927097
+AL gLV_1360 -> -2574.049308369966
+AL gLV_1361 -> -2559.223300032116
+AL gLV_1362 -> -2562.7395878591583
+AL gLV_1363 -> -2561.8968510111963
+AL gLV_1364 -> -2561.6194596614305
+AL gLV_1365 -> -2565.676354244497
+AL gLV_1366 -> -2566.41625720243
+AL gLV_1367 -> -2556.8252544639736
+AL gLV_1368 -> -2563.976263140746
+AL gLV_1369 -> -2567.571377674872
+AL gLV_1370 -> -2567.5177387774193
+AL gLV_1371 -> -2558.3127803529737
+AL gLV_1372 -> -2561.5966352172754
+AL gLV_1373 -> -2575.8830369078037
+AL gLV_1374 -> -2561.6920623329474
+AL gLV_1375 -> -2560.9962588052995
+AL gLV_1376 -> -2565.676354244497
+AL gLV_1377 -> -2555.480468354555
+AL gLV_1378 -> -2569.2987442222434
+AL gLV_1379 -> -2556.6714518449085
+AL gLV_1380 -> -2561.66505701025
+AL gLV_1381 -> -2553.975965133722
+AL gLV_1382 -> -2555.5054174937964
+AL gLV_1383 -> -2559.283532601591
+AL gLV_1384 -> -2565.4152400917083
+AL gLV_1385 -> -2554.072081976403
+AL gLV_1386 -> -2569.478894523991
+AL gLV_1387 -> -2560.1777060233526
+AL gLV_1388 -> -2568.440295176687
+AL gLV_1389 -> -2573.853488757133
+AL gLV_1390 -> -2572.774278793869
+AL gLV_1391 -> -2554.7287121467384
+AL gLV_1392 -> -2560.6380845107024
+AL gLV_1393 -> -2565.4924533869566
+AL gLV_1394 -> -2566.002840007329
+AL gLV_1395 -> -2565.7035587241053
+AL gLV_1396 -> -2562.0456461549975
+AL gLV_1397 -> -2560.426809886584
+AL gLV_1398 -> -2574.4691481830414
+AL gLV_1399 -> -2557.5641650944967
+AL gLV_1400 -> -2569.939518515465
+AL gLV_1401 -> -2576.5874633912404
+AL gLV_1402 -> -2570.520738256396
+AL gLV_1403 -> -2553.30907243526
+AL gLV_1404 -> -2570.7864157616104
+AL gLV_1405 -> -2577.1210219219683
+AL gLV_1406 -> -2572.84205877623
+AL gLV_1407 -> -2572.298311160225
+AL gLV_1408 -> -2562.091714502376
+AL gLV_1409 -> -2576.328064411889
+AL gLV_1410 -> -2568.779922079713
+AL gLV_1411 -> -2572.298311160225
+AL gLV_1412 -> -2565.4405428536807
+AL gLV_1413 -> -2562.0399797960495
+AL gLV_1414 -> -2567.142284728192
+AL gLV_1415 -> -2577.71512320853
+AL gLV_1416 -> -2564.1069474524797
+AL gLV_1417 -> -2558.9345323419734
+AL gLV_1418 -> -2566.345093779516
+AL gLV_1419 -> -2583.053828603104
+AL gLV_1420 -> -2565.7289036377956
+AL gLV_1421 -> -2561.396665420959
+AL gLV_1422 -> -2560.0188786586355
+AL gLV_1423 -> -2570.1407504997883
+AL gLV_1424 -> -2584.6897567691794
+AL gLV_1425 -> -2577.3545582950865
+AL gLV_1426 -> -2567.084640858498
+AL gLV_1427 -> -2557.440239507472
+AL gLV_1428 -> -2569.9606797374436
+AL gLV_1429 -> -2558.474945006963
+AL gLV_1430 -> -2561.9003344413254
+AL gLV_1431 -> -2557.5557663417662
+AL gLV_1432 -> -2554.4041912086764
+AL gLV_1433 -> -2573.5764905850115
+AL gLV_1434 -> -2574.1267242958684
+AL gLV_1435 -> -2563.0752738814863
+AL gLV_1436 -> -2561.396665420959
+AL gLV_1437 -> -2568.8456004911704
+AL gLV_1438 -> -2572.4784364916823
+AL gLV_1439 -> -2555.0437495478827
+AL gLV_1440 -> -2558.533402188784
+AL gLV_1441 -> -2569.274719023369
+AL gLV_1442 -> -2555.0818738606085
+AL gLV_1443 -> -2560.3775000120463
+AL gLV_1444 -> -2564.569500942206
+AL gLV_1445 -> -2562.7354553678956
+AL gLV_1446 -> -2566.691339498132
+AL gLV_1447 -> -2554.7345568263486
+AL gLV_1448 -> -2558.402002990901
+AL gLV_1449 -> -2570.258397771316
+AL gLV_1450 -> -2569.5270476410874
+AL gLV_1451 -> -2554.9983306350523
+AL gLV_1452 -> -2559.214207592899
+AL gLV_1453 -> -2560.413614628534
+AL gLV_1454 -> -2563.504940676827
+AL gLV_1455 -> -2558.691153082726
+AL gLV_1456 -> -2565.9790146008
+AL gLV_1457 -> -2564.583382143725
+AL gLV_1458 -> -2563.018257544434
+AL gLV_1459 -> -2570.222784561757
+AL gLV_1460 -> -2567.845231609525
+AL gLV_1461 -> -2561.216717122566
+AL gLV_1462 -> -2567.3786896367164
+AL gLV_1463 -> -2569.3837253435754
+AL gLV_1464 -> -2568.543239737096
+AL gLV_1465 -> -2560.4379968559083
+AL gLV_1466 -> -2559.462255954062
+AL gLV_1467 -> -2568.6695437279295
+AL gLV_1468 -> -2557.674411189228
+AL gLV_1469 -> -2563.4212730769846
+AL gLV_1470 -> -2560.6502999021786
+AL gLV_1471 -> -2572.7128685787293
+AL gLV_1472 -> -2571.8734357831527
+AL gLV_1473 -> -2566.58325423851
+AL gLV_1474 -> -2565.60228143025
+AL gLV_1475 -> -2558.3089195149983
+AL gLV_1476 -> -2575.852664819165
+AL gLV_1477 -> -2573.037108002803
+AL gLV_1478 -> -2562.399505673269
+AL gLV_1479 -> -2557.421715013436
+AL gLV_1480 -> -2581.4949512409066
+AL gLV_1481 -> -2574.6328442490408
+AL gLV_1482 -> -2556.840216677588
+AL gLV_1483 -> -2553.8767168630143
+AL gLV_1484 -> -2572.448444000715
+AL gLV_1485 -> -2572.0413281146875
+AL gLV_1486 -> -2567.350862902143
+AL gLV_1487 -> -2561.396665420959
+AL gLV_1488 -> -2560.6502999021786
+AL gLV_1489 -> -2580.8828471722222
+AL gLV_1490 -> -2569.3013767640914
+AL gLV_1491 -> -2578.8438566447385
+AL gLV_1492 -> -2578.4692769747367
+AL gLV_1493 -> -2560.967918148576
+AL gLV_1494 -> -2585.1286925655763
+AL gLV_1495 -> -2571.3832286935817
+AL gLV_1496 -> -2567.863813955168
+AL gLV_1497 -> -2564.2173547214115
+AL gLV_1498 -> -2580.273897308671
+AL gLV_1499 -> -2561.9154150442487
+AL gLV_1500 -> -2565.4277229819
+AL gLV_1501 -> -2558.5078989412514
+AL gLV_1502 -> -2560.5891559888814
+AL gLV_1503 -> -2556.636105103366
+AL gLV_1504 -> -2569.2694044436084
+AL gLV_1505 -> -2567.913299705418
+AL gLV_1506 -> -2566.111569752259
+AL gLV_1507 -> -2563.3080674184125
+AL gLV_1508 -> -2570.2416419057845
+AL gLV_1509 -> -2571.885222420265
+AL gLV_1510 -> -2566.599750395966
+AL gLV_1511 -> -2567.701040823711
+AL gLV_1512 -> -2556.1541529222313
+AL gLV_1513 -> -2565.490937447018
+AL gLV_1514 -> -2563.7759013473033
+AL gLV_1515 -> -2561.9261541167134
+AL gLV_1516 -> -2561.2022243637316
+AL gLV_1517 -> -2575.7144242284744
+AL gLV_1518 -> -2569.6892602560833
+AL gLV_1519 -> -2572.0919373905413
+AL gLV_1520 -> -2565.5571663911915
+AL gLV_1521 -> -2561.410585942933
+AL gLV_1522 -> -2561.5669489633005
+AL gLV_1523 -> -2567.8104112270166
+AL gLV_1524 -> -2562.643661168326
+AL gLV_1525 -> -2568.529824218837
+AL gLV_1526 -> -2565.2146238525634
+AL gLV_1527 -> -2566.358258961852
+AL gLV_1528 -> -2567.2364610885957
+AL gLV_1529 -> -2569.5013464916096
+AL gLV_1530 -> -2567.1461343555743
+AL gLV_1531 -> -2565.23610717736
+AL gLV_1532 -> -2557.866532362569
+AL gLV_1533 -> -2564.44335002129
+AL gLV_1534 -> -2570.3545958019804
+AL gLV_1535 -> -2564.2805533068004
+AL gLV_1536 -> -2565.193076815486
+AL gLV_1537 -> -2569.9786903632835
+AL gLV_1538 -> -2568.146726567111
+AL gLV_1539 -> -2568.2346638618374
+AL gLV_1540 -> -2575.252994617955
+AL gLV_1541 -> -2569.3837253435754
+AL gLV_1542 -> -2561.110649923922
+AL gLV_1543 -> -2561.5926885803674
+AL gLV_1544 -> -2572.847888637896
+AL gLV_1545 -> -2572.1242764954914
+AL gLV_1546 -> -2565.7289036377956
+AL gLV_1547 -> -2569.8092231730216
+AL gLV_1548 -> -2560.6502999021786
+AL gLV_1549 -> -2572.7128685787293
+AL gLV_1550 -> -2568.488621580755
+AL gLV_1551 -> -2565.637094710277
+AL gLV_1552 -> -2563.5359296423135
+AL gLV_1553 -> -2573.8337676702304
+AL gLV_1554 -> -2572.298311160225
+AL gLV_1555 -> -2574.1456688062904
+AL gLV_1556 -> -2565.8444903552413
+AL gLV_1557 -> -2573.205509508007
+AL gLV_1558 -> -2570.460119533553
+AL gLV_1559 -> -2573.218968662511
+AL gLV_1560 -> -2561.8498974361337
+AL gLV_1561 -> -2569.3024240639584
+AddLatent -> -2546.1036752455525
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -2546.1036752455525 > -3336.856363071565 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_1562, child of gLV_1318 -> -2560.9071825378696
+AL gLV_1563, child of gLV_1318 -> -2574.1635588981044
+AL gLV_1564, child of gLV_1318 -> -2558.1767646742787
+AL gLV_1565, child of gLV_1318 -> -2558.0970165381555
+AL gLV_1566, child of gLV_1318 -> -2557.53543293891
+AL gLV_1567, child of gLV_1318 -> -2558.1507456205386
+AddLatent -> -2557.53543293891
+
+AddLatent -> NONE
+RL gLV_1318 -> -2546.3397938914527
+RemoveLatent -> -2546.3397938914527
+IC of gLV_1318 to (3) -> -2558.4450027383136
+IncreaseCard -> -2558.4450027383136
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Doesn't improve the score: -2546.3397938914527 <= -2546.1036752455525 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 6
+Test Log-Likelihood: -293.71041954417115
+Train BIC: -3043.001592030656
+Time: 3586150 ms
+Iteration 0: -3280.6202103951255
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_1568 -> -2529.6022433619924
+AL gLV_1569 -> -2536.293190821849
+AL gLV_1570 -> -2539.579069755589
+AL gLV_1571 -> -2533.09230520666
+AL gLV_1572 -> -2532.287049173853
+AL gLV_1573 -> -2533.405683941352
+AL gLV_1574 -> -2528.7391224262797
+AL gLV_1575 -> -2537.4778773277094
+AL gLV_1576 -> -2530.044800031185
+AL gLV_1577 -> -2532.9466730028626
+AL gLV_1578 -> -2535.867292190882
+AL gLV_1579 -> -2534.851541435801
+AL gLV_1580 -> -2539.166777553068
+AL gLV_1581 -> -2532.217581403218
+AL gLV_1582 -> -2537.3818527552835
+AL gLV_1583 -> -2528.229253981979
+AL gLV_1584 -> -2538.689127043236
+AL gLV_1585 -> -2532.894448916358
+AL gLV_1586 -> -2533.7694811013407
+AL gLV_1587 -> -2533.1628715626257
+AL gLV_1588 -> -2535.447872266221
+AL gLV_1589 -> -2536.2910698343726
+AL gLV_1590 -> -2533.43057228885
+AL gLV_1591 -> -2531.0389360259205
+AL gLV_1592 -> -2533.489021812857
+AL gLV_1593 -> -2528.922878043642
+AL gLV_1594 -> -2537.6165598449033
+AL gLV_1595 -> -2531.8612852119168
+AL gLV_1596 -> -2534.516007340611
+AL gLV_1597 -> -2531.872353323153
+AL gLV_1598 -> -2534.8027676066854
+AL gLV_1599 -> -2532.213631472793
+AL gLV_1600 -> -2526.3766869385477
+AL gLV_1601 -> -2535.039896636592
+AL gLV_1602 -> -2529.2992143381725
+AL gLV_1603 -> -2540.2763203876716
+AL gLV_1604 -> -2529.6871676204128
+AL gLV_1605 -> -2542.5290834612115
+AL gLV_1606 -> -2539.966428017858
+AL gLV_1607 -> -2524.9384830886506
+AL gLV_1608 -> -2538.9581005593154
+AL gLV_1609 -> -2539.979903566053
+AL gLV_1610 -> -2544.5632289391974
+AL gLV_1611 -> -2536.7270509408772
+AL gLV_1612 -> -2532.026224829457
+AL gLV_1613 -> -2545.252900832215
+AL gLV_1614 -> -2537.061005492532
+AL gLV_1615 -> -2535.558563428413
+AL gLV_1616 -> -2529.5105227489594
+AL gLV_1617 -> -2536.857556130889
+AL gLV_1618 -> -2536.2172711055105
+AL gLV_1619 -> -2538.634395674076
+AL gLV_1620 -> -2532.1456769052843
+AL gLV_1621 -> -2529.2992143381725
+AL gLV_1622 -> -2529.790782422196
+AL gLV_1623 -> -2529.497841343434
+AL gLV_1624 -> -2539.431977704651
+AL gLV_1625 -> -2525.567005252718
+AL gLV_1626 -> -2537.752645597575
+AL gLV_1627 -> -2536.8154222243575
+AL gLV_1628 -> -2540.850318404327
+AL gLV_1629 -> -2531.5140546818648
+AL gLV_1630 -> -2527.8295017593678
+AL gLV_1631 -> -2529.226187378449
+AL gLV_1632 -> -2531.925549406307
+AL gLV_1633 -> -2538.0180330836256
+AL gLV_1634 -> -2538.1119140654555
+AL gLV_1635 -> -2537.573804700608
+AL gLV_1636 -> -2537.980942970296
+AL gLV_1637 -> -2533.7675916227467
+AL gLV_1638 -> -2530.250362093173
+AL gLV_1639 -> -2538.913362329772
+AL gLV_1640 -> -2532.5479417462166
+AL gLV_1641 -> -2527.4020393557967
+AL gLV_1642 -> -2535.0903781457837
+AL gLV_1643 -> -2535.3651981574194
+AL gLV_1644 -> -2534.861968014272
+AL gLV_1645 -> -2544.021409387125
+AL gLV_1646 -> -2529.124698018097
+AL gLV_1647 -> -2539.776681965638
+AL gLV_1648 -> -2540.382027578524
+AL gLV_1649 -> -2536.4008423549844
+AL gLV_1650 -> -2526.306328819795
+AL gLV_1651 -> -2537.101589101395
+AL gLV_1652 -> -2539.2164278906025
+AL gLV_1653 -> -2537.347002878677
+AL gLV_1654 -> -2532.9139652379927
+AL gLV_1655 -> -2530.810556991683
+AL gLV_1656 -> -2533.927814252637
+AL gLV_1657 -> -2539.8468262157985
+AL gLV_1658 -> -2530.184123211516
+AL gLV_1659 -> -2534.7448690973356
+AL gLV_1660 -> -2531.7618189243954
+AL gLV_1661 -> -2533.3182848095885
+AL gLV_1662 -> -2523.63689812323
+AL gLV_1663 -> -2532.4058424419463
+AL gLV_1664 -> -2539.4910677335033
+AL gLV_1665 -> -2532.372425932385
+AL gLV_1666 -> -2543.229993413039
+AL gLV_1667 -> -2531.8511030093773
+AL gLV_1668 -> -2531.153728454095
+AL gLV_1669 -> -2536.1190937172464
+AL gLV_1670 -> -2531.605792232195
+AL gLV_1671 -> -2535.198710466217
+AL gLV_1672 -> -2530.083157654471
+AL gLV_1673 -> -2530.825835694042
+AL gLV_1674 -> -2534.193562844363
+AL gLV_1675 -> -2540.667976644538
+AL gLV_1676 -> -2526.8629055499187
+AL gLV_1677 -> -2530.274804381033
+AL gLV_1678 -> -2542.2537684490608
+AL gLV_1679 -> -2535.2331543218593
+AL gLV_1680 -> -2531.8612852119168
+AL gLV_1681 -> -2534.099958985999
+AL gLV_1682 -> -2526.705051603618
+AL gLV_1683 -> -2540.395501854097
+AL gLV_1684 -> -2538.682066781379
+AL gLV_1685 -> -2531.6514428587843
+AL gLV_1686 -> -2538.8378033614445
+AL gLV_1687 -> -2534.13331616239
+AL gLV_1688 -> -2521.7805357860384
+AL gLV_1689 -> -2525.0215255162034
+AL gLV_1690 -> -2532.5895531341357
+AL gLV_1691 -> -2531.1847463035265
+AL gLV_1692 -> -2526.290425455477
+AL gLV_1693 -> -2541.3381804880996
+AL gLV_1694 -> -2530.645522519915
+AL gLV_1695 -> -2524.520824666157
+AL gLV_1696 -> -2530.06143839213
+AL gLV_1697 -> -2530.90256797348
+AL gLV_1698 -> -2535.6678832797656
+AL gLV_1699 -> -2518.974888288211
+AL gLV_1700 -> -2538.0596036897773
+AL gLV_1701 -> -2521.9834088813477
+AL gLV_1702 -> -2545.460345818554
+AL gLV_1703 -> -2529.453309673666
+AL gLV_1704 -> -2539.257947876054
+AL gLV_1705 -> -2538.568965558739
+AL gLV_1706 -> -2530.3946400795567
+AL gLV_1707 -> -2527.059000159297
+AL gLV_1708 -> -2534.469274178158
+AL gLV_1709 -> -2539.0624994857367
+AL gLV_1710 -> -2529.217203187353
+AL gLV_1711 -> -2537.209249214864
+AL gLV_1712 -> -2526.4202692333843
+AL gLV_1713 -> -2528.9004630946356
+AL gLV_1714 -> -2538.9278388901225
+AL gLV_1715 -> -2539.1344227088643
+AL gLV_1716 -> -2535.3792415293824
+AL gLV_1717 -> -2528.831218647357
+AL gLV_1718 -> -2532.372425932385
+AL gLV_1719 -> -2530.3508024253038
+AL gLV_1720 -> -2529.7205551782895
+AL gLV_1721 -> -2539.028875170203
+AL gLV_1722 -> -2538.568965558739
+AL gLV_1723 -> -2539.4343979462164
+AL gLV_1724 -> -2532.3701799712862
+AL gLV_1725 -> -2535.30680122063
+AL gLV_1726 -> -2541.2112008472473
+AL gLV_1727 -> -2535.2331543218593
+AL gLV_1728 -> -2534.614272196085
+AL gLV_1729 -> -2529.2992143381725
+AL gLV_1730 -> -2532.6581041691447
+AL gLV_1731 -> -2539.117253653229
+AL gLV_1732 -> -2537.1344474817865
+AL gLV_1733 -> -2536.5338877213635
+AL gLV_1734 -> -2518.1503096473048
+AL gLV_1735 -> -2542.5171856298525
+AL gLV_1736 -> -2534.034119701938
+AL gLV_1737 -> -2520.0871195135583
+AL gLV_1738 -> -2536.567509028227
+AL gLV_1739 -> -2525.138407601177
+AL gLV_1740 -> -2542.3417116722403
+AL gLV_1741 -> -2528.4813239024074
+AL gLV_1742 -> -2527.059000159297
+AL gLV_1743 -> -2533.123536219982
+AL gLV_1744 -> -2545.9942414814514
+AL gLV_1745 -> -2535.035711236918
+AL gLV_1746 -> -2531.8612852119168
+AL gLV_1747 -> -2529.2992143381725
+AL gLV_1748 -> -2539.20724380881
+AL gLV_1749 -> -2538.3925756938384
+AL gLV_1750 -> -2538.4080450732718
+AL gLV_1751 -> -2536.5737028458584
+AL gLV_1752 -> -2530.9057647326267
+AL gLV_1753 -> -2532.397885215801
+AL gLV_1754 -> -2528.669370162153
+AL gLV_1755 -> -2537.8240891065525
+AL gLV_1756 -> -2538.070785913986
+AL gLV_1757 -> -2543.640700659326
+AL gLV_1758 -> -2535.1853219624327
+AL gLV_1759 -> -2538.9420572268587
+AL gLV_1760 -> -2538.6799437542113
+AL gLV_1761 -> -2533.3849014062753
+AL gLV_1762 -> -2533.8585058787944
+AL gLV_1763 -> -2544.8225250081205
+AL gLV_1764 -> -2530.8852370265995
+AL gLV_1765 -> -2530.900641323075
+AL gLV_1766 -> -2529.2992143381725
+AL gLV_1767 -> -2540.9806701687535
+AL gLV_1768 -> -2526.4023418066818
+AL gLV_1769 -> -2534.7913288655327
+AL gLV_1770 -> -2533.1255371071134
+AL gLV_1771 -> -2529.2544377239296
+AL gLV_1772 -> -2532.372425932385
+AL gLV_1773 -> -2533.8869633788913
+AL gLV_1774 -> -2543.484351489084
+AL gLV_1775 -> -2537.809311825403
+AL gLV_1776 -> -2537.809311825403
+AL gLV_1777 -> -2541.4135403326713
+AL gLV_1778 -> -2538.7485418427686
+AL gLV_1779 -> -2538.568965558739
+AL gLV_1780 -> -2533.3420713242535
+AL gLV_1781 -> -2526.85658068277
+AL gLV_1782 -> -2533.8531794102655
+AL gLV_1783 -> -2534.843393752612
+AL gLV_1784 -> -2546.589587609809
+AL gLV_1785 -> -2541.452289612175
+AL gLV_1786 -> -2533.464289747424
+AL gLV_1787 -> -2531.8707178078444
+AL gLV_1788 -> -2539.593193299449
+AL gLV_1789 -> -2536.751484072695
+AL gLV_1790 -> -2542.3204106294684
+AL gLV_1791 -> -2525.3458573711655
+AL gLV_1792 -> -2534.232567451257
+AL gLV_1793 -> -2531.3792575330403
+AL gLV_1794 -> -2529.2909839341755
+AL gLV_1795 -> -2531.9137653263465
+AL gLV_1796 -> -2536.249727467587
+AL gLV_1797 -> -2539.8743917696347
+AL gLV_1798 -> -2537.4460091370797
+AL gLV_1799 -> -2529.0143550271314
+AL gLV_1800 -> -2538.568965558739
+AL gLV_1801 -> -2533.1361122848825
+AL gLV_1802 -> -2527.421600071644
+AL gLV_1803 -> -2534.469274178158
+AL gLV_1804 -> -2541.86381739328
+AL gLV_1805 -> -2535.2331543218593
+AL gLV_1806 -> -2535.6361192570685
+AL gLV_1807 -> -2530.1568997908275
+AL gLV_1808 -> -2532.6581041691447
+AL gLV_1809 -> -2545.7583034236313
+AL gLV_1810 -> -2535.5716758628264
+AL gLV_1811 -> -2537.9037309542327
+AL gLV_1812 -> -2536.52353862004
+AL gLV_1813 -> -2532.372425932385
+AL gLV_1814 -> -2534.034119701938
+AL gLV_1815 -> -2537.312265009881
+AL gLV_1816 -> -2532.399614092127
+AL gLV_1817 -> -2532.399614092127
+AL gLV_1818 -> -2538.070785913986
+AL gLV_1819 -> -2537.809311825403
+AL gLV_1820 -> -2537.4604669145624
+AddLatent -> -2518.1503096473048
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -2518.1503096473048 > -3280.6202103951255 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_1821, child of gLV_1734 -> -2533.543738070473
+AL gLV_1822, child of gLV_1734 -> -2531.630703188951
+AL gLV_1823, child of gLV_1734 -> -2525.6496577113903
+AL gLV_1824, child of gLV_1734 -> -2534.2604909015945
+AL gLV_1825, child of gLV_1734 -> -2531.6858421173606
+AL gLV_1826, child of gLV_1734 -> -2529.117924401695
+AL gLV_1827, child of gLV_1734 -> -2529.1877926884777
+AL gLV_1828, child of gLV_1734 -> -2528.745138608672
+AL gLV_1829, child of gLV_1734 -> -2531.4937059992967
+AL gLV_1830, child of gLV_1734 -> -2532.591255733218
+AL gLV_1831, child of gLV_1734 -> -2526.1521065957536
+AL gLV_1832, child of gLV_1734 -> -2527.606459100166
+AL gLV_1833, child of gLV_1734 -> -2525.105041399651
+AL gLV_1834, child of gLV_1734 -> -2528.1971233438894
+AL gLV_1835, child of gLV_1734 -> -2532.956824113808
+AL gLV_1836, child of gLV_1734 -> -2532.714216306387
+AL gLV_1837, child of gLV_1734 -> -2528.6134310321336
+AL gLV_1838, child of gLV_1734 -> -2528.613796185686
+AL gLV_1839, child of gLV_1734 -> -2530.1652210122325
+AL gLV_1840, child of gLV_1734 -> -2528.9153023948243
+AL gLV_1841, child of gLV_1734 -> -2531.251776310087
+AddLatent -> -2525.105041399651
+
+AddLatent -> NONE
+RL gLV_1734 -> -2523.3067691212577
+RemoveLatent -> -2523.3067691212577
+IC of gLV_1734 to (3) -> -2526.084217807297
+IncreaseCard -> -2526.084217807297
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Doesn't improve the score: -2523.3067691212577 <= -2518.1503096473048 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 7
+Test Log-Likelihood: -321.91152956239955
+Train BIC: -2914.995255855157
+Time: 3614269 ms
+Iteration 0: -3402.5442608844273
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_1842 -> -2609.7264088495863
+AL gLV_1843 -> -2602.6856510407865
+AL gLV_1844 -> -2603.4278026162797
+AL gLV_1845 -> -2602.9386991933447
+AL gLV_1846 -> -2597.69109323139
+AL gLV_1847 -> -2609.1026992841394
+AL gLV_1848 -> -2599.6439613598736
+AL gLV_1849 -> -2607.1898553958176
+AL gLV_1850 -> -2591.51417737195
+AL gLV_1851 -> -2604.2097418767116
+AL gLV_1852 -> -2608.464678969852
+AL gLV_1853 -> -2600.465375120718
+AL gLV_1854 -> -2602.705823084042
+AL gLV_1855 -> -2602.3212541676826
+AL gLV_1856 -> -2609.5807806184816
+AL gLV_1857 -> -2610.128176381513
+AL gLV_1858 -> -2606.8451544169316
+AL gLV_1859 -> -2600.6742202837736
+AL gLV_1860 -> -2607.296764587873
+AL gLV_1861 -> -2596.6772078278077
+AL gLV_1862 -> -2603.2759614483352
+AL gLV_1863 -> -2613.2681130917517
+AL gLV_1864 -> -2616.6329025057826
+AL gLV_1865 -> -2598.02973600929
+AL gLV_1866 -> -2602.3762812608616
+AL gLV_1867 -> -2599.5920421019537
+AL gLV_1868 -> -2610.3864824127663
+AL gLV_1869 -> -2600.229592142506
+AL gLV_1870 -> -2603.7470985064547
+AL gLV_1871 -> -2602.5545330595546
+AL gLV_1872 -> -2595.7124849711117
+AL gLV_1873 -> -2601.676919602962
+AL gLV_1874 -> -2601.701229576767
+AL gLV_1875 -> -2603.5331168070607
+AL gLV_1876 -> -2597.9396744989294
+AL gLV_1877 -> -2611.8172883301754
+AL gLV_1878 -> -2600.3077756172847
+AL gLV_1879 -> -2599.3281440210476
+AL gLV_1880 -> -2599.832201208866
+AL gLV_1881 -> -2607.8089019479357
+AL gLV_1882 -> -2606.8730715329716
+AL gLV_1883 -> -2611.7879733980926
+AL gLV_1884 -> -2611.751601583519
+AL gLV_1885 -> -2607.934482220047
+AL gLV_1886 -> -2605.11423227693
+AL gLV_1887 -> -2606.254295774767
+AL gLV_1888 -> -2599.940422874065
+AL gLV_1889 -> -2598.943887084218
+AL gLV_1890 -> -2599.8451189398643
+AL gLV_1891 -> -2594.821889946877
+AL gLV_1892 -> -2598.22315103192
+AL gLV_1893 -> -2607.9886153942
+AL gLV_1894 -> -2604.719261565669
+AL gLV_1895 -> -2599.8471819788533
+AL gLV_1896 -> -2601.4217232743995
+AL gLV_1897 -> -2602.082451594771
+AL gLV_1898 -> -2609.3537273370007
+AL gLV_1899 -> -2592.841354718405
+AL gLV_1900 -> -2609.200675594962
+AL gLV_1901 -> -2598.7985721008727
+AL gLV_1902 -> -2606.647681148877
+AL gLV_1903 -> -2599.692374351927
+AL gLV_1904 -> -2595.9294122933634
+AL gLV_1905 -> -2601.060228532624
+AL gLV_1906 -> -2603.1394380171564
+AL gLV_1907 -> -2600.798933413425
+AL gLV_1908 -> -2608.2633588581502
+AL gLV_1909 -> -2606.8573571308057
+AL gLV_1910 -> -2593.9863128516754
+AL gLV_1911 -> -2604.393234817759
+AL gLV_1912 -> -2595.0665915240043
+AL gLV_1913 -> -2607.92591130448
+AL gLV_1914 -> -2595.929761888947
+AL gLV_1915 -> -2593.6389370501306
+AL gLV_1916 -> -2598.7007539079673
+AL gLV_1917 -> -2599.2344307155145
+AL gLV_1918 -> -2603.98890243522
+AL gLV_1919 -> -2603.3251139546164
+AL gLV_1920 -> -2592.1197918639245
+AL gLV_1921 -> -2612.2185175577324
+AL gLV_1922 -> -2602.5333550236737
+AL gLV_1923 -> -2608.5984819136606
+AL gLV_1924 -> -2607.8400001895197
+AL gLV_1925 -> -2601.056174548503
+AL gLV_1926 -> -2607.7859097584037
+AL gLV_1927 -> -2617.575695090906
+AL gLV_1928 -> -2604.998372795431
+AL gLV_1929 -> -2606.393969798796
+AL gLV_1930 -> -2599.8429738787113
+AL gLV_1931 -> -2608.941758931052
+AL gLV_1932 -> -2596.8732511358307
+AL gLV_1933 -> -2610.2878533329813
+AL gLV_1934 -> -2611.8881354605915
+AL gLV_1935 -> -2608.708730180881
+AL gLV_1936 -> -2598.134190632977
+AL gLV_1937 -> -2598.08678251396
+AL gLV_1938 -> -2613.2015055639854
+AL gLV_1939 -> -2609.8695136362144
+AL gLV_1940 -> -2610.4254982292005
+AL gLV_1941 -> -2608.3562966674745
+AL gLV_1942 -> -2603.7039317382955
+AL gLV_1943 -> -2605.643218155152
+AL gLV_1944 -> -2610.5012514649493
+AL gLV_1945 -> -2604.0479225572926
+AL gLV_1946 -> -2608.0102800994737
+AL gLV_1947 -> -2599.159256733327
+AL gLV_1948 -> -2606.9531814344987
+AL gLV_1949 -> -2594.900521195498
+AL gLV_1950 -> -2609.9022803181274
+AL gLV_1951 -> -2595.2289872585507
+AL gLV_1952 -> -2606.630325830031
+AL gLV_1953 -> -2600.0756639529804
+AL gLV_1954 -> -2602.774243830447
+AL gLV_1955 -> -2600.1815708914583
+AL gLV_1956 -> -2602.0514365453687
+AL gLV_1957 -> -2600.3846138561767
+AL gLV_1958 -> -2603.7976605652216
+AL gLV_1959 -> -2602.023614020344
+AL gLV_1960 -> -2590.1705301667175
+AL gLV_1961 -> -2597.06415353189
+AL gLV_1962 -> -2599.860413062717
+AL gLV_1963 -> -2606.164325303304
+AL gLV_1964 -> -2587.845364297766
+AL gLV_1965 -> -2601.5843516516657
+AL gLV_1966 -> -2596.9226970168816
+AL gLV_1967 -> -2603.897907552879
+AL gLV_1968 -> -2595.8057886725296
+AL gLV_1969 -> -2609.4346771533087
+AL gLV_1970 -> -2604.701665089594
+AL gLV_1971 -> -2600.4539097874217
+AL gLV_1972 -> -2607.522707423476
+AL gLV_1973 -> -2600.562183839023
+AL gLV_1974 -> -2605.750845039417
+AL gLV_1975 -> -2604.792635387084
+AL gLV_1976 -> -2607.614063448735
+AL gLV_1977 -> -2599.9107998497198
+AL gLV_1978 -> -2598.607385520762
+AL gLV_1979 -> -2606.499626201947
+AL gLV_1980 -> -2595.4171507135816
+AL gLV_1981 -> -2598.1455556606406
+AL gLV_1982 -> -2602.7547458263116
+AL gLV_1983 -> -2606.719830489259
+AL gLV_1984 -> -2602.180601999406
+AL gLV_1985 -> -2606.1683339494775
+AL gLV_1986 -> -2599.378438088772
+AL gLV_1987 -> -2600.4852200528917
+AL gLV_1988 -> -2602.9499290271806
+AL gLV_1989 -> -2603.123793924431
+AL gLV_1990 -> -2601.176929998373
+AL gLV_1991 -> -2599.3743841046507
+AL gLV_1992 -> -2607.837672742717
+AL gLV_1993 -> -2600.645647400872
+AL gLV_1994 -> -2600.543173302043
+AL gLV_1995 -> -2598.4273048844575
+AL gLV_1996 -> -2605.812033020494
+AL gLV_1997 -> -2601.3560165719773
+AL gLV_1998 -> -2604.8597269105785
+AL gLV_1999 -> -2594.51924001748
+AL gLV_2000 -> -2608.9323045517804
+AL gLV_2001 -> -2608.464985814218
+AL gLV_2002 -> -2612.77310060799
+AL gLV_2003 -> -2602.5411987232133
+AL gLV_2004 -> -2603.1394380171564
+AL gLV_2005 -> -2607.9266150409017
+AL gLV_2006 -> -2603.456447969652
+AL gLV_2007 -> -2606.5501113244222
+AL gLV_2008 -> -2599.384044289426
+AL gLV_2009 -> -2614.11363814342
+AL gLV_2010 -> -2603.3349831208784
+AL gLV_2011 -> -2599.3696282448386
+AL gLV_2012 -> -2609.66542706361
+AL gLV_2013 -> -2600.8696843199705
+AL gLV_2014 -> -2605.6692366132334
+AL gLV_2015 -> -2592.519366625231
+AL gLV_2016 -> -2599.827346104493
+AL gLV_2017 -> -2601.8424023444186
+AL gLV_2018 -> -2604.4645634848594
+AL gLV_2019 -> -2604.8500825249725
+AL gLV_2020 -> -2607.934482220047
+AL gLV_2021 -> -2601.060228532624
+AL gLV_2022 -> -2609.132722529453
+AL gLV_2023 -> -2597.8497969700134
+AL gLV_2024 -> -2603.688396045464
+AL gLV_2025 -> -2610.23852966179
+AL gLV_2026 -> -2601.056174548503
+AL gLV_2027 -> -2616.0356670649217
+AL gLV_2028 -> -2602.604065953185
+AL gLV_2029 -> -2596.518410426601
+AL gLV_2030 -> -2604.7587642115313
+AL gLV_2031 -> -2605.1824269427907
+AL gLV_2032 -> -2612.7215870685914
+AL gLV_2033 -> -2609.589366575652
+AL gLV_2034 -> -2602.0786303489185
+AL gLV_2035 -> -2603.7039490225657
+AL gLV_2036 -> -2607.5825163062837
+AL gLV_2037 -> -2611.0646997021404
+AL gLV_2038 -> -2605.465241727198
+AL gLV_2039 -> -2614.260179938563
+AL gLV_2040 -> -2603.8272512967687
+AL gLV_2041 -> -2613.890669350869
+AL gLV_2042 -> -2605.898515434346
+AL gLV_2043 -> -2605.274063322577
+AL gLV_2044 -> -2609.716969628335
+AL gLV_2045 -> -2603.8265322814177
+AL gLV_2046 -> -2613.2414834935275
+AL gLV_2047 -> -2603.4237218109133
+AL gLV_2048 -> -2610.358979415191
+AL gLV_2049 -> -2605.1023910769923
+AL gLV_2050 -> -2611.0889635296703
+AL gLV_2051 -> -2610.163839526034
+AL gLV_2052 -> -2608.0256009001655
+AL gLV_2053 -> -2609.208126665333
+AL gLV_2054 -> -2605.8396082352738
+AL gLV_2055 -> -2602.2762282164053
+AL gLV_2056 -> -2610.8985373078676
+AL gLV_2057 -> -2600.120300360197
+AL gLV_2058 -> -2601.366247390085
+AL gLV_2059 -> -2608.1879766116235
+AL gLV_2060 -> -2604.109622994874
+AL gLV_2061 -> -2605.431114996384
+AL gLV_2062 -> -2608.501751893735
+AL gLV_2063 -> -2608.572505561898
+AL gLV_2064 -> -2602.318617694878
+AL gLV_2065 -> -2596.5440370887936
+AL gLV_2066 -> -2610.3866670389752
+AL gLV_2067 -> -2606.558936802028
+AL gLV_2068 -> -2603.2439224192753
+AL gLV_2069 -> -2598.6826262635727
+AL gLV_2070 -> -2605.7049566919172
+AL gLV_2071 -> -2605.9917588535327
+AL gLV_2072 -> -2621.1348882906746
+AL gLV_2073 -> -2599.2613300910793
+AL gLV_2074 -> -2605.3741997186553
+AL gLV_2075 -> -2598.706774725574
+AL gLV_2076 -> -2599.827346104493
+AL gLV_2077 -> -2605.2220655006913
+AL gLV_2078 -> -2597.7094292027377
+AL gLV_2079 -> -2603.916370334557
+AL gLV_2080 -> -2606.809055736755
+AL gLV_2081 -> -2601.060228532624
+AL gLV_2082 -> -2602.0140115338645
+AL gLV_2083 -> -2602.619919525741
+AL gLV_2084 -> -2603.9498095789045
+AL gLV_2085 -> -2609.6722062242934
+AL gLV_2086 -> -2606.3106765253965
+AL gLV_2087 -> -2610.5012514649493
+AL gLV_2088 -> -2605.3639241996007
+AL gLV_2089 -> -2600.3523524040206
+AL gLV_2090 -> -2601.5643223740344
+AL gLV_2091 -> -2604.627359282727
+AL gLV_2092 -> -2606.01317651271
+AL gLV_2093 -> -2604.973337280219
+AL gLV_2094 -> -2609.3354181799623
+AddLatent -> -2587.845364297766
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -2587.845364297766 > -3402.5442608844273 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_2095, child of gLV_1964 -> -2602.484670069537
+AL gLV_2096, child of gLV_1964 -> -2607.732251722658
+AL gLV_2097, child of gLV_1964 -> -2601.4950349921787
+AL gLV_2098, child of gLV_1964 -> -2600.7133059171906
+AL gLV_2099, child of gLV_1964 -> -2600.5383487652016
+AL gLV_2100, child of gLV_1964 -> -2601.976034849286
+AL gLV_2101, child of gLV_1964 -> -2599.838511262319
+AL gLV_2102, child of gLV_1964 -> -2606.9236236199245
+AL gLV_2103, child of gLV_1964 -> -2601.5768917546484
+AL gLV_2104, child of gLV_1964 -> -2598.8740044397655
+AddLatent -> -2598.8740044397655
+
+AddLatent -> NONE
+RL gLV_1964 -> -2586.283362568209
+RemoveLatent -> -2586.283362568209
+IC of gLV_1964 to (3) -> -2593.555762180483
+IncreaseCard -> -2593.555762180483
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Improves the score: -2586.283362568209 > -2587.845364297766 (old best)
+--------------------------------------------------
+
+Iteration 3:
+
+AddLatent -> NONE
+
+AddLatent -> NONE
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: no_operator
+Doesn't improve the score: -1.7976931348623157E308 <= -2586.283362568209 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 8
+Test Log-Likelihood: -252.2630697650673
+Train BIC: -3076.606451181978
+Time: 3679915 ms
+Iteration 0: -3328.455564443627
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_2105 -> -2546.170040339186
+AL gLV_2106 -> -2541.6479108590506
+AL gLV_2107 -> -2541.107964073514
+AL gLV_2108 -> -2549.7402766216046
+AL gLV_2109 -> -2544.625356276736
+AL gLV_2110 -> -2535.997299942255
+AL gLV_2111 -> -2543.5799954624827
+AL gLV_2112 -> -2555.7250682255008
+AL gLV_2113 -> -2535.997299942255
+AL gLV_2114 -> -2541.746410738067
+AL gLV_2115 -> -2547.5943771942843
+AL gLV_2116 -> -2533.6247431766114
+AL gLV_2117 -> -2540.8853565769937
+AL gLV_2118 -> -2546.2698219556414
+AL gLV_2119 -> -2545.7169945537426
+AL gLV_2120 -> -2543.537905894131
+AL gLV_2121 -> -2546.326016837214
+AL gLV_2122 -> -2537.8095807396
+AL gLV_2123 -> -2547.7062772721915
+AL gLV_2124 -> -2543.448087409204
+AL gLV_2125 -> -2542.3768458247073
+AL gLV_2126 -> -2535.895861799636
+AL gLV_2127 -> -2543.4537811390132
+AL gLV_2128 -> -2536.391687161575
+AL gLV_2129 -> -2533.5674915670324
+AL gLV_2130 -> -2537.0102006735533
+AL gLV_2131 -> -2541.651025797971
+AL gLV_2132 -> -2538.1200371253362
+AL gLV_2133 -> -2544.4873859441
+AL gLV_2134 -> -2543.053984008972
+AL gLV_2135 -> -2543.56703013365
+AL gLV_2136 -> -2551.8127906040304
+AL gLV_2137 -> -2543.56703013365
+AL gLV_2138 -> -2545.502027056721
+AL gLV_2139 -> -2538.0418396305536
+AL gLV_2140 -> -2542.582411565096
+AL gLV_2141 -> -2542.1083028537396
+AL gLV_2142 -> -2543.995490898964
+AL gLV_2143 -> -2539.707897799299
+AL gLV_2144 -> -2540.502112225624
+AL gLV_2145 -> -2551.8472844171465
+AL gLV_2146 -> -2546.0824159390622
+AL gLV_2147 -> -2541.6722221139403
+AL gLV_2148 -> -2534.1100800858235
+AL gLV_2149 -> -2543.3580432337912
+AL gLV_2150 -> -2542.9943509886903
+AL gLV_2151 -> -2534.6704121030953
+AL gLV_2152 -> -2552.676424946074
+AL gLV_2153 -> -2538.19743892128
+AL gLV_2154 -> -2541.7964225008236
+AL gLV_2155 -> -2536.083643847746
+AL gLV_2156 -> -2547.2795996867208
+AL gLV_2157 -> -2537.63112457603
+AL gLV_2158 -> -2540.6877875804857
+AL gLV_2159 -> -2543.2697701935085
+AL gLV_2160 -> -2545.0955108358357
+AL gLV_2161 -> -2547.9387752373377
+AL gLV_2162 -> -2530.179839035371
+AL gLV_2163 -> -2545.2130230440616
+AL gLV_2164 -> -2542.5986685992652
+AL gLV_2165 -> -2552.6398413798443
+AL gLV_2166 -> -2530.5617346047784
+AL gLV_2167 -> -2537.9030963817895
+AL gLV_2168 -> -2543.56703013365
+AL gLV_2169 -> -2545.0450222000227
+AL gLV_2170 -> -2545.59648373765
+AL gLV_2171 -> -2546.717161984627
+AL gLV_2172 -> -2544.202739492411
+AL gLV_2173 -> -2536.224490749351
+AL gLV_2174 -> -2549.711636442445
+AL gLV_2175 -> -2544.5247466990227
+AL gLV_2176 -> -2548.116950913868
+AL gLV_2177 -> -2536.9914770233227
+AL gLV_2178 -> -2530.451044338075
+AL gLV_2179 -> -2544.8509299026023
+AL gLV_2180 -> -2548.7333114210483
+AL gLV_2181 -> -2544.0992604624903
+AL gLV_2182 -> -2547.8598348227806
+AL gLV_2183 -> -2538.9289612757934
+AL gLV_2184 -> -2552.2035019784203
+AL gLV_2185 -> -2550.6700561171874
+AL gLV_2186 -> -2549.9699106416533
+AL gLV_2187 -> -2543.524233316753
+AL gLV_2188 -> -2543.524233316753
+AL gLV_2189 -> -2548.9578119386024
+AL gLV_2190 -> -2536.002342947327
+AL gLV_2191 -> -2539.057157851016
+AL gLV_2192 -> -2543.159990546825
+AL gLV_2193 -> -2540.6429344588137
+AL gLV_2194 -> -2551.2417678122456
+AL gLV_2195 -> -2547.993256502111
+AL gLV_2196 -> -2541.254338395489
+AL gLV_2197 -> -2544.8407297782005
+AL gLV_2198 -> -2545.004638407214
+AL gLV_2199 -> -2531.229624797834
+AL gLV_2200 -> -2544.122718734975
+AL gLV_2201 -> -2546.5957182416983
+AL gLV_2202 -> -2542.1597928014926
+AL gLV_2203 -> -2538.444490616301
+AL gLV_2204 -> -2539.625840992277
+AL gLV_2205 -> -2548.982931805076
+AL gLV_2206 -> -2542.2021437335275
+AL gLV_2207 -> -2545.004638407214
+AL gLV_2208 -> -2545.004638407214
+AL gLV_2209 -> -2539.405916130537
+AL gLV_2210 -> -2552.477908858788
+AL gLV_2211 -> -2550.8033178685723
+AL gLV_2212 -> -2534.528560788965
+AL gLV_2213 -> -2542.5838555293203
+AL gLV_2214 -> -2535.922804690158
+AL gLV_2215 -> -2544.0482253652367
+AL gLV_2216 -> -2543.448087409204
+AL gLV_2217 -> -2537.0102006735533
+AL gLV_2218 -> -2544.5708312493502
+AL gLV_2219 -> -2550.3092314871274
+AL gLV_2220 -> -2541.1949702576667
+AL gLV_2221 -> -2552.0290238960247
+AL gLV_2222 -> -2545.8949508609944
+AL gLV_2223 -> -2541.6122572057193
+AL gLV_2224 -> -2542.9833591413276
+AL gLV_2225 -> -2544.4315131878916
+AL gLV_2226 -> -2543.498429567065
+AL gLV_2227 -> -2535.022681040457
+AL gLV_2228 -> -2546.2007216568877
+AL gLV_2229 -> -2545.411028642121
+AL gLV_2230 -> -2554.7064540598917
+AL gLV_2231 -> -2543.0795564032687
+AL gLV_2232 -> -2540.7133711882266
+AL gLV_2233 -> -2543.7093178523055
+AL gLV_2234 -> -2545.3813833700547
+AL gLV_2235 -> -2553.3924918085136
+AL gLV_2236 -> -2542.9635073465574
+AL gLV_2237 -> -2547.1519669717604
+AL gLV_2238 -> -2543.095860205873
+AL gLV_2239 -> -2540.2736726257554
+AL gLV_2240 -> -2551.777941803295
+AL gLV_2241 -> -2554.9262342051593
+AL gLV_2242 -> -2546.162932083865
+AL gLV_2243 -> -2538.839377600132
+AL gLV_2244 -> -2541.0285414837763
+AL gLV_2245 -> -2548.2263440234806
+AL gLV_2246 -> -2550.0901215912945
+AL gLV_2247 -> -2540.587959200688
+AL gLV_2248 -> -2535.2067608790294
+AL gLV_2249 -> -2543.56703013365
+AL gLV_2250 -> -2545.0450222000227
+AL gLV_2251 -> -2541.7964225008236
+AL gLV_2252 -> -2546.593797433779
+AL gLV_2253 -> -2544.1377688189723
+AL gLV_2254 -> -2547.257815383031
+AL gLV_2255 -> -2548.1643163589956
+AL gLV_2256 -> -2546.4563130271354
+AL gLV_2257 -> -2548.3120412706503
+AL gLV_2258 -> -2547.696629159757
+AL gLV_2259 -> -2549.733839883326
+AL gLV_2260 -> -2542.6360395811816
+AL gLV_2261 -> -2553.0611407324936
+AL gLV_2262 -> -2544.202367052483
+AL gLV_2263 -> -2547.2586156556354
+AL gLV_2264 -> -2538.62359567817
+AL gLV_2265 -> -2541.246182619589
+AL gLV_2266 -> -2543.56703013365
+AL gLV_2267 -> -2544.1966244099776
+AL gLV_2268 -> -2542.3615176511157
+AL gLV_2269 -> -2554.120093286358
+AL gLV_2270 -> -2545.1684881619876
+AL gLV_2271 -> -2542.9691669812732
+AL gLV_2272 -> -2553.988109419401
+AL gLV_2273 -> -2546.4563130271354
+AL gLV_2274 -> -2550.3266639903386
+AL gLV_2275 -> -2539.9051609172443
+AL gLV_2276 -> -2544.0271558335853
+AL gLV_2277 -> -2538.192685991993
+AL gLV_2278 -> -2539.245019204713
+AL gLV_2279 -> -2541.0285414837763
+AL gLV_2280 -> -2545.40445040126
+AL gLV_2281 -> -2545.148253167597
+AL gLV_2282 -> -2542.7638768131847
+AL gLV_2283 -> -2537.0102006735533
+AL gLV_2284 -> -2543.56703013365
+AL gLV_2285 -> -2549.7061412903263
+AL gLV_2286 -> -2545.0150701110074
+AL gLV_2287 -> -2548.9654074500677
+AL gLV_2288 -> -2547.2765832060836
+AL gLV_2289 -> -2539.3506539223627
+AL gLV_2290 -> -2549.6829517908504
+AL gLV_2291 -> -2557.298135050455
+AL gLV_2292 -> -2544.9989961487117
+AL gLV_2293 -> -2546.1935215935437
+AL gLV_2294 -> -2543.693621424888
+AL gLV_2295 -> -2548.0899383574015
+AL gLV_2296 -> -2546.8677014340683
+AL gLV_2297 -> -2542.6515352795013
+AL gLV_2298 -> -2552.590051877011
+AL gLV_2299 -> -2547.0933545823646
+AL gLV_2300 -> -2554.1780106769957
+AL gLV_2301 -> -2545.5311379777645
+AL gLV_2302 -> -2543.6634909394024
+AL gLV_2303 -> -2545.0551150302013
+AL gLV_2304 -> -2547.660551788743
+AL gLV_2305 -> -2549.307481874184
+AL gLV_2306 -> -2545.5113734868264
+AL gLV_2307 -> -2553.173228544352
+AL gLV_2308 -> -2544.9912866864397
+AL gLV_2309 -> -2547.5045970776705
+AL gLV_2310 -> -2553.1873701987543
+AL gLV_2311 -> -2552.1706565190298
+AL gLV_2312 -> -2556.5110513642485
+AL gLV_2313 -> -2556.0685306060345
+AL gLV_2314 -> -2552.3534979650294
+AL gLV_2315 -> -2551.200344601171
+AL gLV_2316 -> -2556.1717592395444
+AL gLV_2317 -> -2544.4419466577356
+AL gLV_2318 -> -2545.4669794281463
+AL gLV_2319 -> -2540.518113867501
+AL gLV_2320 -> -2553.470781656695
+AL gLV_2321 -> -2561.579442461415
+AL gLV_2322 -> -2537.1028319999523
+AL gLV_2323 -> -2550.9449778136077
+AL gLV_2324 -> -2549.7902126342765
+AL gLV_2325 -> -2551.5089374915237
+AL gLV_2326 -> -2563.558391953246
+AL gLV_2327 -> -2544.6781435506123
+AL gLV_2328 -> -2538.217163921211
+AL gLV_2329 -> -2557.0812156790425
+AL gLV_2330 -> -2555.828499096434
+AL gLV_2331 -> -2546.5117613041016
+AL gLV_2332 -> -2545.688395221625
+AL gLV_2333 -> -2550.7485934386978
+AL gLV_2334 -> -2550.245398290551
+AL gLV_2335 -> -2552.6711844737197
+AL gLV_2336 -> -2547.92534309525
+AL gLV_2337 -> -2544.625356276736
+AL gLV_2338 -> -2545.9180882275773
+AL gLV_2339 -> -2534.466660656223
+AL gLV_2340 -> -2546.5733974216623
+AL gLV_2341 -> -2559.9224120933704
+AL gLV_2342 -> -2543.448087409204
+AL gLV_2343 -> -2538.9140683641517
+AL gLV_2344 -> -2546.1581797684235
+AL gLV_2345 -> -2545.0450222000227
+AL gLV_2346 -> -2545.2565252151194
+AL gLV_2347 -> -2543.4483647298403
+AL gLV_2348 -> -2550.133182587331
+AL gLV_2349 -> -2552.613908805396
+AL gLV_2350 -> -2545.004638407214
+AL gLV_2351 -> -2548.097011037228
+AL gLV_2352 -> -2552.0097424602677
+AL gLV_2353 -> -2545.8923565772084
+AL gLV_2354 -> -2548.46444391569
+AL gLV_2355 -> -2545.40445040126
+AL gLV_2356 -> -2548.4713821608207
+AL gLV_2357 -> -2553.0066876468836
+AddLatent -> -2530.179839035371
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -2530.179839035371 > -3328.455564443627 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_2358, child of gLV_2162 -> -2539.433711033565
+AL gLV_2359, child of gLV_2162 -> -2540.3078416616595
+AL gLV_2360, child of gLV_2162 -> -2537.9451644540673
+AL gLV_2361, child of gLV_2162 -> -2546.8708553278943
+AL gLV_2362, child of gLV_2162 -> -2539.7704912580552
+AL gLV_2363, child of gLV_2162 -> -2534.710784043881
+AL gLV_2364, child of gLV_2162 -> -2537.669088497053
+AL gLV_2365, child of gLV_2162 -> -2537.4013034020936
+AL gLV_2366, child of gLV_2162 -> -2540.451370237278
+AL gLV_2367, child of gLV_2162 -> -2535.767053149504
+AL gLV_2368, child of gLV_2162 -> -2537.4498865295504
+AL gLV_2369, child of gLV_2162 -> -2537.6358087500184
+AL gLV_2370, child of gLV_2162 -> -2538.1222867443125
+AL gLV_2371, child of gLV_2162 -> -2539.1267374171084
+AL gLV_2372, child of gLV_2162 -> -2543.961186183399
+AddLatent -> -2534.710784043881
+
+AddLatent -> NONE
+RL gLV_2162 -> -2530.006939887111
+RemoveLatent -> -2530.006939887111
+IC of gLV_2162 to (3) -> -2534.9400191142713
+IncreaseCard -> -2534.9400191142713
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Improves the score: -2530.006939887111 > -2530.179839035371 (old best)
+--------------------------------------------------
+
+Iteration 3:
+
+AddLatent -> NONE
+
+AddLatent -> NONE
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: no_operator
+Doesn't improve the score: -1.7976931348623157E308 <= -2530.006939887111 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 9
+Test Log-Likelihood: -316.9994140601518
+Train BIC: -2996.3480955303444
+Time: 3759636 ms
+Iteration 0: -3259.28010109418
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_2373 -> -2484.918358365472
+AL gLV_2374 -> -2487.215122190906
+AL gLV_2375 -> -2494.3727382512348
+AL gLV_2376 -> -2479.594507777345
+AL gLV_2377 -> -2485.3601883285464
+AL gLV_2378 -> -2479.319338021409
+AL gLV_2379 -> -2485.8294853451
+AL gLV_2380 -> -2477.9450800465365
+AL gLV_2381 -> -2483.351355748489
+AL gLV_2382 -> -2486.471138390051
+AL gLV_2383 -> -2485.0796035578596
+AL gLV_2384 -> -2480.9409195463977
+AL gLV_2385 -> -2491.213335034774
+AL gLV_2386 -> -2479.319338021409
+AL gLV_2387 -> -2486.417454278828
+AL gLV_2388 -> -2486.882118854798
+AL gLV_2389 -> -2485.6816703668055
+AL gLV_2390 -> -2484.7314284557438
+AL gLV_2391 -> -2487.544422857319
+AL gLV_2392 -> -2485.8285205665516
+AL gLV_2393 -> -2486.744780335123
+AL gLV_2394 -> -2481.8831276726332
+AL gLV_2395 -> -2487.945059169267
+AL gLV_2396 -> -2479.4714638919804
+AL gLV_2397 -> -2480.4018260517655
+AL gLV_2398 -> -2483.5414050868085
+AL gLV_2399 -> -2490.019149901379
+AL gLV_2400 -> -2482.7670023332566
+AL gLV_2401 -> -2473.3769309728873
+AL gLV_2402 -> -2485.4056137733987
+AL gLV_2403 -> -2491.7557206362935
+AL gLV_2404 -> -2475.740981604983
+AL gLV_2405 -> -2480.7690546972044
+AL gLV_2406 -> -2485.1488796730027
+AL gLV_2407 -> -2475.5021151993574
+AL gLV_2408 -> -2485.7216278169094
+AL gLV_2409 -> -2478.523652382346
+AL gLV_2410 -> -2482.48268400571
+AL gLV_2411 -> -2496.4882775993156
+AL gLV_2412 -> -2478.123903695672
+AL gLV_2413 -> -2485.576276815356
+AL gLV_2414 -> -2489.5008311698416
+AL gLV_2415 -> -2501.3736170453544
+AL gLV_2416 -> -2488.006231284216
+AL gLV_2417 -> -2474.5675578993623
+AL gLV_2418 -> -2482.780709261293
+AL gLV_2419 -> -2482.816517701845
+AL gLV_2420 -> -2488.2952041431736
+AL gLV_2421 -> -2484.745710241038
+AL gLV_2422 -> -2486.401061738113
+AL gLV_2423 -> -2479.809401990096
+AL gLV_2424 -> -2484.5581216020328
+AL gLV_2425 -> -2483.666630864151
+AL gLV_2426 -> -2480.7956901979896
+AL gLV_2427 -> -2480.5293848539945
+AL gLV_2428 -> -2485.2006424900096
+AL gLV_2429 -> -2486.6063073536184
+AL gLV_2430 -> -2489.4013634105363
+AL gLV_2431 -> -2483.032938769491
+AL gLV_2432 -> -2480.7690546972044
+AL gLV_2433 -> -2486.592020086914
+AL gLV_2434 -> -2477.6385712916326
+AL gLV_2435 -> -2496.2829053004148
+AL gLV_2436 -> -2478.4820418553336
+AL gLV_2437 -> -2484.4628613238156
+AL gLV_2438 -> -2481.415806364803
+AL gLV_2439 -> -2487.3518448197196
+AL gLV_2440 -> -2496.789862138442
+AL gLV_2441 -> -2479.604771393125
+AL gLV_2442 -> -2482.2203441096913
+AL gLV_2443 -> -2494.8600173681084
+AL gLV_2444 -> -2477.2655969028187
+AL gLV_2445 -> -2494.5605686531385
+AL gLV_2446 -> -2478.7184939237686
+AL gLV_2447 -> -2476.773139899026
+AL gLV_2448 -> -2478.9328821888375
+AL gLV_2449 -> -2494.7149831971906
+AL gLV_2450 -> -2487.5589914452003
+AL gLV_2451 -> -2478.932549920076
+AL gLV_2452 -> -2482.9152491650375
+AL gLV_2453 -> -2491.7520311242397
+AL gLV_2454 -> -2474.1770205801777
+AL gLV_2455 -> -2480.7690546972044
+AL gLV_2456 -> -2483.414468741727
+AL gLV_2457 -> -2486.9768567273
+AL gLV_2458 -> -2487.4418087481936
+AL gLV_2459 -> -2468.741866208152
+AL gLV_2460 -> -2475.453012871425
+AL gLV_2461 -> -2481.905231276006
+AL gLV_2462 -> -2487.451200192053
+AL gLV_2463 -> -2486.2414558142223
+AL gLV_2464 -> -2483.742653100266
+AL gLV_2465 -> -2485.1392363296723
+AL gLV_2466 -> -2490.0717687563892
+AL gLV_2467 -> -2471.5249158974284
+AL gLV_2468 -> -2478.8432367973965
+AL gLV_2469 -> -2490.772558929729
+AL gLV_2470 -> -2478.71620879849
+AL gLV_2471 -> -2481.9232868138683
+AL gLV_2472 -> -2479.7943190456203
+AL gLV_2473 -> -2483.666018499645
+AL gLV_2474 -> -2480.3858905484426
+AL gLV_2475 -> -2485.975815995826
+AL gLV_2476 -> -2486.7861766153837
+AL gLV_2477 -> -2481.342100917547
+AL gLV_2478 -> -2484.868789644022
+AL gLV_2479 -> -2483.437378663934
+AL gLV_2480 -> -2485.7302206742124
+AL gLV_2481 -> -2472.2500969645976
+AL gLV_2482 -> -2496.1052862712013
+AL gLV_2483 -> -2486.3488822478207
+AL gLV_2484 -> -2478.8644022442036
+AL gLV_2485 -> -2485.526234276098
+AL gLV_2486 -> -2484.154723231394
+AL gLV_2487 -> -2477.8484214748846
+AL gLV_2488 -> -2481.5331196139273
+AL gLV_2489 -> -2479.301183396702
+AL gLV_2490 -> -2477.1196353465543
+AL gLV_2491 -> -2474.471244493341
+AL gLV_2492 -> -2481.1462850020166
+AL gLV_2493 -> -2480.7144127802767
+AL gLV_2494 -> -2487.4938268919304
+AL gLV_2495 -> -2488.180195447867
+AL gLV_2496 -> -2480.7603001753673
+AL gLV_2497 -> -2485.8549445845006
+AL gLV_2498 -> -2484.174277593151
+AL gLV_2499 -> -2490.7933058130293
+AL gLV_2500 -> -2491.9432759303454
+AL gLV_2501 -> -2483.491397457782
+AL gLV_2502 -> -2478.871894033052
+AL gLV_2503 -> -2480.918349856493
+AL gLV_2504 -> -2486.891969328578
+AL gLV_2505 -> -2493.1902845882846
+AL gLV_2506 -> -2484.3505393228215
+AL gLV_2507 -> -2483.009174176909
+AL gLV_2508 -> -2481.8856434836684
+AL gLV_2509 -> -2483.080056159468
+AL gLV_2510 -> -2480.419861101345
+AL gLV_2511 -> -2489.9398601252724
+AL gLV_2512 -> -2484.5814804501415
+AL gLV_2513 -> -2486.969545030051
+AL gLV_2514 -> -2485.7687245765273
+AL gLV_2515 -> -2493.8914467645122
+AL gLV_2516 -> -2487.25751827748
+AL gLV_2517 -> -2472.1111276992947
+AL gLV_2518 -> -2478.9328821888375
+AL gLV_2519 -> -2495.3075966323577
+AL gLV_2520 -> -2480.4250145644446
+AL gLV_2521 -> -2486.0672407831635
+AL gLV_2522 -> -2484.744824878845
+AL gLV_2523 -> -2487.529578110007
+AL gLV_2524 -> -2483.289822679452
+AL gLV_2525 -> -2480.918349856493
+AL gLV_2526 -> -2482.5717828164643
+AL gLV_2527 -> -2485.752036268099
+AL gLV_2528 -> -2482.702469942359
+AL gLV_2529 -> -2487.159392981827
+AL gLV_2530 -> -2481.9417510220705
+AL gLV_2531 -> -2484.7579503482275
+AL gLV_2532 -> -2488.027112021838
+AL gLV_2533 -> -2487.06510081808
+AL gLV_2534 -> -2472.1111276992947
+AL gLV_2535 -> -2478.9328821888375
+AL gLV_2536 -> -2481.2390397074764
+AL gLV_2537 -> -2486.517445035084
+AL gLV_2538 -> -2486.7454135389116
+AL gLV_2539 -> -2482.4418582129424
+AL gLV_2540 -> -2488.5959062115476
+AL gLV_2541 -> -2488.7924710941825
+AL gLV_2542 -> -2480.918349856493
+AL gLV_2543 -> -2489.516036149509
+AL gLV_2544 -> -2487.4960189806447
+AL gLV_2545 -> -2491.0489326895836
+AL gLV_2546 -> -2485.1438980645135
+AL gLV_2547 -> -2490.4400179447
+AL gLV_2548 -> -2481.1247196375507
+AL gLV_2549 -> -2487.1833193822968
+AL gLV_2550 -> -2484.798418984556
+AL gLV_2551 -> -2491.4508633264595
+AL gLV_2552 -> -2472.1111276992947
+AL gLV_2553 -> -2485.2419292067857
+AL gLV_2554 -> -2486.323726775105
+AL gLV_2555 -> -2483.798288826943
+AL gLV_2556 -> -2474.9052956189594
+AL gLV_2557 -> -2484.8355555203957
+AL gLV_2558 -> -2488.9533490071744
+AL gLV_2559 -> -2485.0070535778605
+AL gLV_2560 -> -2482.9148588320254
+AL gLV_2561 -> -2490.503062738064
+AL gLV_2562 -> -2477.2413019950222
+AL gLV_2563 -> -2485.3138778206817
+AL gLV_2564 -> -2487.0551313229457
+AL gLV_2565 -> -2489.34515151076
+AL gLV_2566 -> -2487.623029718922
+AL gLV_2567 -> -2480.7690546972044
+AL gLV_2568 -> -2479.898451725039
+AL gLV_2569 -> -2475.233391617547
+AL gLV_2570 -> -2488.2711486224516
+AL gLV_2571 -> -2476.0432028869463
+AL gLV_2572 -> -2487.608671475652
+AL gLV_2573 -> -2488.1951382241978
+AL gLV_2574 -> -2488.3023438607265
+AL gLV_2575 -> -2489.4309556862167
+AL gLV_2576 -> -2482.9773319814735
+AL gLV_2577 -> -2484.8950866210275
+AL gLV_2578 -> -2479.126069011247
+AL gLV_2579 -> -2480.4541216144657
+AL gLV_2580 -> -2489.632996731424
+AL gLV_2581 -> -2483.359491685232
+AL gLV_2582 -> -2488.431180772909
+AL gLV_2583 -> -2488.215257121256
+AL gLV_2584 -> -2490.1616896268324
+AL gLV_2585 -> -2493.604583503282
+AL gLV_2586 -> -2479.319338021409
+AL gLV_2587 -> -2483.3403934194607
+AL gLV_2588 -> -2485.0545291151207
+AL gLV_2589 -> -2484.8956861677507
+AL gLV_2590 -> -2486.029195871077
+AL gLV_2591 -> -2483.7655429625606
+AL gLV_2592 -> -2473.2747049149552
+AL gLV_2593 -> -2487.7332601466833
+AL gLV_2594 -> -2492.0234545977905
+AL gLV_2595 -> -2487.98707336924
+AL gLV_2596 -> -2484.939011575833
+AL gLV_2597 -> -2484.3481994731414
+AL gLV_2598 -> -2480.003798907251
+AL gLV_2599 -> -2488.682410549809
+AL gLV_2600 -> -2493.1643894692575
+AL gLV_2601 -> -2493.8114914341136
+AL gLV_2602 -> -2487.902550914539
+AL gLV_2603 -> -2487.898965994844
+AL gLV_2604 -> -2489.4934109785595
+AL gLV_2605 -> -2486.8562529100664
+AL gLV_2606 -> -2484.50190055467
+AL gLV_2607 -> -2484.506004310559
+AL gLV_2608 -> -2486.2781910488184
+AL gLV_2609 -> -2486.834351820227
+AL gLV_2610 -> -2484.808257482535
+AL gLV_2611 -> -2488.762455741946
+AL gLV_2612 -> -2486.603200868984
+AL gLV_2613 -> -2478.9328821888375
+AL gLV_2614 -> -2490.0663070184455
+AL gLV_2615 -> -2486.705139653191
+AL gLV_2616 -> -2490.6409965577113
+AL gLV_2617 -> -2487.5031217262904
+AL gLV_2618 -> -2489.506604874702
+AL gLV_2619 -> -2497.9962628885937
+AL gLV_2620 -> -2484.934299042517
+AL gLV_2621 -> -2487.9070818750274
+AL gLV_2622 -> -2481.969117007719
+AL gLV_2623 -> -2485.1404845283855
+AL gLV_2624 -> -2486.853354980229
+AL gLV_2625 -> -2484.100113263253
+AddLatent -> -2468.741866208152
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -2468.741866208152 > -3259.28010109418 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_2626, child of gLV_2459 -> -2475.541430449769
+AL gLV_2627, child of gLV_2459 -> -2476.493415715043
+AL gLV_2628, child of gLV_2459 -> -2476.9428503146846
+AddLatent -> -2475.541430449769
+
+AddLatent -> NONE
+RL gLV_2459 -> -2466.6110107379263
+RemoveLatent -> -2466.6110107379263
+IC of gLV_2459 to (3) -> -2477.90010658888
+IncreaseCard -> -2477.90010658888
+
+DecreaseCard -> NONE
+
+Best operator: RemoveLatent
+Improves the score: -2466.6110107379263 > -2468.741866208152 (old best)
+--------------------------------------------------
+
+Iteration 3:
+
+AddLatent -> NONE
+
+AddLatent -> NONE
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: no_operator
+Doesn't improve the score: -1.7976931348623157E308 <= -2466.6110107379263 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 10
+Test Log-Likelihood: -364.6015108716253
+Train BIC: -2851.004312648488
+Time: 4306473 ms
+----------------------------------------
+----------------------------------------
+Average learning Time: 3883.40s
+Average Test Log-likelihood: -291.22
+Average Train BIC: -2995.50
+------------------------------------------------------------------
+------------------------------------------------------------------
+----------------------------- NURSERY ----------------------------
+------------------------------------------------------------------
+------------------------------------------------------------------
+10 folds have been generated
+
+==========================
+GLSL (EMPTY)
+==========================
+
+Iteration 0: -123905.06178833934
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_0 -> -112204.09256574204
+AL gLV_1 -> -112199.67457235075
+AL gLV_2 -> -112166.24327273213
+AL gLV_3 -> -112251.52084582385
+AL gLV_4 -> -112101.87693268001
+AL gLV_5 -> -112140.82103911966
+AL gLV_6 -> -112241.22697204039
+AL gLV_7 -> -112107.75952222545
+AL gLV_8 -> -112211.46172894043
+AL gLV_9 -> -112178.54969930297
+AL gLV_10 -> -112208.54397723316
+AL gLV_11 -> -112188.35512512857
+AL gLV_12 -> -112097.66560751938
+AL gLV_13 -> -112153.24912020276
+AL gLV_14 -> -112144.397526832
+AL gLV_15 -> -112296.65778614879
+AL gLV_16 -> -112317.8257164332
+AL gLV_17 -> -112097.66560751938
+AL gLV_18 -> -112222.6711446649
+AL gLV_19 -> -112218.9430769559
+AL gLV_20 -> -111763.49048573259
+AL gLV_21 -> -112207.18376236959
+AL gLV_22 -> -112224.03250251885
+AL gLV_23 -> -112150.79592548608
+AL gLV_24 -> -112150.2473584064
+AL gLV_25 -> -112124.9881202323
+AL gLV_26 -> -112139.59233199923
+AL gLV_27 -> -112176.49670922144
+AL gLV_28 -> -112390.01102197751
+AL gLV_29 -> -111907.49990549483
+AL gLV_30 -> -112261.98157331363
+AL gLV_31 -> -112288.7281205424
+AL gLV_32 -> -112366.2474796869
+AL gLV_33 -> -112343.51745848492
+AL gLV_34 -> -112355.36615523165
+AL gLV_35 -> -112348.85321233845
+AddLatent -> -111763.49048573259
+
+RemoveLatent -> NONE
+
+IncreaseCard -> NONE
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Improves the score: -111763.49048573259 > -123905.06178833934 (old best)
+--------------------------------------------------
+
+Iteration 2:
+AL gLV_36, child of gLV_20 -> -111883.90516254214
+AL gLV_37, child of gLV_20 -> -111961.02870790368
+AL gLV_38, child of gLV_20 -> -112052.19411919458
+AL gLV_39, child of gLV_20 -> -112088.43826279305
+AL gLV_40, child of gLV_20 -> -112129.22755066793
+AL gLV_41, child of gLV_20 -> -112708.06910114163
+AL gLV_42, child of gLV_20 -> -111817.5749481033
+AL gLV_43, child of gLV_20 -> -111836.62084057358
+AL gLV_44, child of gLV_20 -> -112060.39826321704
+AL gLV_45, child of gLV_20 -> -112144.30006837506
+AL gLV_46, child of gLV_20 -> -111947.46883675017
+AL gLV_47, child of gLV_20 -> -112014.69541933612
+AL gLV_48, child of gLV_20 -> -112621.72867864495
+AL gLV_49, child of gLV_20 -> -112702.40204781479
+AL gLV_50, child of gLV_20 -> -112076.94358042275
+AL gLV_51, child of gLV_20 -> -112662.16982599776
+AL gLV_52, child of gLV_20 -> -112038.87635658003
+AL gLV_53, child of gLV_20 -> -112399.58907214696
+AL gLV_54, child of gLV_20 -> -112019.73241317474
+AL gLV_55, child of gLV_20 -> -112026.86884270067
+AL gLV_56, child of gLV_20 -> -112009.83591396693
+AddLatent -> -111817.5749481033
+AL gLV_57 -> -111888.69016419479
+AddLatent -> -111888.69016419479
+RL gLV_20 -> -112079.67659435826
+RemoveLatent -> -112079.67659435826
+IC of gLV_20 to (3) -> -112017.53624474614
+IncreaseCard -> -112017.53624474614
+
+DecreaseCard -> NONE
+
+Best operator: AddLatent
+Doesn't improve the score: -111817.5749481033 <= -111763.49048573259 (old best)
+--------------------------------------------------
+----------------------------------------
+Fold 1
+Test Log-Likelihood: -19412.32574599829
+Train BIC: -114640.25017380863
+Time: 180816307 ms
+Iteration 0: -123975.11067751542
+
+Iteration 1:
+
+AddLatent -> NONE
+AL gLV_58 -> -112187.1952380434
+AL gLV_59 -> -112194.88297193074
+AL gLV_60 -> -112274.02473206919
+AL gLV_61 -> -112249.74837425667
+AL gLV_62 -> -112283.52697217878
+AL gLV_63 -> -112124.95106112499
+AL gLV_64 -> -112131.93704353334
+AL gLV_65 -> -112116.52247224594
+AL gLV_66 -> -112221.4729005015
+AL gLV_67 -> -112187.0133340527
+AL gLV_68 -> -112227.59308501681
+
+Process finished with exit code -1

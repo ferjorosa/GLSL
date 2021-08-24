@@ -1,0 +1,169 @@
+network "HLCM17891" {
+}
+
+variable "class" {
+	type discrete[6] { "0" "1" "2" "3" "4" "5" };
+}
+
+variable "largest_spot_size" {
+	type discrete[6] { "0" "1" "2" "3" "4" "5" };
+}
+
+variable "spot_distribution" {
+	type discrete[4] { "0" "1" "2" "3" };
+}
+
+variable "Activity" {
+	type discrete[2] { "0" "1" };
+}
+
+variable "Evolution" {
+	type discrete[3] { "0" "1" "2" };
+}
+
+variable "Previous_24_hour_flare_activity_code" {
+	type discrete[3] { "0" "1" "2" };
+}
+
+variable "Historically-complex" {
+	type discrete[2] { "0" "1" };
+}
+
+variable "Did_region_become_historically_complex" {
+	type discrete[2] { "0" "1" };
+}
+
+variable "Area" {
+	type discrete[2] { "0" "1" };
+}
+
+variable "Area_of_the_largest_spot" {
+	type discrete[2] { "0" "1" };
+}
+
+variable "C-class_flares_production_by_this_region" {
+	type discrete[8] { "0" "1" "2" "3" "4" "5" "6" "7" };
+}
+
+variable "M-class_flares_production_by_this_region" {
+	type discrete[6] { "0" "1" "2" "3" "4" "5" };
+}
+
+variable "X-class_flares_production_by_this_region" {
+	type discrete[3] { "0" "1" "2" };
+}
+
+variable "variable22" {
+	type discrete[2] { "state0" "state1" };
+}
+
+variable "variable30" {
+	type discrete[4] { "state0" "state1" "state2" "state3" };
+}
+
+variable "variable39" {
+	type discrete[2] { "state0" "state1" };
+}
+
+variable "variable45" {
+	type discrete[2] { "state0" "state1" };
+}
+
+probability ("class" | "variable30") {
+	("state0") 1.0 0.0 0.0 0.0 0.0 0.0;
+	("state1") 3.531100829105714E-154 0.5492120189581946 0.40061972259740797 0.04414020089623594 0.006028057548161402 0.0;
+	("state2") 0.0 0.017221412208045857 0.471365075373545 0.34835599744142154 0.1630575149769876 0.0;
+	("state3") 0.0 0.0 0.0 0.0 0.0 1.0;
+}
+
+probability ("largest_spot_size" | "variable30") {
+	("state0") 0.0 0.0 0.0 0.0 0.009950248756218905 0.9900497512437811;
+	("state1") 0.18435229991431787 0.03447162002868793 0.016272220026016183 0.3484041686415999 0.41649969138937815 0.0;
+	("state2") 0.5056373334623905 0.04127656055819388 0.3150608273300082 0.028938212117577362 0.10908706653183009 0.0;
+	("state3") 0.11527377521613832 0.02881844380403458 0.01440922190201729 0.1844380403458213 0.6570605187319885 0.0;
+}
+
+probability ("spot_distribution" | "variable30") {
+	("state0") 0.0 0.11940298507462686 0.8805970149253731 0.0;
+	("state1") 1.964588706620889E-222 0.18726403671656203 0.8127359632834379 0.0;
+	("state2") 0.20802544970969197 0.6586088025168203 0.1333657477734878 0.0;
+	("state3") 0.0 0.0 0.0 1.0;
+}
+
+probability ("Activity" | "variable22") {
+	("state0") 0.023604361238340928 0.9763956387616591;
+	("state1") 0.9795849784271993 0.0204150215728007;
+}
+
+probability ("Evolution" | "variable30") {
+	("state0") 0.0845771144278607 0.31343283582089554 0.6019900497512438;
+	("state1") 0.07230673534229802 0.3894549703529156 0.5382382943047863;
+	("state2") 0.011318161653307268 0.44035631639172224 0.5483255219549704;
+	("state3") 0.09798270893371758 0.5590778097982709 0.34293948126801155;
+}
+
+probability ("Previous_24_hour_flare_activity_code" | "variable22") {
+	("state0") 0.6697654984102256 0.06469414672787402 0.2655403548619004;
+	("state1") 0.990861323362199 0.0018553832435580727 0.007283293394242885;
+}
+
+probability ("Historically-complex" | "variable30") {
+	("state0") 0.8955223880597015 0.1044776119402985;
+	("state1") 0.6906579573081059 0.3093420426918942;
+	("state2") 0.1300195700781861 0.8699804299218139;
+	("state3") 0.7118155619596542 0.2881844380403458;
+}
+
+probability ("Did_region_become_historically_complex" | "variable30") {
+	("state0") 0.0 1.0;
+	("state1") 0.0 1.0;
+	("state2") 0.0 1.0;
+	("state3") 0.3688760806916426 0.6311239193083573;
+}
+
+probability ("Area" | "variable39") {
+	("state0") 1.0 1.5786315084231222E-301;
+	("state1") 0.8683794391717897 0.13162056082821022;
+}
+
+probability ("Area_of_the_largest_spot" | "variable45") {
+	("state0") 0.8275074940144306 0.1724925059855693;
+	("state1") 0.5157485484717788 0.48425145152822113;
+}
+
+probability ("C-class_flares_production_by_this_region" | "variable39") {
+	("state0") 0.9264900371447988 0.0617796069415792 0.006685593723753413 0.0037338873930443882 0.0 6.678230614920201E-4 6.430517353323551E-4 0.0;
+	("state1") 0.5424540124561371 0.23988310849976768 0.111383615801834 0.0524660595493689 0.029249013517380018 0.012237831025588213 0.008670232460251422 0.0036561266896725023;
+}
+
+probability ("M-class_flares_production_by_this_region" | "variable45") {
+	("state0") 0.9926962793053289 0.007303720694671094 2.9134182908005446E-30 1.5240280259965246E-61 1.7266923423528974E-159 0.0;
+	("state1") 0.35327326982784096 0.48096730506688234 0.099455655063166 0.022101256680703556 0.03315188502105534 0.011050628340351778;
+}
+
+probability ("X-class_flares_production_by_this_region" | "variable45") {
+	("state0") 0.9999999999921078 7.892201825159339E-12 0.0;
+	("state1") 0.8673924600169909 0.12155691164265743 0.01105062834035179;
+}
+
+probability ("variable22" | "variable39") {
+	("state0") 0.030706045709319438 0.9692939542906805;
+	("state1") 0.5115900497025956 0.4884099502974046;
+}
+
+probability ("variable30") {
+	table 0.1606714628297362 0.3544495416276859 0.20750089802059551 0.2773780975219824;
+}
+
+probability ("variable39" | "variable30") {
+	("state0") 0.9780542241558267 0.021945775844173426;
+	("state1") 0.9155668630725515 0.08443313692744847;
+	("state2") 0.10755787150957037 0.8924421284904297;
+	("state3") 1.0 2.272059080172894E-71;
+}
+
+probability ("variable45" | "variable39") {
+	("state0") 0.9899050904649898 0.010094909535010193;
+	("state1") 0.7052249537083308 0.29477504629166906;
+}
+

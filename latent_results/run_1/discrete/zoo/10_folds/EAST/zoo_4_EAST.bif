@@ -1,0 +1,205 @@
+network "HLCM22077" {
+}
+
+variable "hair" {
+	type discrete[2] { "0" "1" };
+}
+
+variable "feathers" {
+	type discrete[2] { "0" "1" };
+}
+
+variable "eggs" {
+	type discrete[2] { "0" "1" };
+}
+
+variable "milk" {
+	type discrete[2] { "0" "1" };
+}
+
+variable "airborne" {
+	type discrete[2] { "0" "1" };
+}
+
+variable "aquatic" {
+	type discrete[2] { "0" "1" };
+}
+
+variable "predator" {
+	type discrete[2] { "0" "1" };
+}
+
+variable "toothed" {
+	type discrete[2] { "0" "1" };
+}
+
+variable "backbone" {
+	type discrete[2] { "0" "1" };
+}
+
+variable "breathes" {
+	type discrete[2] { "0" "1" };
+}
+
+variable "venomous" {
+	type discrete[2] { "0" "1" };
+}
+
+variable "fins" {
+	type discrete[2] { "0" "1" };
+}
+
+variable "legs" {
+	type discrete[6] { "0" "1" "2" "3" "4" "5" };
+}
+
+variable "tail" {
+	type discrete[2] { "0" "1" };
+}
+
+variable "domestic" {
+	type discrete[2] { "0" "1" };
+}
+
+variable "catsize" {
+	type discrete[2] { "0" "1" };
+}
+
+variable "type" {
+	type discrete[7] { "0" "1" "2" "3" "4" "5" "6" };
+}
+
+variable "variable19" {
+	type discrete[2] { "state0" "state1" };
+}
+
+variable "variable33" {
+	type discrete[3] { "state0" "state1" "state2" };
+}
+
+variable "variable39" {
+	type discrete[3] { "state0" "state1" "state2" };
+}
+
+variable "variable61" {
+	type discrete[2] { "state0" "state1" };
+}
+
+probability ("hair" | "variable33") {
+	("state0") 0.04878048780487805 0.9512195121951219;
+	("state1") 0.8823529411764706 0.11764705882352941;
+	("state2") 1.0 0.0;
+}
+
+probability ("feathers" | "variable39") {
+	("state0") 0.0 1.0;
+	("state1") 1.0 0.0;
+	("state2") 1.0 0.0;
+}
+
+probability ("eggs" | "variable33") {
+	("state0") 0.975609756097561 0.024390243902439025;
+	("state1") 0.058823529411764705 0.9411764705882353;
+	("state2") 0.0 1.0;
+}
+
+probability ("milk" | "variable33") {
+	("state0") 0.0 1.0;
+	("state1") 1.0 0.0;
+	("state2") 1.0 0.0;
+}
+
+probability ("airborne" | "variable39") {
+	("state0") 0.25 0.75;
+	("state1") 0.9672131147540983 0.03278688524590164;
+	("state2") 0.5714285714285714 0.42857142857142855;
+}
+
+probability ("aquatic" | "variable19") {
+	("state0") 0.9008354727111224 0.09916452728887767;
+	("state1") 4.811314169250077E-50 1.0;
+}
+
+probability ("predator" | "variable19") {
+	("state0") 0.5781290489265631 0.4218709510734369;
+	("state1") 0.18420901119647048 0.8157909888035294;
+}
+
+probability ("toothed" | "variable39") {
+	("state0") 1.0 0.0;
+	("state1") 0.03278688524590164 0.9672131147540983;
+	("state2") 1.0 0.0;
+}
+
+probability ("backbone" | "variable39") {
+	("state0") 0.0 1.0;
+	("state1") 1.3003530977731834E-209 1.0;
+	("state2") 1.0 0.0;
+}
+
+probability ("breathes" | "variable61") {
+	("state0") 0.9999999507722807 4.922771930720199E-8;
+	("state1") 2.8041117613828E-93 1.0;
+}
+
+probability ("venomous" | "variable33") {
+	("state0") 1.0 0.0;
+	("state1") 0.7647058823529411 0.23529411764705882;
+	("state2") 1.0 0.0;
+}
+
+probability ("fins" | "variable19") {
+	("state0") 1.0 5.420494832130152E-105;
+	("state1") 0.38512400510269884 0.6148759948973012;
+}
+
+probability ("legs" | "variable39") {
+	("state0") 0.0 1.0 0.0 0.0 0.0 0.0;
+	("state1") 0.2786885245901639 0.11475409836065574 0.6065573770491803 0.0 0.0 0.0;
+	("state2") 0.21428571428571427 0.0 0.0 0.07142857142857142 0.5714285714285714 0.14285714285714285;
+}
+
+probability ("tail" | "variable39") {
+	("state0") 0.0 1.0;
+	("state1") 0.14754098360655737 0.8524590163934426;
+	("state2") 0.9285714285714286 0.07142857142857142;
+}
+
+probability ("domestic" | "variable19") {
+	("state0") 0.8498607545481464 0.15013924545185373;
+	("state1") 0.9590082670068466 0.04099173299315342;
+}
+
+probability ("catsize" | "variable33") {
+	("state0") 0.21951219512195122 0.7804878048780488;
+	("state1") 0.8823529411764706 0.11764705882352941;
+	("state2") 0.625 0.375;
+}
+
+probability ("type" | "variable33") {
+	("state0") 1.0 0.0 0.0 0.0 0.0 0.0 0.0;
+	("state1") 0.0 0.0 0.14705882352941177 0.3235294117647059 0.11764705882352941 0.23529411764705882 0.17647058823529413;
+	("state2") 0.0 1.0 0.0 0.0 0.0 0.0 0.0;
+}
+
+probability ("variable19" | "variable61") {
+	("state0") 8.808128856674385E-91 1.0;
+	("state1") 0.8763794452999049 0.12362055470009521;
+}
+
+probability ("variable33" | "variable39") {
+	("state0") 0.0 0.0 1.0;
+	("state1") 0.6721311475409836 0.32786885245901637 0.0;
+	("state2") 0.0 1.0 0.0;
+}
+
+probability ("variable39") {
+	table 0.17582417582417584 0.6703296703296703 0.15384615384615385;
+}
+
+probability ("variable61" | "variable33") {
+	("state0") 2.501994615549272E-240 1.0;
+	("state1") 0.4411764923063478 0.5588235076936521;
+	("state2") 1.150012843893598E-230 1.0;
+}
+
